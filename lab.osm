@@ -70,7 +70,7 @@ OS:Space,
 OS:Surface,
   {7cdf8954-cc05-4722-a2a5-77e1e068a8d5}, !- Handle
   Surface 65,                             !- Name
-  Floor,                                  !- Surface Type
+  Wall,                                   !- Surface Type
   ,                                       !- Construction Name
   {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space Name
   Ground,                                 !- Outside Boundary Condition
@@ -299,7 +299,7 @@ OS:Surface,
 OS:Surface,
   {6acf2c66-ba2f-40cf-89ca-fa50ed9c4721}, !- Handle
   Surface 78,                             !- Name
-  RoofCeiling,                            !- Surface Type
+  Wall,                                   !- Surface Type
   ,                                       !- Construction Name
   {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space Name
   Outdoors,                               !- Outside Boundary Condition
@@ -635,7 +635,7 @@ OS:People,
 
 OS:Schedule:Ruleset,
   {b1b4f578-21f8-482c-97f6-2543f703bd54}, ! Handle
-  Office Misc Occ,                        ! Name
+  School Occ,                             ! Name
   {120e101a-f2de-46d2-b83f-2584b92e34da}, ! Schedule Type Limits Name
   {ccad5b1f-902c-44a9-9813-afd9d415f183}, ! Default Day Schedule Name
   {75795c5f-51f0-4f86-9769-0340841466eb}, ! Summer Design Day Schedule Name
@@ -646,24 +646,24 @@ OS:Schedule:Day,
   Office Bldg Occ Default Schedule 1,     ! Name
   {120e101a-f2de-46d2-b83f-2584b92e34da}, ! Schedule Type Limits Name
   ,                                       ! Interpolate to Timestep
-  6,                                      !- Hour 1
+  8,                                      !- Hour 1
   0,                                      !- Minute 1
   0,                                      !- Value Until Time 1
-  7,                                      !- Hour 2
+  10,                                     !- Hour 2
   0,                                      !- Minute 2
-  0.100000001490116,                      !- Value Until Time 2
-  8,                                      !- Hour 3
+  0.149494906621392,                      !- Value Until Time 2
+  11,                                     !- Hour 3
   0,                                      !- Minute 3
   0.200000002980232,                      !- Value Until Time 3
-  20,                                     !- Hour 4
+  17,                                     !- Hour 4
   0,                                      !- Minute 4
-  0.400000005960464,                      !- Value Until Time 4
-  22,                                     !- Hour 5
+  0.74024370401811,                       !- Value Until Time 4
+  18,                                     !- Hour 5
   0,                                      !- Minute 5
   0.100000001490116,                      !- Value Until Time 5
   24,                                     !- Hour 6
   0,                                      !- Minute 6
-  0.0500000007450581;                     !- Value Until Time 6
+  0;                                      !- Value Until Time 6
 
 OS:Schedule:Day,
   {75795c5f-51f0-4f86-9769-0340841466eb}, ! Handle
@@ -1400,13 +1400,13 @@ OS:Schedule:Day,
   Office Bldg Occ Default Schedule,       ! Name
   {120e101a-f2de-46d2-b83f-2584b92e34da}, ! Schedule Type Limits Name
   ,                                       ! Interpolate to Timestep
-  6,                                      !- Hour 1
+  8,                                      !- Hour 1
   0,                                      !- Minute 1
   0,                                      !- Value Until Time 1
-  7,                                      !- Hour 2
+  9,                                      !- Hour 2
   0,                                      !- Minute 2
   0.100000001490116,                      !- Value Until Time 2
-  8,                                      !- Hour 3
+  10,                                     !- Hour 3
   0,                                      !- Minute 3
   0.200000002980232,                      !- Value Until Time 3
   12,                                     !- Hour 4
@@ -1415,16 +1415,16 @@ OS:Schedule:Day,
   13,                                     !- Hour 5
   0,                                      !- Minute 5
   0.5,                                    !- Value Until Time 5
-  17,                                     !- Hour 6
+  16,                                     !- Hour 6
   0,                                      !- Minute 6
   0.850000023841858,                      !- Value Until Time 6
   18,                                     !- Hour 7
   0,                                      !- Minute 7
   0.699999988079071,                      !- Value Until Time 7
-  20,                                     !- Hour 8
+  19,                                     !- Hour 8
   0,                                      !- Minute 8
   0.400000005960464,                      !- Value Until Time 8
-  22,                                     !- Hour 9
+  20,                                     !- Hour 9
   0,                                      !- Minute 9
   0.100000001490116,                      !- Value Until Time 9
   24,                                     !- Hour 10
@@ -5705,4 +5705,167 @@ OS:Rendering:Color,
   30,                                     !- Rendering Red Value
   255,                                    !- Rendering Green Value
   144;                                    !- Rendering Blue Value
+
+OS:ScheduleTypeLimits,
+  {ee6ea917-bb74-44e9-b405-f91b050f7fb0}, !- Handle
+  Dimensionless,                          !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {54729b41-eaff-45b2-85ab-c805a5a167bb}, !- Handle
+  Dimensionless 1,                        !- Name
+  -1,                                     !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {86c72340-5095-4cb3-a942-c28f25e56737}, !- Handle
+  Dimensionless 2,                        !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {e84d48d5-9421-491a-903a-2f188cdad0e0}, !- Handle
+  Integer,                                !- Name
+  0,                                      !- Lower Limit Value
+  4,                                      !- Upper Limit Value
+  Discrete;                               !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {b210c24d-536b-48ef-bac4-207c37ab71f5}, !- Handle
+  Dimensionless 3,                        !- Name
+  0.1,                                    !- Lower Limit Value
+  1000,                                   !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {1b6f1f14-064f-4cc6-baae-9b11fb1b3230}, !- Handle
+  OnOff,                                  !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Discrete,                               !- Numeric Type
+  Availability;                           !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {297b0744-a0a3-401d-a925-9e439362f651}, !- Handle
+  Capacity,                               !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Capacity;                               !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {1ffd28ce-54a6-4787-bc66-3deb85df6227}, !- Handle
+  ClothingInsulation,                     !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  ClothingInsulation;                     !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {aa868786-ace8-450d-9a8b-a69ad8649053}, !- Handle
+  ControlMode,                            !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Discrete,                               !- Numeric Type
+  ControlMode;                            !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {a0556836-d774-416e-a4fb-5bd9bad2314e}, !- Handle
+  DeltaTemperature,                       !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  DeltaTemperature;                       !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {c3a130b6-9759-498f-9686-21c37c5d0cb0}, !- Handle
+  Dimensionless 4,                        !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Dimensionless;                          !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {286128ef-fc1c-4a9f-bdbe-e55d9a423f23}, !- Handle
+  LinearPowerDensity,                     !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  LinearPowerDensity;                     !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {fb8d23ca-c5fb-4f76-92d6-4a5f25e4fbf2}, !- Handle
+  MassFlowRate,                           !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  MassFlowRate;                           !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {93998a52-c96a-4b4a-b9e8-54ab3dd4aa1c}, !- Handle
+  Percent,                                !- Name
+  0,                                      !- Lower Limit Value
+  100,                                    !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Percent;                                !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {2ea2f9ef-4afb-461b-9b2a-321b2f75a6e6}, !- Handle
+  Pressure,                               !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Pressure;                               !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {648783ca-21b9-4a5c-b507-944852c8b123}, !- Handle
+  RotationsPerMinute,                     !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  RotationsPerMinute;                     !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {f87de0e0-752b-40e7-bdba-3e9521d2b577}, !- Handle
+  Temperature,                            !- Name
+  ,                                       !- Lower Limit Value
+  0,                                      !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Temperature;                            !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {978715af-807b-410d-9766-d5bd183a5e55}, !- Handle
+  Temperature 38,                         !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Temperature;                            !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {08ab3529-1ee8-4062-a341-23cec03eadbc}, !- Handle
+  Temperature 39,                         !- Name
+  0,                                      !- Lower Limit Value
+  100,                                    !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Temperature;                            !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {7a714624-960e-4d49-a774-c933381711bf}, !- Handle
+  Velocity,                               !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Velocity;                               !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {b05101f5-219d-40a3-8e3d-4de2cfc59387}, !- Handle
+  VolumetricFlowRate,                     !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  VolumetricFlowRate;                     !- Unit Type
 
