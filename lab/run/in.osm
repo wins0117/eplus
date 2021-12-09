@@ -10,7 +10,7 @@ OS:Building,
   {802465be-51a1-4120-b9f5-d5baa8d515d0}, !- Handle
   Building 1,                             !- Name
   ,                                       !- Building Sector Type
-  ,                                       !- North Axis {deg}
+  -0,                                     !- North Axis {deg}
   ,                                       !- Nominal Floor to Floor Height {m}
   {0ae91901-31d2-48c6-be70-2a482915d720}, !- Space Type Name
   ,                                       !- Default Construction Set Name
@@ -342,7 +342,7 @@ OS:ThermalZone,
   {4d51e5ee-0e1b-4a62-949b-dfb554eb7f61}, !- Zone Air Exhaust Port List
   {b95c4fa8-1c83-4cc4-a3a2-6c8ace369e24}, !- Zone Air Node Name
   {d895354a-6e24-4390-80a0-27f5c425224d}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {50b69334-8e62-4970-9556-7bffdce4634f}, !- Primary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -654,13 +654,13 @@ OS:Schedule:Day,
   0.149494906621392,                      !- Value Until Time 2
   11,                                     !- Hour 3
   0,                                      !- Minute 3
-  0.200000002980232,                      !- Value Until Time 3
+  0.825154530591712,                      !- Value Until Time 3
   17,                                     !- Hour 4
   0,                                      !- Minute 4
-  0.74024370401811,                       !- Value Until Time 4
+  1,                                      !- Value Until Time 4
   18,                                     !- Hour 5
   0,                                      !- Minute 5
-  0.100000001490116,                      !- Value Until Time 5
+  0.764035402125385,                      !- Value Until Time 5
   24,                                     !- Hour 6
   0,                                      !- Minute 6
   0;                                      !- Value Until Time 6
@@ -729,7 +729,7 @@ OS:Schedule:Rule,
   No,                                     !- Apply Wednesday
   No,                                     !- Apply Thursday
   No,                                     !- Apply Friday
-  Yes,                                    !- Apply Saturday
+  No,                                     !- Apply Saturday
   DateRange,                              !- Date Specification Type
   1,                                      !- Start Month
   1,                                      !- Start Day
@@ -1964,7 +1964,7 @@ OS:People:Definition,
   189.1-2009 - Office - IT_Room - CZ1-3 People Definition, !- Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People {people}
-  0.0538195520835486,                     !- People per Space Floor Area {person/m2}
+  1.5,                                    !- People per Space Floor Area {person/m2}
   ,                                       !- Space Floor Area per Person {m2/person}
   0.3;                                    !- Fraction Radiant
 
@@ -5137,7 +5137,7 @@ OS:RunPeriod,
 
 OS:LifeCycleCost:Parameters,
   {2960d07c-9399-44fc-996e-bdc1d6be2cb5}, !- Handle
-  ,                                       !- Analysis Type
+  FEMP,                                   !- Analysis Type
   ,                                       !- Discounting Convention
   ,                                       !- Inflation Approach
   ,                                       !- Real Discount Rate
@@ -5147,7 +5147,10 @@ OS:LifeCycleCost:Parameters,
   ,                                       !- Base Date Year
   ,                                       !- Service Date Month
   ,                                       !- Service Date Year
-  ;                                       !- Length of Study Period in Years
+  ,                                       !- Length of Study Period in Years
+  ,                                       !- Tax Rate
+  ,                                       !- Depreciation Method
+  Yes;                                    !- Use NIST Fuel Escalation Rates
 
 OS:StandardsInformation:Material,
   {ba8c3d6f-0cc6-4d26-b186-a4d84f7910f2}, !- Handle
@@ -5900,7 +5903,7 @@ OS:WeatherFile,
   121.55,                                 !- Longitude {deg}
   8,                                      !- Time Zone {hr}
   6,                                      !- Elevation {m}
-  C:/Users/tai/AppData/Local/Temp/osmodel-1638992492-0/resources/files/TWN_Taipei.466960_IWEC.epw, !- Url
+  C:/Users/tai/AppData/Local/Temp/osmodel-1639079680-3/resources/files/TWN_Taipei.466960_IWEC.epw, !- Url
   3D1836D3;                               !- Checksum
 
 OS:RadianceParameters,
@@ -5966,4 +5969,210 @@ OS:Output:Table:SummaryReports,
 
 OS:Output:Diagnostics,
   {77f13175-15b2-4d2e-8732-b4ffc05ce702}; !- Handle
+
+OS:Output:Variable,
+  {0be2f451-296b-4b42-9334-1e21a4672d0a}, !- Handle
+  Output Variable 1,                      !- Name
+  *,                                      !- Key Value
+  Zone Air CO2 Concentration,             !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {ff5f381d-6da6-4bcf-b9de-648f50df79f6}, !- Handle
+  Output Variable 2,                      !- Name
+  *,                                      !- Key Value
+  Zone Air Relative Humidity,             !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {8a480e38-a9fd-4439-b3b3-89b0adc3d281}, !- Handle
+  Output Variable 3,                      !- Name
+  *,                                      !- Key Value
+  Zone Air Temperature,                   !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {b7cb54c2-5161-4eb9-b194-775b6bd2f292}, !- Handle
+  Output Variable 4,                      !- Name
+  *,                                      !- Key Value
+  Zone Ventilation Air Change Rate,       !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Luminaire,
+  {2a7701fe-94cf-4c30-84fa-fd7779d5b0f6}, !- Handle
+  Luminaire 1,                            !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -3.59753331556013,                      !- Position X-coordinate {m}
+  -1.06360799047637,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Luminaire:Definition,
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Handle
+  Luminaire Definition 1,                 !- Name
+  ,                                       !- IES File Path
+  ,                                       !- Lighting Power {W}
+  0.3,                                    !- Fraction Radiant
+  0.3;                                    !- Fraction Visible
+
+OS:Luminaire,
+  {acdc4f81-7d60-43a5-9cb3-e666702d0131}, !- Handle
+  Luminaire 2,                            !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -3.5581384721313,                       !- Position X-coordinate {m}
+  -2.33301854853827,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Luminaire,
+  {295490d4-9b82-4fa0-839a-f7fcd618299d}, !- Handle
+  Luminaire 4,                            !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -2.0441129697389,                       !- Position X-coordinate {m}
+  -1.02990559037501,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Luminaire,
+  {f163a497-9cf2-4601-a08d-d2c2d2e437da}, !- Handle
+  Luminaire 6,                            !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -6.32333854134599,                      !- Position X-coordinate {m}
+  -1.00612250996823,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Luminaire,
+  {175d57a8-b01f-4974-9f9e-a5d9b97287dd}, !- Handle
+  Luminaire 8,                            !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -5.2863409042459,                       !- Position X-coordinate {m}
+  -1.00788598402027,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Luminaire,
+  {7c1de798-ac05-4bef-a2fd-ecf3805a9831}, !- Handle
+  Luminaire 9,                            !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -5.26008957882527,                      !- Position X-coordinate {m}
+  -2.24448361445305,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Luminaire,
+  {fb281050-cb17-4a89-aa24-a50430ff0bf4}, !- Handle
+  Luminaire 10,                           !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -6.31846490206868,                      !- Position X-coordinate {m}
+  -2.29801539963855,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Luminaire,
+  {f5bf1c24-58c6-419a-ae1f-03937700369f}, !- Handle
+  Luminaire 11,                           !- Name
+  {152a9aeb-6ab7-4270-ba03-ed04b1dce127}, !- Luminaire Definition Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  -2.09470592869571,                      !- Position X-coordinate {m}
+  -2.31204147189463,                      !- Position Y-coordinate {m}
+  2.35,                                   !- Position Z-coordinate {m}
+  180,                                    !- Psi Rotation Around X-axis {deg}
+  -4.38721656048814e-14,                  !- Theta Rotation Around Y-axis {deg}
+  180;                                    !- Phi Rotation Around Z-axis {deg}
+
+OS:Daylighting:Control,
+  {50b69334-8e62-4970-9556-7bffdce4634f}, !- Handle
+  Daylighting Control 1,                  !- Name
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space Name
+  0.230198816110639,                      !- Position X-Coordinate {m}
+  -1.35123619912907,                      !- Position Y-Coordinate {m}
+  0,                                      !- Position Z-Coordinate {m}
+  0,                                      !- Psi Rotation Around X-Axis {deg}
+  0,                                      !- Theta Rotation Around Y-Axis {deg}
+  270,                                    !- Phi Rotation Around Z-Axis {deg}
+  ,                                       !- Illuminance Setpoint {lux}
+  Stepped,                                !- Lighting Control Type
+  ,                                       !- Minimum Input Power Fraction for Continuous Dimming Control
+  ,                                       !- Minimum Light Output Fraction for Continuous Dimming Control
+  ,                                       !- Number of Stepped Control Steps
+  ,                                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+  ,                                       !- Number of Daylighting Views
+  ;                                       !- Maximum Allowable Discomfort Glare Index
+
+OS:ShadingSurfaceGroup,
+  {1210794a-bdac-4516-83d8-0b1e4f134f2c}, !- Handle
+  Sub Surface 2 Shading Surfaces,         !- Name
+  Space,                                  !- Shading Surface Type
+  {fca50f89-82ad-4849-8142-e9caa0d07323}, !- Space Name
+  ,                                       !- Direction of Relative North {deg}
+  ,                                       !- X Origin {m}
+  ,                                       !- Y Origin {m}
+  ,                                       !- Z Origin {m}
+  {18c2a2d5-1e1e-4e2e-8549-c510767345ce}; !- Shaded Object Name
+
+OS:ShadingSurface,
+  {f3b60325-6278-4125-ade2-3babcf3c637a}, !- Handle
+  Sub Surface 2 - Overhang,               !- Name
+  ,                                       !- Construction Name
+  {1210794a-bdac-4516-83d8-0b1e4f134f2c}, !- Shading Surface Group Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  0.814999999999997, -2.62, 1.67,         !- X,Y,Z Vertex 1 {m}
+  0.814999999999997, -0.940000000000001, 1.67, !- X,Y,Z Vertex 2 {m}
+  0.394999999999997, -0.940000000000001, 1.67, !- X,Y,Z Vertex 3 {m}
+  0.394999999999997, -2.62, 1.67;         !- X,Y,Z Vertex 4 {m}
+
+OS:WindowMaterial:DaylightRedirectionDevice,
+  {60e3b7ff-e7f9-4ea8-a5da-3bd0cd894ac5}, !- Handle
+  Window Material Daylight Redirection Device 1; !- Name
+
+OS:ShadingControl,
+  {03d1fa8c-bb6d-49d5-9d20-984b738e8400}, !- Handle
+  Shading Control 1,                      !- Name
+  InteriorDaylightRedirectionDevice,      !- Shading Type
+  ,                                       !- Construction with Shading Name
+  {60e3b7ff-e7f9-4ea8-a5da-3bd0cd894ac5}, !- Shading Device Material Name
+  AlwaysOn,                               !- Shading Control Type
+  ,                                       !- Schedule Name
+  ,                                       !- Setpoint
+  No,                                     !- Shading Control Is Scheduled
+  ,                                       !- Glare Control Is Active
+  ,                                       !- Type of Slat Angle Control for Blinds
+  ,                                       !- Slat Angle Schedule Name
+  ,                                       !- Setpoint 2
+  Sequential;                             !- Multiple Surface Control Type
+
+OS:StandardsInformation:Material,
+  {f6d3484d-2130-497b-9989-ecc32016d82f}, !- Handle
+  {60e3b7ff-e7f9-4ea8-a5da-3bd0cd894ac5}; !- Material Name
 

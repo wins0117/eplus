@@ -1,4 +1,4 @@
-! Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.09 11:33,
+! Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.10 04:06,
 ! Output:Variable Objects (applicable to this run)
 Output:Variable,*,Site Outdoor Air Drybulb Temperature,hourly; !- Zone Average [C]
 Output:Variable,*,Site Outdoor Air Dewpoint Temperature,hourly; !- Zone Average [C]
@@ -206,6 +206,13 @@ Output:Variable,*,Debug Surface Solar Shading Model DifShdgRatioIsoSky,hourly; !
 Output:Variable,*,Debug Surface Solar Shading Model DifShdgRatioHoriz,hourly; !- Zone Average []
 Output:Variable,*,Debug Surface Solar Shading Model WithShdgIsoSky,hourly; !- Zone Average []
 Output:Variable,*,Debug Surface Solar Shading Model WoShdgIsoSky,hourly; !- Zone Average []
+Output:Variable,*,Daylighting Reference Point 1 Illuminance,hourly; !- Zone Average [lux]
+Output:Variable,*,Daylighting Reference Point 1 Daylight Illuminance Setpoint Exceeded Time,hourly; !- Zone Sum [hr]
+Output:Variable,*,Daylighting Reference Point 1 Glare Index,hourly; !- Zone Average []
+Output:Variable,*,Daylighting Reference Point 1 Glare Index Setpoint Exceeded Time,hourly; !- Zone Sum [hr]
+Output:Variable,*,Daylighting Lighting Power Multiplier,hourly; !- Zone Average []
+Output:Variable,*,Daylighting Window Reference Point 1 Illuminance,hourly; !- Zone Average [lux]
+Output:Variable,*,Daylighting Window Reference Point 1 View Luminance,hourly; !- Zone Average [cd/m2]
 Output:Variable,*,Surface Inside Face Temperature,hourly; !- Zone Average [C]
 Output:Variable,*,Surface Inside Face Interior Movable Insulation Temperature,hourly; !- Zone Average [C]
 Output:Variable,*,Surface Outside Face Temperature,hourly; !- Zone Average [C]

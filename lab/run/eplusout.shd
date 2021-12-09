@@ -3,6 +3,22 @@ Shadowing Combinations
 ..In the following, only the first 10 reference surfaces will be shown.
 ..But all surfaces are used in the calculations.
 ==================================
+Surface=SUB SURFACE 2 - OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE 66
+..Surface=SURFACE 68
+..Surface=SURFACE 74
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SUB SURFACE 2 - OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE 66
+..Surface=SURFACE 68
+..Surface=SURFACE 74
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
 Surface=SURFACE 65 is not used as Receiving Surface in calculations.
 Number of general casting surfaces=0
 Number of back surfaces=0
@@ -19,7 +35,8 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 68 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=0
+Number of general casting surfaces=1
+..Surface=Mir-SUB SURFACE 2 - OVERHANG
 Number of back surfaces=0
 Number of receiving sub surfaces=1
 ....Surface=SUB SURFACE 2
