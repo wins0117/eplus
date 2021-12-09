@@ -5900,7 +5900,7 @@ OS:WeatherFile,
   121.55,                                 !- Longitude {deg}
   8,                                      !- Time Zone {hr}
   6,                                      !- Elevation {m}
-  TWN_Taipei.466960_IWEC.epw,             !- Url
+  C:/Users/tai/AppData/Local/Temp/osmodel-1638992492-0/resources/files/TWN_Taipei.466960_IWEC.epw, !- Url
   3D1836D3;                               !- Checksum
 
 OS:RadianceParameters,
