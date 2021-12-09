@@ -5137,7 +5137,7 @@ OS:RunPeriod,
 
 OS:LifeCycleCost:Parameters,
   {2960d07c-9399-44fc-996e-bdc1d6be2cb5}, !- Handle
-  ,                                       !- Analysis Type
+  FEMP,                                   !- Analysis Type
   ,                                       !- Discounting Convention
   ,                                       !- Inflation Approach
   ,                                       !- Real Discount Rate
@@ -5147,7 +5147,10 @@ OS:LifeCycleCost:Parameters,
   ,                                       !- Base Date Year
   ,                                       !- Service Date Month
   ,                                       !- Service Date Year
-  ;                                       !- Length of Study Period in Years
+  ,                                       !- Length of Study Period in Years
+  ,                                       !- Tax Rate
+  ,                                       !- Depreciation Method
+  Yes;                                    !- Use NIST Fuel Escalation Rates
 
 OS:StandardsInformation:Material,
   {ba8c3d6f-0cc6-4d26-b186-a4d84f7910f2}, !- Handle
@@ -5966,4 +5969,32 @@ OS:Output:Table:SummaryReports,
 
 OS:Output:Diagnostics,
   {77f13175-15b2-4d2e-8732-b4ffc05ce702}; !- Handle
+
+OS:Output:Variable,
+  {0be2f451-296b-4b42-9334-1e21a4672d0a}, !- Handle
+  Output Variable 1,                      !- Name
+  *,                                      !- Key Value
+  Zone Air CO2 Concentration,             !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {ff5f381d-6da6-4bcf-b9de-648f50df79f6}, !- Handle
+  Output Variable 2,                      !- Name
+  *,                                      !- Key Value
+  Zone Air Relative Humidity,             !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {8a480e38-a9fd-4439-b3b3-89b0adc3d281}, !- Handle
+  Output Variable 3,                      !- Name
+  *,                                      !- Key Value
+  Zone Air Temperature,                   !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {b7cb54c2-5161-4eb9-b194-775b6bd2f292}, !- Handle
+  Output Variable 4,                      !- Name
+  *,                                      !- Key Value
+  Zone Ventilation Air Change Rate,       !- Variable Name
+  Timestep;                               !- Reporting Frequency
 
