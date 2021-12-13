@@ -5078,7 +5078,8 @@ OS:Site,
 OS:YearDescription,
   {6dcd4a70-97ce-4784-80a2-dcc078b959f8}, !- Handle
   ,                                       !- Calendar Year
-  Sunday;                                 !- Day of Week for Start Day
+  Monday,                                 !- Day of Week for Start Day
+  ;                                       !- Is Leap Year
 
 OS:ClimateZones,
   {8ec8bcab-8072-4eca-8074-50166e293bf8}, !- Handle
@@ -5089,7 +5090,7 @@ OS:ClimateZones,
   CEC,                                    !- Climate Zone Institution Name 2
   California Climate Zone Descriptions,   !- Climate Zone Document Name 2
   1995,                                   !- Climate Zone Document Year 2
-  ;                                       !- Climate Zone Value 2
+  1;                                      !- Climate Zone Value 2
 
 OS:SimulationControl,
   {e0445efa-b4ec-4d9a-b41c-e0e9d0d7084c}; !- Handle
@@ -5903,7 +5904,7 @@ OS:WeatherFile,
   121.55,                                 !- Longitude {deg}
   8,                                      !- Time Zone {hr}
   6,                                      !- Elevation {m}
-  C:/Users/tai/AppData/Local/Temp/osmodel-1639079680-3/resources/files/TWN_Taipei.466960_IWEC.epw, !- Url
+  C:/Users/aa270/AppData/Local/Temp/osmodel-1639384374-0/resources/files/TWN_Taipei.466960_IWEC.epw, !- Url
   3D1836D3;                               !- Checksum
 
 OS:RadianceParameters,
@@ -6175,4 +6176,9 @@ OS:ShadingControl,
 OS:StandardsInformation:Material,
   {f6d3484d-2130-497b-9989-ecc32016d82f}, !- Handle
   {60e3b7ff-e7f9-4ea8-a5da-3bd0cd894ac5}; !- Material Name
+
+OS:RunPeriodControl:DaylightSavingTime,
+  {a91a1923-bf11-4ecf-bfd2-86f60098ee1c}, !- Handle
+  2nd Sunday in March,                    !- Start Date
+  1st Sunday in November;                 !- End Date
 

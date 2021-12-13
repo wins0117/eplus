@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.10 04:06,
+Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.13 16:57,
    ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.
    **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
@@ -143,7 +143,7 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.10 04:06,
    **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
    ************* Key=*, VarName=ZONE VENTILATION AIR CHANGE RATE, Frequency=TimeStep
    ************* There are 23 unused schedules in input.
-   ************* There are 23 unused week schedules in input.
+   ************* There are 40 unused week schedules in input.
    ************* There are 98 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
@@ -156,4 +156,4 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.10 04:06,
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 114 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 10.24sec
+   ************* EnergyPlus Completed Successfully-- 114 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  6.12sec

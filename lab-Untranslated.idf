@@ -193,11 +193,77 @@ LifeCycleCost:UsePriceEscalation,
   1.0920,                                 !- Year Escalation 29
   1.0950;                                 !- Year Escalation 30
 
-OutdoorAir:Node,
-  Model Outdoor Air Node;                 !- Name
+Daylighting:ReferencePoint,
+  Daylighting Control 1,                  !- Name
+  Thermal Zone 1,                         !- Zone Name
+  0.230198816110639,                      !- X-Coordinate of Reference Point {m}
+  -1.35123619912907,                      !- Y-Coordinate of Reference Point {m}
+  0;                                      !- Z-Coordinate of Reference Point {m}
+
+SurfaceConvectionAlgorithm:Inside,
+  TARP;                                   !- Algorithm
+
+SurfaceConvectionAlgorithm:Outside,
+  DOE-2;                                  !- Algorithm
+
+ZoneAirContaminantBalance,
+  Yes,                                    !- Carbon Dioxide Concentration
+  School Occ;                             !- Outdoor Carbon Dioxide Schedule Name
+
+ZoneAirHeatBalanceAlgorithm,
+  ThirdOrderBackwardDifference;           !- Algorithm
+
+ZoneCapacitanceMultiplier:ResearchSpecial,
+  Zone Capacitance Multiplier Research Special, !- Name
+  ,                                       !- Zone or ZoneList Name
+  ,                                       !- Temperature Capacity Multiplier
+  ,                                       !- Humidity Capacity Multiplier
+  ,                                       !- Carbon Dioxide Capacity Multiplier
+  ;                                       !- Generic Contaminant Capacity Multiplier
 
 OutputControl:Table:Style,
   HTML;                                   !- Column Separator
+
+WindowMaterial:Blind,
+  Window Material Daylight Redirection Device 1, !- Name
+  Horizontal,                             !- Slat Orientation
+  0.0508,                                 !- Slat Width {m}
+  0.0254,                                 !- Slat Separation {m}
+  0.005,                                  !- Slat Thickness {m}
+  60,                                     !- Slat Angle {deg}
+  221,                                    !- Slat Conductivity {W/m-K}
+  0,                                      !- Slat Beam Solar Transmittance
+  0.9,                                    !- Front Side Slat Beam Solar Reflectance
+  0.9,                                    !- Back Side Slat Beam Solar Reflectance
+  0,                                      !- Slat Diffuse Solar Transmittance
+  0.9,                                    !- Front Side Slat Diffuse Solar Reflectance
+  0.9,                                    !- Back Side Slat Diffuse Solar Reflectance
+  0,                                      !- Slat Beam Visible Transmittance
+  0.9,                                    !- Front Side Slat Beam Visible Reflectance
+  0.9,                                    !- Back Side Slat Beam Visible Reflectance
+  0,                                      !- Slat Diffuse Visible Transmittance
+  0.9,                                    !- Front Side Slat Diffuse Visible Reflectance
+  0.9,                                    !- Back Side Slat Diffuse Visible Reflectance
+  0,                                      !- Slat Infrared Hemispherical Transmittance
+  0.9,                                    !- Front Side Slat Infrared Hemispherical Emissivity
+  0.9,                                    !- Back Side Slat Infrared Hemispherical Emissivity
+  0.0254,                                 !- Blind to Glass Distance {m}
+  0.5,                                    !- Blind Top Opening Multiplier
+  0,                                      !- Blind Bottom Opening Multiplier
+  0.5,                                    !- Blind Left Side Opening Multiplier
+  0.5,                                    !- Blind Right Side Opening Multiplier
+  60,                                     !- Minimum Slat Angle {deg}
+  60;                                     !- Maximum Slat Angle {deg}
+
+ScheduleTypeLimits,
+  Any Number;                             !- Name
+
+OutdoorAir:Node,
+  Model Outdoor Air Node;                 !- Name
+
+OutputControl:ReportingTolerances,
+  0.2,                                    !- Tolerance for Time Heating Setpoint Not Met {deltaC}
+  0.2;                                    !- Tolerance for Time Cooling Setpoint Not Met {deltaC}
 
 Output:VariableDictionary,
   IDF,                                    !- Key Field

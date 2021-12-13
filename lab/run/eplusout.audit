@@ -16,13 +16,13 @@
  numTableEntry=        1182
  sizeCompSizeTableEntry=           0
  numCompSizeTableEntry=           0
- NumOfRVariable=        1661
- NumOfRVariable(Total)=        1661
+ NumOfRVariable=        1623
+ NumOfRVariable(Total)=        1623
  NumOfRVariable(Actual)=          21
  NumOfRVariable(Summed)=          18
  NumOfRVariable(Meter)=          18
- NumOfIVariable=         112
- NumOfIVariable(Total)=         112
+ NumOfIVariable=         110
+ NumOfIVariable(Total)=         110
  NumOfIVariable(Actual)=           0
  NumOfIVariable(Summed)=           0
  MaxRVariable=        1000

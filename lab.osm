@@ -5078,18 +5078,19 @@ OS:Site,
 OS:YearDescription,
   {6dcd4a70-97ce-4784-80a2-dcc078b959f8}, !- Handle
   ,                                       !- Calendar Year
-  Sunday;                                 !- Day of Week for Start Day
+  Monday,                                 !- Day of Week for Start Day
+  ;                                       !- Is Leap Year
 
 OS:ClimateZones,
   {8ec8bcab-8072-4eca-8074-50166e293bf8}, !- Handle
   ASHRAE,                                 !- Climate Zone Institution Name 1
   ANSI/ASHRAE Standard 169,               !- Climate Zone Document Name 1
   2006,                                   !- Climate Zone Document Year 1
-  ,                                       !- Climate Zone Value 1
+  4B,                                     !- Climate Zone Value 1
   CEC,                                    !- Climate Zone Institution Name 2
   California Climate Zone Descriptions,   !- Climate Zone Document Name 2
   1995,                                   !- Climate Zone Document Year 2
-  ;                                       !- Climate Zone Value 2
+  1;                                      !- Climate Zone Value 2
 
 OS:SimulationControl,
   {e0445efa-b4ec-4d9a-b41c-e0e9d0d7084c}; !- Handle
@@ -5959,7 +5960,7 @@ OS:ZoneCapacitanceMultiplier:ResearchSpecial,
 OS:Output:JSON,
   {f2d110f9-95fb-4073-bd46-29f6317b6bed}, !- Handle
   TimeSeriesAndTabular,                   !- Option Type
-  No,                                     !- Output JSON
+  Yes,                                    !- Output JSON
   No,                                     !- Output CBOR
   No;                                     !- Output MessagePack
 
@@ -6175,4 +6176,9 @@ OS:ShadingControl,
 OS:StandardsInformation:Material,
   {f6d3484d-2130-497b-9989-ecc32016d82f}, !- Handle
   {60e3b7ff-e7f9-4ea8-a5da-3bd0cd894ac5}; !- Material Name
+
+OS:RunPeriodControl:DaylightSavingTime,
+  {a91a1923-bf11-4ecf-bfd2-86f60098ee1c}, !- Handle
+  2nd Sunday in March,                    !- Start Date
+  1st Sunday in November;                 !- End Date
 

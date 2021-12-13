@@ -654,11 +654,11 @@ RunPeriod,
   Run Period 1,                           !- Name
   1,                                      !- Begin Month
   1,                                      !- Begin Day of Month
-  2006,                                   !- Begin Year
+  2007,                                   !- Begin Year
   12,                                     !- End Month
   31,                                     !- End Day of Month
-  2006,                                   !- End Year
-  Sunday,                                 !- Day of Week for Start Day
+  2007,                                   !- End Year
+  Monday,                                 !- Day of Week for Start Day
   No,                                     !- Use Weather File Holidays and Special Days
   No,                                     !- Use Weather File Daylight Saving Period
   No,                                     !- Apply Weekend Holiday Rule
@@ -2428,7 +2428,22 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Large Office Bldg Equip Week Rule - Jan1-Dec31, !- Name
+  Large Office Bldg Equip Week Rule - Jan1-Jan6, !- Name
+  Large Office Bldg Equip Default Schedule, !- Sunday Schedule:Day Name
+  Large Office Bldg Equip Default Schedule, !- Monday Schedule:Day Name
+  Large Office Bldg Equip Default Schedule, !- Tuesday Schedule:Day Name
+  Large Office Bldg Equip Default Schedule, !- Wednesday Schedule:Day Name
+  Large Office Bldg Equip Default Schedule, !- Thursday Schedule:Day Name
+  Large Office Bldg Equip Default Schedule, !- Friday Schedule:Day Name
+  Large Office Bldg Equip Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Large Office Bldg Equip Default Schedule, !- Holiday Schedule:Day Name
+  Large Office Bldg Equip Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Large Office Bldg Equip Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Large Office Bldg Equip Default Schedule, !- CustomDay1 Schedule:Day Name
+  Large Office Bldg Equip Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Large Office Bldg Equip Week Rule - Jan7-Dec31, !- Name
   Large Office Bldg Equip Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Large Office Bldg Equip Default Schedule, !- Monday Schedule:Day Name
   Large Office Bldg Equip Default Schedule, !- Tuesday Schedule:Day Name
@@ -2445,14 +2460,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office Bldg Equip,                !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Large Office Bldg Equip Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Large Office Bldg Equip Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Large Office Bldg Equip Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Large Office Bldg Light Week Rule - Jan1-Dec31, !- Name
+  Large Office Bldg Light Week Rule - Jan1-Jan6, !- Name
+  Large Office Bldg Light Default Schedule, !- Sunday Schedule:Day Name
+  Large Office Bldg Light Default Schedule, !- Monday Schedule:Day Name
+  Large Office Bldg Light Default Schedule, !- Tuesday Schedule:Day Name
+  Large Office Bldg Light Default Schedule, !- Wednesday Schedule:Day Name
+  Large Office Bldg Light Default Schedule, !- Thursday Schedule:Day Name
+  Large Office Bldg Light Default Schedule, !- Friday Schedule:Day Name
+  Large Office Bldg Light Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Large Office Bldg Light Default Schedule, !- Holiday Schedule:Day Name
+  Large Office Bldg Light Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Large Office Bldg Light Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Large Office Bldg Light Default Schedule, !- CustomDay1 Schedule:Day Name
+  Large Office Bldg Light Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Large Office Bldg Light Week Rule - Jan7-Dec31, !- Name
   Large Office Bldg Light Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Large Office Bldg Light Default Schedule, !- Monday Schedule:Day Name
   Large Office Bldg Light Default Schedule, !- Tuesday Schedule:Day Name
@@ -2469,14 +2504,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office Bldg Light,                !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Large Office Bldg Light Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Large Office Bldg Light Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Large Office Bldg Light Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Large Office Bldg Occ Week Rule - Jan1-Dec31, !- Name
+  Large Office Bldg Occ Week Rule - Jan1-Jan6, !- Name
+  Large Office Bldg Occ Default Schedule, !- Sunday Schedule:Day Name
+  Large Office Bldg Occ Default Schedule, !- Monday Schedule:Day Name
+  Large Office Bldg Occ Default Schedule, !- Tuesday Schedule:Day Name
+  Large Office Bldg Occ Default Schedule, !- Wednesday Schedule:Day Name
+  Large Office Bldg Occ Default Schedule, !- Thursday Schedule:Day Name
+  Large Office Bldg Occ Default Schedule, !- Friday Schedule:Day Name
+  Large Office Bldg Occ Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Large Office Bldg Occ Default Schedule, !- Holiday Schedule:Day Name
+  Large Office Bldg Occ Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Large Office Bldg Occ Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Large Office Bldg Occ Default Schedule, !- CustomDay1 Schedule:Day Name
+  Large Office Bldg Occ Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Large Office Bldg Occ Week Rule - Jan7-Dec31, !- Name
   Large Office Bldg Occ Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Large Office Bldg Occ Default Schedule, !- Monday Schedule:Day Name
   Large Office Bldg Occ Default Schedule, !- Tuesday Schedule:Day Name
@@ -2493,14 +2548,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office Bldg Occ,                  !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Large Office Bldg Occ Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Large Office Bldg Occ Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Large Office Bldg Occ Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Large Office ClgSetp Week Rule - Jan1-Dec31, !- Name
+  Large Office ClgSetp Week Rule - Jan1-Jan6, !- Name
+  Large Office ClgSetp Default Schedule,  !- Sunday Schedule:Day Name
+  Large Office ClgSetp Default Schedule,  !- Monday Schedule:Day Name
+  Large Office ClgSetp Default Schedule,  !- Tuesday Schedule:Day Name
+  Large Office ClgSetp Default Schedule,  !- Wednesday Schedule:Day Name
+  Large Office ClgSetp Default Schedule,  !- Thursday Schedule:Day Name
+  Large Office ClgSetp Default Schedule,  !- Friday Schedule:Day Name
+  Large Office ClgSetp Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Large Office ClgSetp Default Schedule,  !- Holiday Schedule:Day Name
+  Large Office ClgSetp Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Large Office ClgSetp Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Large Office ClgSetp Default Schedule,  !- CustomDay1 Schedule:Day Name
+  Large Office ClgSetp Default Schedule;  !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Large Office ClgSetp Week Rule - Jan7-Dec31, !- Name
   Large Office ClgSetp Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Large Office ClgSetp Default Schedule,  !- Monday Schedule:Day Name
   Large Office ClgSetp Default Schedule,  !- Tuesday Schedule:Day Name
@@ -2517,14 +2592,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office ClgSetp,                   !- Name
   Temperature 5,                          !- Schedule Type Limits Name
-  Large Office ClgSetp Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Large Office ClgSetp Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Large Office ClgSetp Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Large Office HtgSetp Week Rule - Jan1-Dec31, !- Name
+  Large Office HtgSetp Week Rule - Jan1-Jan6, !- Name
+  Large Office HtgSetp Default Schedule,  !- Sunday Schedule:Day Name
+  Large Office HtgSetp Default Schedule,  !- Monday Schedule:Day Name
+  Large Office HtgSetp Default Schedule,  !- Tuesday Schedule:Day Name
+  Large Office HtgSetp Default Schedule,  !- Wednesday Schedule:Day Name
+  Large Office HtgSetp Default Schedule,  !- Thursday Schedule:Day Name
+  Large Office HtgSetp Default Schedule,  !- Friday Schedule:Day Name
+  Large Office HtgSetp Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Large Office HtgSetp Default Schedule,  !- Holiday Schedule:Day Name
+  Large Office HtgSetp Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Large Office HtgSetp Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Large Office HtgSetp Default Schedule,  !- CustomDay1 Schedule:Day Name
+  Large Office HtgSetp Default Schedule;  !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Large Office HtgSetp Week Rule - Jan7-Dec31, !- Name
   Large Office HtgSetp Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Large Office HtgSetp Default Schedule,  !- Monday Schedule:Day Name
   Large Office HtgSetp Default Schedule,  !- Tuesday Schedule:Day Name
@@ -2541,14 +2636,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office HtgSetp,                   !- Name
   Temperature 3,                          !- Schedule Type Limits Name
-  Large Office HtgSetp Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Large Office HtgSetp Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Large Office HtgSetp Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Large Office Infil Quarter On Week Rule - Jan1-Dec31, !- Name
+  Large Office Infil Quarter On Week Rule - Jan1-Jan6, !- Name
+  Large Office Infil Quarter On Default Schedule, !- Sunday Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule, !- Wednesday Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule, !- Thursday Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule, !- Friday Schedule:Day Name
+  Large Office Infil Quarter On Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule, !- Holiday Schedule:Day Name
+  Large Office Infil Quarter On Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Large Office Infil Quarter On Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule, !- CustomDay1 Schedule:Day Name
+  Large Office Infil Quarter On Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Large Office Infil Quarter On Week Rule - Jan7-Dec31, !- Name
   Large Office Infil Quarter On Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Large Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
   Large Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
@@ -2565,11 +2680,16 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office Infil Quarter On,          !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Large Office Infil Quarter On Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Large Office Infil Quarter On Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Large Office Infil Quarter On Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
   Medium Office Activity Week Rule - Jan1-Dec31, !- Name
@@ -2596,7 +2716,22 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Medium Office Bldg Equip Week Rule - Jan1-Dec31, !- Name
+  Medium Office Bldg Equip Week Rule - Jan1-Jan6, !- Name
+  Medium Office Bldg Equip Default Schedule, !- Sunday Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule, !- Monday Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule, !- Tuesday Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule, !- Wednesday Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule, !- Thursday Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule, !- Friday Schedule:Day Name
+  Medium Office Bldg Equip Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule, !- Holiday Schedule:Day Name
+  Medium Office Bldg Equip Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Medium Office Bldg Equip Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule, !- CustomDay1 Schedule:Day Name
+  Medium Office Bldg Equip Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Medium Office Bldg Equip Week Rule - Jan7-Dec31, !- Name
   Medium Office Bldg Equip Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Medium Office Bldg Equip Default Schedule, !- Monday Schedule:Day Name
   Medium Office Bldg Equip Default Schedule, !- Tuesday Schedule:Day Name
@@ -2613,14 +2748,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Medium Office Bldg Equip,               !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Medium Office Bldg Equip Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Medium Office Bldg Equip Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Medium Office Bldg Equip Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Medium Office Bldg Occ Week Rule - Jan1-Dec31, !- Name
+  Medium Office Bldg Occ Week Rule - Jan1-Jan6, !- Name
+  Medium Office Bldg Occ Default Schedule, !- Sunday Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule, !- Monday Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule, !- Tuesday Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule, !- Wednesday Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule, !- Thursday Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule, !- Friday Schedule:Day Name
+  Medium Office Bldg Occ Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule, !- Holiday Schedule:Day Name
+  Medium Office Bldg Occ Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Medium Office Bldg Occ Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule, !- CustomDay1 Schedule:Day Name
+  Medium Office Bldg Occ Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Medium Office Bldg Occ Week Rule - Jan7-Dec31, !- Name
   Medium Office Bldg Occ Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Medium Office Bldg Occ Default Schedule, !- Monday Schedule:Day Name
   Medium Office Bldg Occ Default Schedule, !- Tuesday Schedule:Day Name
@@ -2637,14 +2792,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Medium Office Bldg Occ,                 !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Medium Office Bldg Occ Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Medium Office Bldg Occ Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Medium Office Bldg Occ Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Medium Office ClgSetp Week Rule - Jan1-Dec31, !- Name
+  Medium Office ClgSetp Week Rule - Jan1-Jan6, !- Name
+  Medium Office ClgSetp Default Schedule, !- Sunday Schedule:Day Name
+  Medium Office ClgSetp Default Schedule, !- Monday Schedule:Day Name
+  Medium Office ClgSetp Default Schedule, !- Tuesday Schedule:Day Name
+  Medium Office ClgSetp Default Schedule, !- Wednesday Schedule:Day Name
+  Medium Office ClgSetp Default Schedule, !- Thursday Schedule:Day Name
+  Medium Office ClgSetp Default Schedule, !- Friday Schedule:Day Name
+  Medium Office ClgSetp Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Medium Office ClgSetp Default Schedule, !- Holiday Schedule:Day Name
+  Medium Office ClgSetp Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Medium Office ClgSetp Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Medium Office ClgSetp Default Schedule, !- CustomDay1 Schedule:Day Name
+  Medium Office ClgSetp Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Medium Office ClgSetp Week Rule - Jan7-Dec31, !- Name
   Medium Office ClgSetp Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Medium Office ClgSetp Default Schedule, !- Monday Schedule:Day Name
   Medium Office ClgSetp Default Schedule, !- Tuesday Schedule:Day Name
@@ -2661,14 +2836,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Medium Office ClgSetp,                  !- Name
   Temperature 37,                         !- Schedule Type Limits Name
-  Medium Office ClgSetp Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Medium Office ClgSetp Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Medium Office ClgSetp Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Medium Office HtgSetp Week Rule - Jan1-Dec31, !- Name
+  Medium Office HtgSetp Week Rule - Jan1-Jan6, !- Name
+  Medium Office HtgSetp Default Schedule, !- Sunday Schedule:Day Name
+  Medium Office HtgSetp Default Schedule, !- Monday Schedule:Day Name
+  Medium Office HtgSetp Default Schedule, !- Tuesday Schedule:Day Name
+  Medium Office HtgSetp Default Schedule, !- Wednesday Schedule:Day Name
+  Medium Office HtgSetp Default Schedule, !- Thursday Schedule:Day Name
+  Medium Office HtgSetp Default Schedule, !- Friday Schedule:Day Name
+  Medium Office HtgSetp Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Medium Office HtgSetp Default Schedule, !- Holiday Schedule:Day Name
+  Medium Office HtgSetp Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Medium Office HtgSetp Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Medium Office HtgSetp Default Schedule, !- CustomDay1 Schedule:Day Name
+  Medium Office HtgSetp Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Medium Office HtgSetp Week Rule - Jan7-Dec31, !- Name
   Medium Office HtgSetp Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Medium Office HtgSetp Default Schedule, !- Monday Schedule:Day Name
   Medium Office HtgSetp Default Schedule, !- Tuesday Schedule:Day Name
@@ -2685,14 +2880,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Medium Office HtgSetp,                  !- Name
   Temperature 36,                         !- Schedule Type Limits Name
-  Medium Office HtgSetp Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Medium Office HtgSetp Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Medium Office HtgSetp Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Medium Office Infil Quarter On Week Rule - Jan1-Dec31, !- Name
+  Medium Office Infil Quarter On Week Rule - Jan1-Jan6, !- Name
+  Medium Office Infil Quarter On Default Schedule, !- Sunday Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule, !- Wednesday Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule, !- Thursday Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule, !- Friday Schedule:Day Name
+  Medium Office Infil Quarter On Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule, !- Holiday Schedule:Day Name
+  Medium Office Infil Quarter On Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Medium Office Infil Quarter On Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule, !- CustomDay1 Schedule:Day Name
+  Medium Office Infil Quarter On Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Medium Office Infil Quarter On Week Rule - Jan7-Dec31, !- Name
   Medium Office Infil Quarter On Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Medium Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
   Medium Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
@@ -2709,11 +2924,16 @@ Schedule:Week:Daily,
 Schedule:Year,
   Medium Office Infil Quarter On,         !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Medium Office Infil Quarter On Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Medium Office Infil Quarter On Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Medium Office Infil Quarter On Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
   Office Activity Week Rule - Jan1-Dec31, !- Name
@@ -2740,7 +2960,22 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Office Bldg Equip Week Rule - Jan1-Dec31, !- Name
+  Office Bldg Equip Week Rule - Jan1-Jan6, !- Name
+  Office Bldg Equip Default Schedule,     !- Sunday Schedule:Day Name
+  Office Bldg Equip Default Schedule,     !- Monday Schedule:Day Name
+  Office Bldg Equip Default Schedule,     !- Tuesday Schedule:Day Name
+  Office Bldg Equip Default Schedule,     !- Wednesday Schedule:Day Name
+  Office Bldg Equip Default Schedule,     !- Thursday Schedule:Day Name
+  Office Bldg Equip Default Schedule,     !- Friday Schedule:Day Name
+  Office Bldg Equip Rule 2 Day Schedule,  !- Saturday Schedule:Day Name
+  Office Bldg Equip Default Schedule,     !- Holiday Schedule:Day Name
+  Office Bldg Equip Summer Design Day,    !- SummerDesignDay Schedule:Day Name
+  Office Bldg Equip Winter Design Day,    !- WinterDesignDay Schedule:Day Name
+  Office Bldg Equip Default Schedule,     !- CustomDay1 Schedule:Day Name
+  Office Bldg Equip Default Schedule;     !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Office Bldg Equip Week Rule - Jan7-Dec31, !- Name
   Office Bldg Equip Rule 1 Day Schedule,  !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule,     !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule,     !- Tuesday Schedule:Day Name
@@ -2757,14 +2992,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Office Bldg Equip Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Office Bldg Equip Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Office Bldg Equip Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Office Bldg Light Week Rule - Jan1-Dec31, !- Name
+  Office Bldg Light Week Rule - Jan1-Jan6, !- Name
+  Office Bldg Light Default Schedule,     !- Sunday Schedule:Day Name
+  Office Bldg Light Default Schedule,     !- Monday Schedule:Day Name
+  Office Bldg Light Default Schedule,     !- Tuesday Schedule:Day Name
+  Office Bldg Light Default Schedule,     !- Wednesday Schedule:Day Name
+  Office Bldg Light Default Schedule,     !- Thursday Schedule:Day Name
+  Office Bldg Light Default Schedule,     !- Friday Schedule:Day Name
+  Office Bldg Light Rule 2 Day Schedule,  !- Saturday Schedule:Day Name
+  Office Bldg Light Default Schedule,     !- Holiday Schedule:Day Name
+  Office Bldg Light Summer Design Day,    !- SummerDesignDay Schedule:Day Name
+  Office Bldg Light Winter Design Day,    !- WinterDesignDay Schedule:Day Name
+  Office Bldg Light Default Schedule,     !- CustomDay1 Schedule:Day Name
+  Office Bldg Light Default Schedule;     !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Office Bldg Light Week Rule - Jan7-Dec31, !- Name
   Office Bldg Light Rule 1 Day Schedule,  !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule,     !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule,     !- Tuesday Schedule:Day Name
@@ -2781,14 +3036,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Office Bldg Light Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Office Bldg Light Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Office Bldg Light Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Office Infil Quarter On Week Rule - Jan1-Dec31, !- Name
+  Office Infil Quarter On Week Rule - Jan1-Jan6, !- Name
+  Office Infil Quarter On Default Schedule, !- Sunday Schedule:Day Name
+  Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
+  Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
+  Office Infil Quarter On Default Schedule, !- Wednesday Schedule:Day Name
+  Office Infil Quarter On Default Schedule, !- Thursday Schedule:Day Name
+  Office Infil Quarter On Default Schedule, !- Friday Schedule:Day Name
+  Office Infil Quarter On Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Office Infil Quarter On Default Schedule, !- Holiday Schedule:Day Name
+  Office Infil Quarter On Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Office Infil Quarter On Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Office Infil Quarter On Default Schedule, !- CustomDay1 Schedule:Day Name
+  Office Infil Quarter On Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Office Infil Quarter On Week Rule - Jan7-Dec31, !- Name
   Office Infil Quarter On Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
@@ -2805,14 +3080,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On,                !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Office Infil Quarter On Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Office Infil Quarter On Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Office Infil Quarter On Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Office Work Occ Week Rule - Jan1-Dec31, !- Name
+  Office Work Occ Week Rule - Jan1-Jan6,  !- Name
+  Office Bldg Occ Default Schedule,       !- Sunday Schedule:Day Name
+  Office Bldg Occ Default Schedule,       !- Monday Schedule:Day Name
+  Office Bldg Occ Default Schedule,       !- Tuesday Schedule:Day Name
+  Office Bldg Occ Default Schedule,       !- Wednesday Schedule:Day Name
+  Office Bldg Occ Default Schedule,       !- Thursday Schedule:Day Name
+  Office Bldg Occ Default Schedule,       !- Friday Schedule:Day Name
+  Office Bldg Occ Rule 2 Day Schedule,    !- Saturday Schedule:Day Name
+  Office Bldg Occ Default Schedule,       !- Holiday Schedule:Day Name
+  Office Bldg Occ Summer Design Day,      !- SummerDesignDay Schedule:Day Name
+  Office Bldg Occ Winter Design Day,      !- WinterDesignDay Schedule:Day Name
+  Office Bldg Occ Default Schedule,       !- CustomDay1 Schedule:Day Name
+  Office Bldg Occ Default Schedule;       !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Office Work Occ Week Rule - Jan7-Dec31, !- Name
   Office Bldg Occ Rule 1 Day Schedule,    !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule,       !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule,       !- Tuesday Schedule:Day Name
@@ -2829,14 +3124,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Work Occ,                        !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Office Work Occ Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Office Work Occ Week Rule - Jan1-Jan6,  !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Office Work Occ Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  School Occ Week Rule - Jan1-Dec31,      !- Name
+  School Occ Week Rule - Jan1-Jan6,       !- Name
+  Office Bldg Occ Default Schedule 1,     !- Sunday Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- Monday Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- Tuesday Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- Wednesday Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- Thursday Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- Friday Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- Saturday Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- Holiday Schedule:Day Name
+  Office Bldg Occ Summer Design Day 1,    !- SummerDesignDay Schedule:Day Name
+  Office Bldg Occ Winter Design Day 1,    !- WinterDesignDay Schedule:Day Name
+  Office Bldg Occ Default Schedule 1,     !- CustomDay1 Schedule:Day Name
+  Office Bldg Occ Default Schedule 1;     !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  School Occ Week Rule - Jan7-Dec31,      !- Name
   Office Bldg Occ Rule 1 Day Schedule 1,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 1,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 1,     !- Tuesday Schedule:Day Name
@@ -2853,11 +3168,16 @@ Schedule:Week:Daily,
 Schedule:Year,
   School Occ,                             !- Name
   Fraction,                               !- Schedule Type Limits Name
-  School Occ Week Rule - Jan1-Dec31,      !- Schedule:Week Name 1
+  School Occ Week Rule - Jan1-Jan6,       !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  School Occ Week Rule - Jan7-Dec31,      !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
   Small Office Activity Week Rule - Jan1-Dec31, !- Name
@@ -2884,7 +3204,22 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Small Office Bldg Equip Week Rule - Jan1-Dec31, !- Name
+  Small Office Bldg Equip Week Rule - Jan1-Jan6, !- Name
+  Small Office Bldg Equip Default Schedule, !- Sunday Schedule:Day Name
+  Small Office Bldg Equip Default Schedule, !- Monday Schedule:Day Name
+  Small Office Bldg Equip Default Schedule, !- Tuesday Schedule:Day Name
+  Small Office Bldg Equip Default Schedule, !- Wednesday Schedule:Day Name
+  Small Office Bldg Equip Default Schedule, !- Thursday Schedule:Day Name
+  Small Office Bldg Equip Default Schedule, !- Friday Schedule:Day Name
+  Small Office Bldg Equip Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Small Office Bldg Equip Default Schedule, !- Holiday Schedule:Day Name
+  Small Office Bldg Equip Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Small Office Bldg Equip Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Small Office Bldg Equip Default Schedule, !- CustomDay1 Schedule:Day Name
+  Small Office Bldg Equip Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Small Office Bldg Equip Week Rule - Jan7-Dec31, !- Name
   Small Office Bldg Equip Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Small Office Bldg Equip Default Schedule, !- Monday Schedule:Day Name
   Small Office Bldg Equip Default Schedule, !- Tuesday Schedule:Day Name
@@ -2901,14 +3236,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Small Office Bldg Equip,                !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Small Office Bldg Equip Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Small Office Bldg Equip Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Small Office Bldg Equip Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Small Office Bldg Occ Week Rule - Jan1-Dec31, !- Name
+  Small Office Bldg Occ Week Rule - Jan1-Jan6, !- Name
+  Small Office Bldg Occ Default Schedule, !- Sunday Schedule:Day Name
+  Small Office Bldg Occ Default Schedule, !- Monday Schedule:Day Name
+  Small Office Bldg Occ Default Schedule, !- Tuesday Schedule:Day Name
+  Small Office Bldg Occ Default Schedule, !- Wednesday Schedule:Day Name
+  Small Office Bldg Occ Default Schedule, !- Thursday Schedule:Day Name
+  Small Office Bldg Occ Default Schedule, !- Friday Schedule:Day Name
+  Small Office Bldg Occ Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Small Office Bldg Occ Default Schedule, !- Holiday Schedule:Day Name
+  Small Office Bldg Occ Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Small Office Bldg Occ Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Small Office Bldg Occ Default Schedule, !- CustomDay1 Schedule:Day Name
+  Small Office Bldg Occ Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Small Office Bldg Occ Week Rule - Jan7-Dec31, !- Name
   Small Office Bldg Occ Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Small Office Bldg Occ Default Schedule, !- Monday Schedule:Day Name
   Small Office Bldg Occ Default Schedule, !- Tuesday Schedule:Day Name
@@ -2925,14 +3280,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Small Office Bldg Occ,                  !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Small Office Bldg Occ Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Small Office Bldg Occ Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Small Office Bldg Occ Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Small Office ClgSetp Week Rule - Jan1-Dec31, !- Name
+  Small Office ClgSetp Week Rule - Jan1-Jan6, !- Name
+  Small Office ClgSetp Default Schedule,  !- Sunday Schedule:Day Name
+  Small Office ClgSetp Default Schedule,  !- Monday Schedule:Day Name
+  Small Office ClgSetp Default Schedule,  !- Tuesday Schedule:Day Name
+  Small Office ClgSetp Default Schedule,  !- Wednesday Schedule:Day Name
+  Small Office ClgSetp Default Schedule,  !- Thursday Schedule:Day Name
+  Small Office ClgSetp Default Schedule,  !- Friday Schedule:Day Name
+  Small Office ClgSetp Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Small Office ClgSetp Default Schedule,  !- Holiday Schedule:Day Name
+  Small Office ClgSetp Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Small Office ClgSetp Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Small Office ClgSetp Default Schedule,  !- CustomDay1 Schedule:Day Name
+  Small Office ClgSetp Default Schedule;  !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Small Office ClgSetp Week Rule - Jan7-Dec31, !- Name
   Small Office ClgSetp Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Small Office ClgSetp Default Schedule,  !- Monday Schedule:Day Name
   Small Office ClgSetp Default Schedule,  !- Tuesday Schedule:Day Name
@@ -2949,14 +3324,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Small Office ClgSetp,                   !- Name
   Temperature 4,                          !- Schedule Type Limits Name
-  Small Office ClgSetp Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Small Office ClgSetp Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Small Office ClgSetp Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Small Office HtgSetp Week Rule - Jan1-Dec31, !- Name
+  Small Office HtgSetp Week Rule - Jan1-Jan6, !- Name
+  Small Office HtgSetp Default Schedule,  !- Sunday Schedule:Day Name
+  Small Office HtgSetp Default Schedule,  !- Monday Schedule:Day Name
+  Small Office HtgSetp Default Schedule,  !- Tuesday Schedule:Day Name
+  Small Office HtgSetp Default Schedule,  !- Wednesday Schedule:Day Name
+  Small Office HtgSetp Default Schedule,  !- Thursday Schedule:Day Name
+  Small Office HtgSetp Default Schedule,  !- Friday Schedule:Day Name
+  Small Office HtgSetp Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Small Office HtgSetp Default Schedule,  !- Holiday Schedule:Day Name
+  Small Office HtgSetp Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Small Office HtgSetp Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Small Office HtgSetp Default Schedule,  !- CustomDay1 Schedule:Day Name
+  Small Office HtgSetp Default Schedule;  !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Small Office HtgSetp Week Rule - Jan7-Dec31, !- Name
   Small Office HtgSetp Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Small Office HtgSetp Default Schedule,  !- Monday Schedule:Day Name
   Small Office HtgSetp Default Schedule,  !- Tuesday Schedule:Day Name
@@ -2973,14 +3368,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   Small Office HtgSetp,                   !- Name
   Temperature 11,                         !- Schedule Type Limits Name
-  Small Office HtgSetp Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Small Office HtgSetp Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Small Office HtgSetp Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  Small Office Infil Quarter On Week Rule - Jan1-Dec31, !- Name
+  Small Office Infil Quarter On Week Rule - Jan1-Jan6, !- Name
+  Small Office Infil Quarter On Default Schedule, !- Sunday Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule, !- Wednesday Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule, !- Thursday Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule, !- Friday Schedule:Day Name
+  Small Office Infil Quarter On Rule 2 Day Schedule, !- Saturday Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule, !- Holiday Schedule:Day Name
+  Small Office Infil Quarter On Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Small Office Infil Quarter On Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule, !- CustomDay1 Schedule:Day Name
+  Small Office Infil Quarter On Default Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Small Office Infil Quarter On Week Rule - Jan7-Dec31, !- Name
   Small Office Infil Quarter On Rule 1 Day Schedule, !- Sunday Schedule:Day Name
   Small Office Infil Quarter On Default Schedule, !- Monday Schedule:Day Name
   Small Office Infil Quarter On Default Schedule, !- Tuesday Schedule:Day Name
@@ -2997,11 +3412,16 @@ Schedule:Week:Daily,
 Schedule:Year,
   Small Office Infil Quarter On,          !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Small Office Infil Quarter On Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Small Office Infil Quarter On Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  6,                                      !- End Day 1
+  Small Office Infil Quarter On Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  7,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Constant,
   Always On Discrete,                     !- Name
@@ -3021,13 +3441,17 @@ Schedule:Constant,
 OutdoorAir:Node,
   Model Outdoor Air Node;                 !- Name
 
+RunPeriodControl:DaylightSavingTime,
+  2nd Sunday in March,                    !- Start Date
+  1st Sunday in November;                 !- End Date
+
 OutputControl:ReportingTolerances,
   0.2,                                    !- Tolerance for Time Heating Setpoint Not Met {deltaC}
   0.2;                                    !- Tolerance for Time Cooling Setpoint Not Met {deltaC}
 
 Output:JSON,
   TimeSeriesAndTabular,                   !- Option Type
-  No,                                     !- Output JSON
+  Yes,                                    !- Output JSON
   No,                                     !- Output CBOR
   No;                                     !- Output MessagePack
 

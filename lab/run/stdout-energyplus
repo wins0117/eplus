@@ -1,5 +1,5 @@
 EnergyPlus Starting
-EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.10 04:06
+EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.13 16:57
 Adjusting Air System Sizing
 Adjusting Standard 62.1 Ventilation Sizing
 Initializing Simulation
@@ -10,63 +10,63 @@ Warming up {1}
 Calculating Detailed Daylighting Factors, Start Date=01/01
 Warming up {2}
 Warming up {3}
-Starting Simulation at 01/01/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=01/21/2006
+Starting Simulation at 01/01/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=01/21/2007
 Updating Detailed Daylighting Factors, Start Date=01/21
-Continuing Simulation at 01/21/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=02/10/2006
+Continuing Simulation at 01/21/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=02/10/2007
 Updating Detailed Daylighting Factors, Start Date=02/10
-Continuing Simulation at 02/10/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=03/02/2006
+Continuing Simulation at 02/10/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=03/02/2007
 Updating Detailed Daylighting Factors, Start Date=03/02
-Continuing Simulation at 03/02/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=03/22/2006
+Continuing Simulation at 03/02/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=03/22/2007
 Updating Detailed Daylighting Factors, Start Date=03/22
-Continuing Simulation at 03/22/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=04/11/2006
+Continuing Simulation at 03/22/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=04/11/2007
 Updating Detailed Daylighting Factors, Start Date=04/11
-Continuing Simulation at 04/11/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=05/01/2006
+Continuing Simulation at 04/11/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/01/2007
 Updating Detailed Daylighting Factors, Start Date=05/01
-Continuing Simulation at 05/01/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=05/21/2006
+Continuing Simulation at 05/01/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/21/2007
 Updating Detailed Daylighting Factors, Start Date=05/21
-Continuing Simulation at 05/21/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=06/10/2006
+Continuing Simulation at 05/21/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=06/10/2007
 Updating Detailed Daylighting Factors, Start Date=06/10
-Continuing Simulation at 06/10/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=06/30/2006
+Continuing Simulation at 06/10/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=06/30/2007
 Updating Detailed Daylighting Factors, Start Date=06/30
-Continuing Simulation at 06/30/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=07/20/2006
+Continuing Simulation at 06/30/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=07/20/2007
 Updating Detailed Daylighting Factors, Start Date=07/20
-Continuing Simulation at 07/20/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=08/09/2006
+Continuing Simulation at 07/20/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=08/09/2007
 Updating Detailed Daylighting Factors, Start Date=08/09
-Continuing Simulation at 08/09/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=08/29/2006
+Continuing Simulation at 08/09/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=08/29/2007
 Updating Detailed Daylighting Factors, Start Date=08/29
-Continuing Simulation at 08/29/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=09/18/2006
+Continuing Simulation at 08/29/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=09/18/2007
 Updating Detailed Daylighting Factors, Start Date=09/18
-Continuing Simulation at 09/18/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=10/08/2006
+Continuing Simulation at 09/18/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=10/08/2007
 Updating Detailed Daylighting Factors, Start Date=10/08
-Continuing Simulation at 10/08/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=10/28/2006
+Continuing Simulation at 10/08/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=10/28/2007
 Updating Detailed Daylighting Factors, Start Date=10/28
-Continuing Simulation at 10/28/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=11/17/2006
+Continuing Simulation at 10/28/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=11/17/2007
 Updating Detailed Daylighting Factors, Start Date=11/17
-Continuing Simulation at 11/17/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=12/07/2006
+Continuing Simulation at 11/17/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=12/07/2007
 Updating Detailed Daylighting Factors, Start Date=12/07
-Continuing Simulation at 12/07/2006 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=12/27/2006
+Continuing Simulation at 12/07/2007 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=12/27/2007
 Updating Detailed Daylighting Factors, Start Date=12/27
-Continuing Simulation at 12/27/2006 for RUN PERIOD 1
+Continuing Simulation at 12/27/2007 for RUN PERIOD 1
 Writing tabular output file results using HTML format.
 Computing Life Cycle Costs and Reporting
 Writing final SQL reports
-EnergyPlus Run Time=00hr 00min 10.24sec
+EnergyPlus Run Time=00hr 00min  6.12sec
 EnergyPlus Completed Successfully.
