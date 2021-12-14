@@ -1,0 +1,7 @@
+{
+   "created_at" : "20211213T172315Z",
+   "seed_file" : "../test.osm",
+   "steps" : [],
+   "updated_at" : "20211213T172820Z",
+   "weather_file" : "TWN_Taipei.466960_IWEC.epw"
+}
