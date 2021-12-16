@@ -7775,7 +7775,7 @@ OS:Rendering:Color,
 
 OS:Space,
   {4bd74f96-a24f-47e7-99a8-42db55c9665c}, !- Handle
-  Space 102,                              !- Name
+  Space1,                                 !- Name
   ,                                       !- Space Type Name
   ,                                       !- Default Construction Set Name
   ,                                       !- Default Schedule Set Name
@@ -7786,7 +7786,7 @@ OS:Space,
   {69be234f-5e5a-4712-8bea-62055bf6d52b}, !- Building Story Name
   {8d7091d2-26ba-4630-8f8d-91c0ffb73ba5}, !- Thermal Zone Name
   ,                                       !- Part of Total Floor Area
-  ,                                       !- Design Specification Outdoor Air Object Name
+  {275b2507-2551-4c6b-9576-0694f401735c}, !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
 
 OS:Surface,
@@ -8039,4 +8039,18 @@ OS:Rendering:Color,
   255,                                    !- Rendering Red Value
   99,                                     !- Rendering Green Value
   71;                                     !- Rendering Blue Value
+
+OS:Output:Variable,
+  {78fa12a8-4e9d-4856-bab1-0f26a866fc7d}, !- Handle
+  Output Variable 1,                      !- Name
+  *,                                      !- Key Value
+  Zone Air CO2 Concentration,             !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {a6b353eb-07ac-49b4-a996-0a1c798e35e2}, !- Handle
+  Output Variable 2,                      !- Name
+  *,                                      !- Key Value
+  Zone Air CO2 Internal Gain Volume Flow Rate, !- Variable Name
+  Timestep;                               !- Reporting Frequency
 

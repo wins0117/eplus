@@ -2967,6 +2967,16 @@ ZoneInfiltration:DesignFlowRate,
   ,                                       !- Velocity Term Coefficient
   ;                                       !- Velocity Squared Term Coefficient
 
+Output:Variable,
+  *,                                      !- Key Value
+  Zone Air CO2 Concentration,             !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Zone Air CO2 Internal Gain Volume Flow Rate, !- Variable Name
+  Timestep;                               !- Reporting Frequency
+
 OutputControl:Table:Style,
   HTML;                                   !- Column Separator
 
