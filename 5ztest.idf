@@ -1,0 +1,2572 @@
+
+Version,
+  8.6;                                    !- Version Identifier
+
+LifeCycleCost:Parameters,
+  {dfbc36f3-1595-4def-b5ce-81e3b8e1d4cd}, !- Name
+  EndOfYear,                              !- Discounting Convention
+  ConstantDollar,                         !- Inflation Approach
+  0.03,                                   !- Real Discount Rate
+  ,                                       !- Nominal Discount Rate
+  ,                                       !- Inflation
+  ,                                       !- Base Date Month
+  2011,                                   !- Base Date Year
+  ,                                       !- Service Date Month
+  2011,                                   !- Service Date Year
+  25,                                     !- Length of Study Period in Years
+  ,                                       !- Tax rate
+  None;                                   !- Depreciation Method
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Electricity,       !- Name
+  Electricity,                            !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9838,                                 !- Year Escalation 1
+  0.9730,                                 !- Year Escalation 2
+  0.9632,                                 !- Year Escalation 3
+  0.9611,                                 !- Year Escalation 4
+  0.9571,                                 !- Year Escalation 5
+  0.9553,                                 !- Year Escalation 6
+  0.9539,                                 !- Year Escalation 7
+  0.9521,                                 !- Year Escalation 8
+  0.9546,                                 !- Year Escalation 9
+  0.9550,                                 !- Year Escalation 10
+  0.9553,                                 !- Year Escalation 11
+  0.9564,                                 !- Year Escalation 12
+  0.9575,                                 !- Year Escalation 13
+  0.9596,                                 !- Year Escalation 14
+  0.9618,                                 !- Year Escalation 15
+  0.9614,                                 !- Year Escalation 16
+  0.9618,                                 !- Year Escalation 17
+  0.9618,                                 !- Year Escalation 18
+  0.9593,                                 !- Year Escalation 19
+  0.9589,                                 !- Year Escalation 20
+  0.9607,                                 !- Year Escalation 21
+  0.9625,                                 !- Year Escalation 22
+  0.9650,                                 !- Year Escalation 23
+  0.9708,                                 !- Year Escalation 24
+  0.9751,                                 !- Year Escalation 25
+  0.9762,                                 !- Year Escalation 26
+  0.9766,                                 !- Year Escalation 27
+  0.9766,                                 !- Year Escalation 28
+  0.9769,                                 !- Year Escalation 29
+  0.9773;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Distillate Oil,    !- Name
+  FuelOil#1,                              !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9714,                                 !- Year Escalation 1
+  0.9730,                                 !- Year Escalation 2
+  0.9942,                                 !- Year Escalation 3
+  1.0164,                                 !- Year Escalation 4
+  1.0541,                                 !- Year Escalation 5
+  1.0928,                                 !- Year Escalation 6
+  1.1267,                                 !- Year Escalation 7
+  1.1580,                                 !- Year Escalation 8
+  1.1792,                                 !- Year Escalation 9
+  1.1967,                                 !- Year Escalation 10
+  1.2200,                                 !- Year Escalation 11
+  1.2333,                                 !- Year Escalation 12
+  1.2566,                                 !- Year Escalation 13
+  1.2709,                                 !- Year Escalation 14
+  1.2826,                                 !- Year Escalation 15
+  1.2985,                                 !- Year Escalation 16
+  1.3102,                                 !- Year Escalation 17
+  1.3250,                                 !- Year Escalation 18
+  1.3261,                                 !- Year Escalation 19
+  1.3282,                                 !- Year Escalation 20
+  1.3324,                                 !- Year Escalation 21
+  1.3356,                                 !- Year Escalation 22
+  1.3431,                                 !- Year Escalation 23
+  1.3510,                                 !- Year Escalation 24
+  1.3568,                                 !- Year Escalation 25
+  1.3606,                                 !- Year Escalation 26
+  1.3637,                                 !- Year Escalation 27
+  1.3674,                                 !- Year Escalation 28
+  1.3706,                                 !- Year Escalation 29
+  1.3743;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Residual Oil,      !- Name
+  FuelOil#2,                              !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.8469,                                 !- Year Escalation 1
+  0.8257,                                 !- Year Escalation 2
+  0.8681,                                 !- Year Escalation 3
+  0.8988,                                 !- Year Escalation 4
+  0.9289,                                 !- Year Escalation 5
+  0.9604,                                 !- Year Escalation 6
+  0.9897,                                 !- Year Escalation 7
+  1.0075,                                 !- Year Escalation 8
+  1.0314,                                 !- Year Escalation 9
+  1.0554,                                 !- Year Escalation 10
+  1.0861,                                 !- Year Escalation 11
+  1.1278,                                 !- Year Escalation 12
+  1.1497,                                 !- Year Escalation 13
+  1.1620,                                 !- Year Escalation 14
+  1.1743,                                 !- Year Escalation 15
+  1.1852,                                 !- Year Escalation 16
+  1.1948,                                 !- Year Escalation 17
+  1.2037,                                 !- Year Escalation 18
+  1.2071,                                 !- Year Escalation 19
+  1.2119,                                 !- Year Escalation 20
+  1.2139,                                 !- Year Escalation 21
+  1.2194,                                 !- Year Escalation 22
+  1.2276,                                 !- Year Escalation 23
+  1.2365,                                 !- Year Escalation 24
+  1.2420,                                 !- Year Escalation 25
+  1.2461,                                 !- Year Escalation 26
+  1.2509,                                 !- Year Escalation 27
+  1.2550,                                 !- Year Escalation 28
+  1.2591,                                 !- Year Escalation 29
+  1.2638;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Natural gas,       !- Name
+  NaturalGas,                             !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9823,                                 !- Year Escalation 1
+  0.9557,                                 !- Year Escalation 2
+  0.9279,                                 !- Year Escalation 3
+  0.9257,                                 !- Year Escalation 4
+  0.9346,                                 !- Year Escalation 5
+  0.9412,                                 !- Year Escalation 6
+  0.9512,                                 !- Year Escalation 7
+  0.9645,                                 !- Year Escalation 8
+  0.9856,                                 !- Year Escalation 9
+  1.0067,                                 !- Year Escalation 10
+  1.0222,                                 !- Year Escalation 11
+  1.0410,                                 !- Year Escalation 12
+  1.0610,                                 !- Year Escalation 13
+  1.0787,                                 !- Year Escalation 14
+  1.0942,                                 !- Year Escalation 15
+  1.1098,                                 !- Year Escalation 16
+  1.1220,                                 !- Year Escalation 17
+  1.1308,                                 !- Year Escalation 18
+  1.1386,                                 !- Year Escalation 19
+  1.1486,                                 !- Year Escalation 20
+  1.1619,                                 !- Year Escalation 21
+  1.1763,                                 !- Year Escalation 22
+  1.1918,                                 !- Year Escalation 23
+  1.2118,                                 !- Year Escalation 24
+  1.2284,                                 !- Year Escalation 25
+  1.2439,                                 !- Year Escalation 26
+  1.2605,                                 !- Year Escalation 27
+  1.2772,                                 !- Year Escalation 28
+  1.2938,                                 !- Year Escalation 29
+  1.3115;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Coal,              !- Name
+  Coal,                                   !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9970,                                 !- Year Escalation 1
+  1.0089,                                 !- Year Escalation 2
+  1.0089,                                 !- Year Escalation 3
+  0.9941,                                 !- Year Escalation 4
+  0.9941,                                 !- Year Escalation 5
+  1.0000,                                 !- Year Escalation 6
+  1.0030,                                 !- Year Escalation 7
+  1.0059,                                 !- Year Escalation 8
+  1.0089,                                 !- Year Escalation 9
+  1.0119,                                 !- Year Escalation 10
+  1.0148,                                 !- Year Escalation 11
+  1.0178,                                 !- Year Escalation 12
+  1.0208,                                 !- Year Escalation 13
+  1.0267,                                 !- Year Escalation 14
+  1.0297,                                 !- Year Escalation 15
+  1.0356,                                 !- Year Escalation 16
+  1.0415,                                 !- Year Escalation 17
+  1.0534,                                 !- Year Escalation 18
+  1.0564,                                 !- Year Escalation 19
+  1.0593,                                 !- Year Escalation 20
+  1.0653,                                 !- Year Escalation 21
+  1.0712,                                 !- Year Escalation 22
+  1.0742,                                 !- Year Escalation 23
+  1.0801,                                 !- Year Escalation 24
+  1.0831,                                 !- Year Escalation 25
+  1.0831,                                 !- Year Escalation 26
+  1.0861,                                 !- Year Escalation 27
+  1.0890,                                 !- Year Escalation 28
+  1.0920,                                 !- Year Escalation 29
+  1.0950;                                 !- Year Escalation 30
+
+Building,
+  Building,                               !- Name
+  30,                                     !- North Axis {deg}
+  City,                                   !- Terrain
+  0.04,                                   !- Loads Convergence Tolerance Value
+  0.4,                                    !- Temperature Convergence Tolerance Value {deltaC}
+  FullExterior,                           !- Solar Distribution
+  25,                                     !- Maximum Number of Warmup Days
+  6;                                      !- Minimum Number of Warmup Days
+
+Zone,
+  PLENUM-1 Thermal Zone,                  !- Name
+  0,                                      !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  0.609600067,                            !- Ceiling Height {m}
+  283.2,                                  !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ;                                       !- Zone Outside Convection Algorithm
+
+BuildingSurface:Detailed,
+  C1-1P,                                  !- Name
+  FLOOR,                                  !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C1-1,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  30.5, 0, 2.4,                           !- X,Y,Z Vertex 2 {m}
+  0, 0, 2.4,                              !- X,Y,Z Vertex 3 {m}
+  3.7, 3.7, 2.4;                          !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  C2-1P,                                  !- Name
+  FLOOR,                                  !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C2-1,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  30.5, 0, 2.4,                           !- X,Y,Z Vertex 2 {m}
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 3 {m}
+  26.8, 11.6, 2.4;                        !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  C3-1P,                                  !- Name
+  FLOOR,                                  !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C3-1,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 2 {m}
+  3.7, 11.6, 2.4,                         !- X,Y,Z Vertex 3 {m}
+  0, 15.2, 2.4;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  C4-1P,                                  !- Name
+  FLOOR,                                  !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C4-1,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 15.2, 2.4,                           !- X,Y,Z Vertex 1 {m}
+  3.7, 11.6, 2.4,                         !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 2.4,                          !- X,Y,Z Vertex 3 {m}
+  0, 0, 2.4;                              !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  C5-1P,                                  !- Name
+  FLOOR,                                  !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C5-1,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 2.4,                          !- X,Y,Z Vertex 3 {m}
+  3.7, 11.6, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  TOP-1,                                  !- Name
+  Roof,                                   !- Surface Type
+  ROOF-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 0, 3,                             !- X,Y,Z Vertex 1 {m}
+  30.5, 15.2, 3,                          !- X,Y,Z Vertex 2 {m}
+  0, 15.2, 3,                             !- X,Y,Z Vertex 3 {m}
+  0, 0, 3;                                !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  WALL-1PB,                               !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 15.2, 3,                          !- X,Y,Z Vertex 1 {m}
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 2 {m}
+  0, 15.2, 2.4,                           !- X,Y,Z Vertex 3 {m}
+  0, 15.2, 3;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  WALL-1PF,                               !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3,                                !- X,Y,Z Vertex 1 {m}
+  0, 0, 2.4,                              !- X,Y,Z Vertex 2 {m}
+  30.5, 0, 2.4,                           !- X,Y,Z Vertex 3 {m}
+  30.5, 0, 3;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  WALL-1PL,                               !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 15.2, 3,                             !- X,Y,Z Vertex 1 {m}
+  0, 15.2, 2.4,                           !- X,Y,Z Vertex 2 {m}
+  0, 0, 2.4,                              !- X,Y,Z Vertex 3 {m}
+  0, 0, 3;                                !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  WALL-1PR,                               !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  PLENUM-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 0, 3,                             !- X,Y,Z Vertex 1 {m}
+  30.5, 0, 2.4,                           !- X,Y,Z Vertex 2 {m}
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 3 {m}
+  30.5, 15.2, 3;                          !- X,Y,Z Vertex 4 {m}
+
+Zone,
+  SPACE1-1 Thermal Zone,                  !- Name
+  0,                                      !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  2.438400269,                            !- Ceiling Height {m}
+  239.247360229,                          !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ;                                       !- Zone Outside Convection Algorithm
+
+BuildingSurface:Detailed,
+  C1-1,                                   !- Name
+  Ceiling,                                !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  SPACE1-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C1-1P,                                  !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 0, 2.4,                           !- X,Y,Z Vertex 1 {m}
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 2.4,                          !- X,Y,Z Vertex 3 {m}
+  0, 0, 2.4;                              !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  F1-1,                                   !- Name
+  FLOOR,                                  !- Surface Type
+  FLOOR-SLAB-1,                           !- Construction Name
+  SPACE1-1 Thermal Zone,                  !- Zone Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 1 {m}
+  30.5, 0, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  3.7, 3.7, 0;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  FRONT-1,                                !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  SPACE1-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 2.4,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  30.5, 0, 0,                             !- X,Y,Z Vertex 3 {m}
+  30.5, 0, 2.4;                           !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  DF-1,                                   !- Name
+  GLASSDOOR,                              !- Surface Type
+  Sgl Grey 3mm,                           !- Construction Name
+  FRONT-1,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  21.3, 0, 2.1,                           !- X,Y,Z Vertex 1 {m}
+  21.3, 0, 0,                             !- X,Y,Z Vertex 2 {m}
+  23.8, 0, 0,                             !- X,Y,Z Vertex 3 {m}
+  23.8, 0, 2.1;                           !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  WF-1,                                   !- Name
+  Window,                                 !- Surface Type
+  Dbl Clr 3mm/13mm Air,                   !- Construction Name
+  FRONT-1,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  3, 0, 2.1,                              !- X,Y,Z Vertex 1 {m}
+  3, 0, 0.9,                              !- X,Y,Z Vertex 2 {m}
+  16.8, 0, 0.9,                           !- X,Y,Z Vertex 3 {m}
+  16.8, 0, 2.1;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB12,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE1-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB21,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 3.20593071881819e-030, 2.4,       !- X,Y,Z Vertex 1 {m}
+  30.5, 3.20593071881819e-030, 0,         !- X,Y,Z Vertex 2 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 3 {m}
+  26.8, 3.7, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB14,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE1-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB41,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  3.7, 3.7, 2.4,                          !- X,Y,Z Vertex 1 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 2.4;                              !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB15,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE1-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB51,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 3 {m}
+  3.7, 3.7, 2.4;                          !- X,Y,Z Vertex 4 {m}
+
+Shading:Zone:Detailed,
+  Main South Overhang,                    !- Name
+  FRONT-1,                                !- Base Surface Name
+  ShadeTransSch,                          !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  19.8, 0, 2.2,                           !- X,Y,Z Vertex 1 {m}
+  19.8, -1.3, 2.2,                        !- X,Y,Z Vertex 2 {m}
+  0, -1.3, 2.2,                           !- X,Y,Z Vertex 3 {m}
+  0, 0, 2.2;                              !- X,Y,Z Vertex 4 {m}
+
+Shading:Zone:Detailed,
+  South Door Overhang,                    !- Name
+  FRONT-1,                                !- Base Surface Name
+  ShadeTransSch,                          !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  24.1, 0, 2.6,                           !- X,Y,Z Vertex 1 {m}
+  24.1, -2, 2.6,                          !- X,Y,Z Vertex 2 {m}
+  21, -2, 2.6,                            !- X,Y,Z Vertex 3 {m}
+  21, 0, 2.6;                             !- X,Y,Z Vertex 4 {m}
+
+People,
+  SPACE1-1 People 1,                      !- Name
+  SPACE1-1 Thermal Zone,                  !- Zone or ZoneList Name
+  OCCUPY-1,                               !- Number of People Schedule Name
+  People,                                 !- Number of People Calculation Method
+  11,                                     !- Number of People
+  ,                                       !- People per Zone Floor Area {person/m2}
+  ,                                       !- Zone Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  ,                                       !- Sensible Heat Fraction
+  ActSchd,                                !- Activity Level Schedule Name
+  3.82e-008,                              !- Carbon Dioxide Generation Rate {m3/s-W}
+  No,                                     !- Enable ASHRAE 55 Comfort Warnings
+  ZoneAveraged,                           !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  WorkEffSch,                             !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
+  ,                                       !- Clothing Insulation Schedule Name
+  AirVelocitySch,                         !- Air Velocity Schedule Name
+  Fanger;                                 !- Thermal Comfort Model Type 1
+
+Lights,
+  SPACE1-1 Lights 1,                      !- Name
+  SPACE1-1 Thermal Zone,                  !- Zone or ZoneList Name
+  LIGHTS-1,                               !- Schedule Name
+  LightingLevel,                          !- Design Level Calculation Method
+  1584,                                   !- Lighting Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0.2,                                    !- Return Air Fraction
+  0.59,                                   !- Fraction Radiant
+  0.2,                                    !- Fraction Visible
+  0,                                      !- Fraction Replaceable
+  GeneralLights;                          !- End-Use Subcategory
+
+Schedule:Compact,
+  LIGHTS-1,                               !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 8:00,                            !- Field 3
+  0.05,                                   !- Field 4
+  Until: 18:00,                           !- Field 5
+  1.00,                                   !- Field 6
+  Until: 24:00,                           !- Field 7
+  0.05;                                   !- Field 8
+
+ScheduleTypeLimits,
+  Fraction,                               !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  CONTINUOUS;                             !- Numeric Type
+
+ElectricEquipment,
+  SPACE1-1 ElecEq 1,                      !- Name
+  SPACE1-1 Thermal Zone,                  !- Zone or ZoneList Name
+  EQUIP-1,                                !- Schedule Name
+  EquipmentLevel,                         !- Design Level Calculation Method
+  1056,                                   !- Design Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0,                                      !- Fraction Latent
+  0.3,                                    !- Fraction Radiant
+  0;                                      !- Fraction Lost
+
+ZoneInfiltration:DesignFlowRate,
+  SPACE1-1 Infil 1,                       !- Name
+  SPACE1-1 Thermal Zone,                  !- Zone or ZoneList Name
+  INFIL-SCH,                              !- Schedule Name
+  Flow/Zone,                              !- Design Flow Rate Calculation Method
+  0.0167,                                 !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  ,                                       !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.2237,                                 !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
+
+Zone,
+  SPACE2-1 Thermal Zone,                  !- Name
+  0,                                      !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  2.438400269,                            !- Ceiling Height {m}
+  103.311355591,                          !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ;                                       !- Zone Outside Convection Algorithm
+
+BuildingSurface:Detailed,
+  C2-1,                                   !- Name
+  Ceiling,                                !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  SPACE2-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C2-1P,                                  !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 0, 2.4,                           !- X,Y,Z Vertex 1 {m}
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 2 {m}
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 3 {m}
+  26.8, 3.7, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  F2-1,                                   !- Name
+  FLOOR,                                  !- Surface Type
+  FLOOR-SLAB-1,                           !- Construction Name
+  SPACE2-1 Thermal Zone,                  !- Zone Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 15.2, 0,                          !- X,Y,Z Vertex 1 {m}
+  30.5, 0, 0,                             !- X,Y,Z Vertex 2 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 3 {m}
+  26.8, 11.6, 0;                          !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  RIGHT-1,                                !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  SPACE2-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 0, 2.4,                           !- X,Y,Z Vertex 1 {m}
+  30.5, 0, 0,                             !- X,Y,Z Vertex 2 {m}
+  30.5, 15.2, 0,                          !- X,Y,Z Vertex 3 {m}
+  30.5, 15.2, 2.4;                        !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  WR-1,                                   !- Name
+  Window,                                 !- Surface Type
+  Dbl Clr 3mm/13mm Air,                   !- Construction Name
+  RIGHT-1,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  30.5, 3.8, 2.1,                         !- X,Y,Z Vertex 1 {m}
+  30.5, 3.8, 0.9,                         !- X,Y,Z Vertex 2 {m}
+  30.5, 11.4, 0.9,                        !- X,Y,Z Vertex 3 {m}
+  30.5, 11.4, 2.1;                        !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB21,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE2-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB12,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 2 {m}
+  30.5, 2.04187384066908e-015, 0,         !- X,Y,Z Vertex 3 {m}
+  30.5, 2.04187384066908e-015, 2.4;       !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB23,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE2-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB32,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  30.5, 15.2, 0,                          !- X,Y,Z Vertex 2 {m}
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 3 {m}
+  26.8, 11.6, 2.4;                        !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB25,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE2-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB52,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 2 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 3 {m}
+  26.8, 3.7, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+People,
+  SPACE2-1 People 1,                      !- Name
+  SPACE2-1 Thermal Zone,                  !- Zone or ZoneList Name
+  OCCUPY-1,                               !- Number of People Schedule Name
+  People,                                 !- Number of People Calculation Method
+  5,                                      !- Number of People
+  ,                                       !- People per Zone Floor Area {person/m2}
+  ,                                       !- Zone Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  ,                                       !- Sensible Heat Fraction
+  ActSchd,                                !- Activity Level Schedule Name
+  3.82e-008,                              !- Carbon Dioxide Generation Rate {m3/s-W}
+  No,                                     !- Enable ASHRAE 55 Comfort Warnings
+  ZoneAveraged,                           !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  WorkEffSch,                             !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
+  ,                                       !- Clothing Insulation Schedule Name
+  AirVelocitySch,                         !- Air Velocity Schedule Name
+  Fanger;                                 !- Thermal Comfort Model Type 1
+
+Lights,
+  SPACE2-1 Lights 1,                      !- Name
+  SPACE2-1 Thermal Zone,                  !- Zone or ZoneList Name
+  LIGHTS-1,                               !- Schedule Name
+  LightingLevel,                          !- Design Level Calculation Method
+  684,                                    !- Lighting Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0.2,                                    !- Return Air Fraction
+  0.59,                                   !- Fraction Radiant
+  0.2,                                    !- Fraction Visible
+  0,                                      !- Fraction Replaceable
+  GeneralLights;                          !- End-Use Subcategory
+
+ElectricEquipment,
+  SPACE2-1 ElecEq 1,                      !- Name
+  SPACE2-1 Thermal Zone,                  !- Zone or ZoneList Name
+  EQUIP-1,                                !- Schedule Name
+  EquipmentLevel,                         !- Design Level Calculation Method
+  456,                                    !- Design Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0,                                      !- Fraction Latent
+  0.3,                                    !- Fraction Radiant
+  0;                                      !- Fraction Lost
+
+ZoneInfiltration:DesignFlowRate,
+  SPACE2-1 Infil 1,                       !- Name
+  SPACE2-1 Thermal Zone,                  !- Zone or ZoneList Name
+  INFIL-SCH,                              !- Schedule Name
+  Flow/Zone,                              !- Design Flow Rate Calculation Method
+  0.00717,                                !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  ,                                       !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.2237,                                 !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
+
+Zone,
+  SPACE3-1 Thermal Zone,                  !- Name
+  0,                                      !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  2.438400269,                            !- Ceiling Height {m}
+  239.247360229,                          !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ;                                       !- Zone Outside Convection Algorithm
+
+BuildingSurface:Detailed,
+  BACK-1,                                 !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  SPACE3-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  30.5, 15.2, 0,                          !- X,Y,Z Vertex 2 {m}
+  0, 15.2, 0,                             !- X,Y,Z Vertex 3 {m}
+  0, 15.2, 2.4;                           !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  DB-1,                                   !- Name
+  GLASSDOOR,                              !- Surface Type
+  Sgl Grey 3mm,                           !- Construction Name
+  BACK-1,                                 !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  9.1, 15.2, 2.1,                         !- X,Y,Z Vertex 1 {m}
+  9.1, 15.2, 0,                           !- X,Y,Z Vertex 2 {m}
+  7, 15.2, 0,                             !- X,Y,Z Vertex 3 {m}
+  7, 15.2, 2.1;                           !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  WB-1,                                   !- Name
+  Window,                                 !- Surface Type
+  Dbl Clr 3mm/13mm Air,                   !- Construction Name
+  BACK-1,                                 !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  27.4, 15.2, 2.1,                        !- X,Y,Z Vertex 1 {m}
+  27.4, 15.2, 0.9,                        !- X,Y,Z Vertex 2 {m}
+  13.7, 15.2, 0.9,                        !- X,Y,Z Vertex 3 {m}
+  13.7, 15.2, 2.1;                        !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  C3-1,                                   !- Name
+  Ceiling,                                !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  SPACE3-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C3-1P,                                  !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  30.5, 15.2, 2.4,                        !- X,Y,Z Vertex 2 {m}
+  0, 15.2, 2.4,                           !- X,Y,Z Vertex 3 {m}
+  3.7, 11.6, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  F3-1,                                   !- Name
+  FLOOR,                                  !- Surface Type
+  FLOOR-SLAB-1,                           !- Construction Name
+  SPACE3-1 Thermal Zone,                  !- Zone Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  30.5, 15.2, 0,                          !- X,Y,Z Vertex 1 {m}
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 2 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 3 {m}
+  0, 15.2, 0;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB32,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE3-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB23,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 2 {m}
+  30.5, 15.2, 0,                          !- X,Y,Z Vertex 3 {m}
+  30.5, 15.2, 2.4;                        !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB34,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE3-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB43,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 15.2, 2.4,                           !- X,Y,Z Vertex 1 {m}
+  0, 15.2, 0,                             !- X,Y,Z Vertex 2 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 3 {m}
+  3.7, 11.6, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB35,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE3-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB53,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  3.7, 11.6, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 2 {m}
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 3 {m}
+  26.8, 11.6, 2.4;                        !- X,Y,Z Vertex 4 {m}
+
+People,
+  SPACE3-1 People 1,                      !- Name
+  SPACE3-1 Thermal Zone,                  !- Zone or ZoneList Name
+  OCCUPY-1,                               !- Number of People Schedule Name
+  People,                                 !- Number of People Calculation Method
+  11,                                     !- Number of People
+  ,                                       !- People per Zone Floor Area {person/m2}
+  ,                                       !- Zone Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  ,                                       !- Sensible Heat Fraction
+  ActSchd,                                !- Activity Level Schedule Name
+  3.82e-008,                              !- Carbon Dioxide Generation Rate {m3/s-W}
+  No,                                     !- Enable ASHRAE 55 Comfort Warnings
+  ZoneAveraged,                           !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  WorkEffSch,                             !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
+  ,                                       !- Clothing Insulation Schedule Name
+  AirVelocitySch,                         !- Air Velocity Schedule Name
+  Fanger;                                 !- Thermal Comfort Model Type 1
+
+Lights,
+  SPACE3-1 Lights 1,                      !- Name
+  SPACE3-1 Thermal Zone,                  !- Zone or ZoneList Name
+  LIGHTS-1,                               !- Schedule Name
+  LightingLevel,                          !- Design Level Calculation Method
+  1584,                                   !- Lighting Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0.2,                                    !- Return Air Fraction
+  0.59,                                   !- Fraction Radiant
+  0.2,                                    !- Fraction Visible
+  0,                                      !- Fraction Replaceable
+  GeneralLights;                          !- End-Use Subcategory
+
+ElectricEquipment,
+  SPACE3-1 ElecEq 1,                      !- Name
+  SPACE3-1 Thermal Zone,                  !- Zone or ZoneList Name
+  EQUIP-1,                                !- Schedule Name
+  EquipmentLevel,                         !- Design Level Calculation Method
+  1056,                                   !- Design Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0,                                      !- Fraction Latent
+  0.3,                                    !- Fraction Radiant
+  0;                                      !- Fraction Lost
+
+ZoneInfiltration:DesignFlowRate,
+  SPACE3-1 Infil 1,                       !- Name
+  SPACE3-1 Thermal Zone,                  !- Zone or ZoneList Name
+  INFIL-SCH,                              !- Schedule Name
+  Flow/Zone,                              !- Design Flow Rate Calculation Method
+  0.0167,                                 !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  ,                                       !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.2237,                                 !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
+
+Zone,
+  SPACE4-1 Thermal Zone,                  !- Name
+  0,                                      !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  2.438400269,                            !- Ceiling Height {m}
+  103.311355591,                          !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ;                                       !- Zone Outside Convection Algorithm
+
+BuildingSurface:Detailed,
+  C4-1,                                   !- Name
+  Ceiling,                                !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  SPACE4-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C4-1P,                                  !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 2.4,                              !- X,Y,Z Vertex 1 {m}
+  3.7, 3.7, 2.4,                          !- X,Y,Z Vertex 2 {m}
+  3.7, 11.6, 2.4,                         !- X,Y,Z Vertex 3 {m}
+  0, 15.2, 2.4;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  F4-1,                                   !- Name
+  FLOOR,                                  !- Surface Type
+  FLOOR-SLAB-1,                           !- Construction Name
+  SPACE4-1 Thermal Zone,                  !- Zone Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 15.2, 0,                             !- X,Y,Z Vertex 1 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 3 {m}
+  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  LEFT-1,                                 !- Name
+  WALL,                                   !- Surface Type
+  WALL-1,                                 !- Construction Name
+  SPACE4-1 Thermal Zone,                  !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 15.2, 2.4,                           !- X,Y,Z Vertex 1 {m}
+  0, 15.2, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 2.4;                              !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  WL-1,                                   !- Name
+  Window,                                 !- Surface Type
+  Dbl Clr 3mm/13mm Air,                   !- Construction Name
+  LEFT-1,                                 !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  0.5,                                    !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  0, 11.4, 2.1,                           !- X,Y,Z Vertex 1 {m}
+  0, 11.4, 0.9,                           !- X,Y,Z Vertex 2 {m}
+  0, 3.8, 0.9,                            !- X,Y,Z Vertex 3 {m}
+  0, 3.8, 2.1;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB41,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE4-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB14,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 2.4,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 3 {m}
+  3.7, 3.7, 2.4;                          !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB43,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE4-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB34,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  3.7, 11.6, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 2 {m}
+  0, 15.2, 0,                             !- X,Y,Z Vertex 3 {m}
+  0, 15.2, 2.4;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB45,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE4-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB54,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  3.7, 3.7, 2.4,                          !- X,Y,Z Vertex 1 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 2 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 3 {m}
+  3.7, 11.6, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+People,
+  SPACE4-1 People 1,                      !- Name
+  SPACE4-1 Thermal Zone,                  !- Zone or ZoneList Name
+  OCCUPY-1,                               !- Number of People Schedule Name
+  People,                                 !- Number of People Calculation Method
+  5,                                      !- Number of People
+  ,                                       !- People per Zone Floor Area {person/m2}
+  ,                                       !- Zone Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  ,                                       !- Sensible Heat Fraction
+  ActSchd,                                !- Activity Level Schedule Name
+  3.82e-008,                              !- Carbon Dioxide Generation Rate {m3/s-W}
+  No,                                     !- Enable ASHRAE 55 Comfort Warnings
+  ZoneAveraged,                           !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  WorkEffSch,                             !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
+  ,                                       !- Clothing Insulation Schedule Name
+  AirVelocitySch,                         !- Air Velocity Schedule Name
+  Fanger;                                 !- Thermal Comfort Model Type 1
+
+Lights,
+  SPACE4-1 Lights 1,                      !- Name
+  SPACE4-1 Thermal Zone,                  !- Zone or ZoneList Name
+  LIGHTS-1,                               !- Schedule Name
+  LightingLevel,                          !- Design Level Calculation Method
+  684,                                    !- Lighting Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0.2,                                    !- Return Air Fraction
+  0.59,                                   !- Fraction Radiant
+  0.2,                                    !- Fraction Visible
+  0,                                      !- Fraction Replaceable
+  GeneralLights;                          !- End-Use Subcategory
+
+ElectricEquipment,
+  SPACE4-1 ElecEq 1,                      !- Name
+  SPACE4-1 Thermal Zone,                  !- Zone or ZoneList Name
+  EQUIP-1,                                !- Schedule Name
+  EquipmentLevel,                         !- Design Level Calculation Method
+  456,                                    !- Design Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0,                                      !- Fraction Latent
+  0.3,                                    !- Fraction Radiant
+  0;                                      !- Fraction Lost
+
+ZoneInfiltration:DesignFlowRate,
+  SPACE4-1 Infil 1,                       !- Name
+  SPACE4-1 Thermal Zone,                  !- Zone or ZoneList Name
+  INFIL-SCH,                              !- Schedule Name
+  Flow/Zone,                              !- Design Flow Rate Calculation Method
+  0.00717,                                !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  ,                                       !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.2237,                                 !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
+
+Zone,
+  SPACE5-1 Thermal Zone,                  !- Name
+  0,                                      !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  2.438400269,                            !- Ceiling Height {m}
+  447.682556152,                          !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ;                                       !- Zone Outside Convection Algorithm
+
+BuildingSurface:Detailed,
+  C5-1,                                   !- Name
+  Ceiling,                                !- Surface Type
+  CLNG-1,                                 !- Construction Name
+  SPACE5-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  C5-1P,                                  !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 2 {m}
+  3.7, 11.6, 2.4,                         !- X,Y,Z Vertex 3 {m}
+  3.7, 3.7, 2.4;                          !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  F5-1,                                   !- Name
+  FLOOR,                                  !- Surface Type
+  FLOOR-SLAB-1,                           !- Construction Name
+  SPACE5-1 Thermal Zone,                  !- Zone Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 1 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 3 {m}
+  3.7, 11.6, 0;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB51,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE5-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB15,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  3.7, 3.7, 2.4,                          !- X,Y,Z Vertex 1 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 2 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 3 {m}
+  26.8, 3.7, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB52,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE5-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB25,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 3.7, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  26.8, 3.7, 0,                           !- X,Y,Z Vertex 2 {m}
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 3 {m}
+  26.8, 11.6, 2.4;                        !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB53,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE5-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB35,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  26.8, 11.6, 2.4,                        !- X,Y,Z Vertex 1 {m}
+  26.8, 11.6, 0,                          !- X,Y,Z Vertex 2 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 3 {m}
+  3.7, 11.6, 2.4;                         !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  SB54,                                   !- Name
+  WALL,                                   !- Surface Type
+  ,                                       !- Construction Name
+  SPACE5-1 Thermal Zone,                  !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  SB45,                                   !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  0,                                      !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  3.7, 11.6, 2.4,                         !- X,Y,Z Vertex 1 {m}
+  3.7, 11.6, 0,                           !- X,Y,Z Vertex 2 {m}
+  3.7, 3.7, 0,                            !- X,Y,Z Vertex 3 {m}
+  3.7, 3.7, 2.4;                          !- X,Y,Z Vertex 4 {m}
+
+People,
+  SPACE5-1 People 1,                      !- Name
+  SPACE5-1 Thermal Zone,                  !- Zone or ZoneList Name
+  OCCUPY-1,                               !- Number of People Schedule Name
+  People,                                 !- Number of People Calculation Method
+  20,                                     !- Number of People
+  ,                                       !- People per Zone Floor Area {person/m2}
+  ,                                       !- Zone Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  ,                                       !- Sensible Heat Fraction
+  ActSchd,                                !- Activity Level Schedule Name
+  3.82e-008,                              !- Carbon Dioxide Generation Rate {m3/s-W}
+  No,                                     !- Enable ASHRAE 55 Comfort Warnings
+  ZoneAveraged,                           !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  WorkEffSch,                             !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
+  ,                                       !- Clothing Insulation Schedule Name
+  AirVelocitySch,                         !- Air Velocity Schedule Name
+  Fanger;                                 !- Thermal Comfort Model Type 1
+
+Lights,
+  SPACE5-1 Lights 1,                      !- Name
+  SPACE5-1 Thermal Zone,                  !- Zone or ZoneList Name
+  LIGHTS-1,                               !- Schedule Name
+  LightingLevel,                          !- Design Level Calculation Method
+  2964,                                   !- Lighting Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0.2,                                    !- Return Air Fraction
+  0.59,                                   !- Fraction Radiant
+  0.2,                                    !- Fraction Visible
+  0,                                      !- Fraction Replaceable
+  GeneralLights;                          !- End-Use Subcategory
+
+ElectricEquipment,
+  SPACE5-1 ElecEq 1,                      !- Name
+  SPACE5-1 Thermal Zone,                  !- Zone or ZoneList Name
+  EQUIP-1,                                !- Schedule Name
+  EquipmentLevel,                         !- Design Level Calculation Method
+  1976,                                   !- Design Level {W}
+  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  0,                                      !- Fraction Latent
+  0.3,                                    !- Fraction Radiant
+  0;                                      !- Fraction Lost
+
+ZoneInfiltration:DesignFlowRate,
+  SPACE5-1 Infil 1,                       !- Name
+  SPACE5-1 Thermal Zone,                  !- Zone or ZoneList Name
+  INFIL-SCH,                              !- Schedule Name
+  Flow/Zone,                              !- Design Flow Rate Calculation Method
+  0.031089,                               !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  ,                                       !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.2237,                                 !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
+
+SimulationControl,
+  Yes,                                    !- Do Zone Sizing Calculation
+  Yes,                                    !- Do System Sizing Calculation
+  No,                                     !- Do Plant Sizing Calculation
+  No,                                     !- Run Simulation for Sizing Periods
+  Yes;                                    !- Run Simulation for Weather File Run Periods
+
+HeatBalanceAlgorithm,
+  ConductionTransferFunction,             !- Algorithm
+  200;                                    !- Surface Temperature Upper Limit {C}
+
+RunPeriod,
+  Run Period 1,                           !- Name
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  4,                                      !- End Month
+  1,                                      !- End Day of Month
+  Monday,                                 !- Day of Week for Start Day
+  No,                                     !- Use Weather File Holidays and Special Days
+  No,                                     !- Use Weather File Daylight Saving Period
+  No,                                     !- Apply Weekend Holiday Rule
+  Yes,                                    !- Use Weather File Rain Indicators
+  Yes,                                    !- Use Weather File Snow Indicators
+  1;                                      !- Number of Times Runperiod to be Repeated
+
+Timestep,
+  4;                                      !- Number of Timesteps per Hour
+
+Sizing:Parameters,
+  1.3,                                    !- Heating Sizing Factor
+  1.3;                                    !- Cooling Sizing Factor
+
+GlobalGeometryRules,
+  UpperLeftCorner,                        !- Starting Vertex Position
+  Counterclockwise,                       !- Vertex Entry Direction
+  Relative,                               !- Coordinate System
+  Relative,                               !- Daylighting Reference Point Coordinate System
+  Relative;                               !- Rectangular Surface Coordinate System
+
+Material,
+  BR01,                                   !- Name
+  VeryRough,                              !- Roughness
+  0.0094999997,                           !- Thickness {m}
+  0.162,                                  !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1464,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  CC03,                                   !- Name
+  MediumRough,                            !- Roughness
+  0.1016,                                 !- Thickness {m}
+  1.31,                                   !- Conductivity {W/m-K}
+  2243,                                   !- Density {kg/m3}
+  837,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.65,                                   !- Solar Absorptance
+  0.65;                                   !- Visible Absorptance
+
+Material,
+  GP01,                                   !- Name
+  MediumSmooth,                           !- Roughness
+  0.0127,                                 !- Thickness {m}
+  0.16,                                   !- Conductivity {W/m-K}
+  801,                                    !- Density {kg/m3}
+  837,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.75,                                   !- Solar Absorptance
+  0.75;                                   !- Visible Absorptance
+
+Material,
+  GP02,                                   !- Name
+  MediumSmooth,                           !- Roughness
+  0.015900001,                            !- Thickness {m}
+  0.16,                                   !- Conductivity {W/m-K}
+  801,                                    !- Density {kg/m3}
+  837,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.75,                                   !- Solar Absorptance
+  0.75;                                   !- Visible Absorptance
+
+Material,
+  IN02,                                   !- Name
+  Rough,                                  !- Roughness
+  0.090099998,                            !- Thickness {m}
+  0.043000001,                            !- Conductivity {W/m-K}
+  10,                                     !- Density {kg/m3}
+  837,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.75,                                   !- Solar Absorptance
+  0.75;                                   !- Visible Absorptance
+
+Material,
+  IN46,                                   !- Name
+  VeryRough,                              !- Roughness
+  0.076200001,                            !- Thickness {m}
+  0.023,                                  !- Conductivity {W/m-K}
+  24,                                     !- Density {kg/m3}
+  1590,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+
+Material,
+  PW03,                                   !- Name
+  MediumSmooth,                           !- Roughness
+  0.0127,                                 !- Thickness {m}
+  0.115,                                  !- Conductivity {W/m-K}
+  545,                                    !- Density {kg/m3}
+  1213,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.78,                                   !- Solar Absorptance
+  0.78;                                   !- Visible Absorptance
+
+Material,
+  RG01,                                   !- Name
+  Rough,                                  !- Roughness
+  0.0127,                                 !- Thickness {m}
+  1.442,                                  !- Conductivity {W/m-K}
+  881,                                    !- Density {kg/m3}
+  1674,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.65,                                   !- Solar Absorptance
+  0.65;                                   !- Visible Absorptance
+
+Material,
+  WD01,                                   !- Name
+  MediumSmooth,                           !- Roughness
+  0.019099999,                            !- Thickness {m}
+  0.115,                                  !- Conductivity {W/m-K}
+  513,                                    !- Density {kg/m3}
+  1381,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.78,                                   !- Solar Absorptance
+  0.78;                                   !- Visible Absorptance
+
+Material,
+  WD10,                                   !- Name
+  MediumSmooth,                           !- Roughness
+  0.667,                                  !- Thickness {m}
+  0.115,                                  !- Conductivity {W/m-K}
+  513,                                    !- Density {kg/m3}
+  1381,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.78,                                   !- Solar Absorptance
+  0.78;                                   !- Visible Absorptance
+
+Material:AirGap,
+  AL21,                                   !- Name
+  0.157;                                  !- Thermal Resistance {m2-K/W}
+
+Material:AirGap,
+  AL23,                                   !- Name
+  0.153;                                  !- Thermal Resistance {m2-K/W}
+
+Material:NoMass,
+  CP01,                                   !- Name
+  Rough,                                  !- Roughness
+  0.367,                                  !- Thermal Resistance {m2-K/W}
+  0.9,                                    !- Thermal Absorptance
+  0.75,                                   !- Solar Absorptance
+  0.75;                                   !- Visible Absorptance
+
+Material:NoMass,
+  MAT-CLNG-1,                             !- Name
+  Rough,                                  !- Roughness
+  0.65225929,                             !- Thermal Resistance {m2-K/W}
+  0.65,                                   !- Thermal Absorptance
+  0.65,                                   !- Solar Absorptance
+  0.65;                                   !- Visible Absorptance
+
+Material:NoMass,
+  MAT-FLOOR-1,                            !- Name
+  Rough,                                  !- Roughness
+  3.522199631,                            !- Thermal Resistance {m2-K/W}
+  0.65,                                   !- Thermal Absorptance
+  0.65,                                   !- Solar Absorptance
+  0.65;                                   !- Visible Absorptance
+
+Material:NoMass,
+  MAT-SB-U,                               !- Name
+  Rough,                                  !- Roughness
+  0.117406666,                            !- Thermal Resistance {m2-K/W}
+  0.65,                                   !- Thermal Absorptance
+  0.65,                                   !- Solar Absorptance
+  0.65;                                   !- Visible Absorptance
+
+WindowMaterial:Gas,
+  AIR 13MM,                               !- Name
+  Air,                                    !- Gas Type
+  0.0127;                                 !- Thickness {m}
+
+WindowMaterial:Gas,
+  AIR 6MM,                                !- Name
+  Air,                                    !- Gas Type
+  0.0063;                                 !- Thickness {m}
+
+WindowMaterial:Gas,
+  ARGON 13MM,                             !- Name
+  Argon,                                  !- Gas Type
+  0.0127;                                 !- Thickness {m}
+
+WindowMaterial:Glazing,
+  CLEAR 3MM,                              !- Name
+  Spectral,                               !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.003,                                  !- Thickness {m}
+  ,                                       !- Solar Transmittance at Normal Incidence
+  ,                                       !- Front Side Solar Reflectance at Normal Incidence
+  ,                                       !- Back Side Solar Reflectance at Normal Incidence
+  ,                                       !- Visible Transmittance at Normal Incidence
+  ,                                       !- Front Side Visible Reflectance at Normal Incidence
+  ,                                       !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.9;                                    !- Conductivity {W/m-K}
+
+WindowMaterial:Glazing,
+  CLEAR 6MM,                              !- Name
+  Spectral,                               !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.006,                                  !- Thickness {m}
+  ,                                       !- Solar Transmittance at Normal Incidence
+  ,                                       !- Front Side Solar Reflectance at Normal Incidence
+  ,                                       !- Back Side Solar Reflectance at Normal Incidence
+  ,                                       !- Visible Transmittance at Normal Incidence
+  ,                                       !- Front Side Visible Reflectance at Normal Incidence
+  ,                                       !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.9;                                    !- Conductivity {W/m-K}
+
+WindowMaterial:Glazing,
+  GREY 3MM,                               !- Name
+  Spectral,                               !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.003,                                  !- Thickness {m}
+  ,                                       !- Solar Transmittance at Normal Incidence
+  ,                                       !- Front Side Solar Reflectance at Normal Incidence
+  ,                                       !- Back Side Solar Reflectance at Normal Incidence
+  ,                                       !- Visible Transmittance at Normal Incidence
+  ,                                       !- Front Side Visible Reflectance at Normal Incidence
+  ,                                       !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.9;                                    !- Conductivity {W/m-K}
+
+WindowMaterial:Glazing,
+  LoE CLEAR 6MM,                          !- Name
+  Spectral,                               !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.006,                                  !- Thickness {m}
+  ,                                       !- Solar Transmittance at Normal Incidence
+  ,                                       !- Front Side Solar Reflectance at Normal Incidence
+  ,                                       !- Back Side Solar Reflectance at Normal Incidence
+  ,                                       !- Visible Transmittance at Normal Incidence
+  ,                                       !- Front Side Visible Reflectance at Normal Incidence
+  ,                                       !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.1,                                    !- Back Side Infrared Hemispherical Emissivity
+  0.9;                                    !- Conductivity {W/m-K}
+
+Construction,
+  CLNG-1,                                 !- Name
+  MAT-CLNG-1;                             !- Layer 1
+
+Construction,
+  Dbl Clr 3mm/13mm Air,                   !- Name
+  CLEAR 3MM,                              !- Layer 1
+  AIR 13MM,                               !- Layer 2
+  CLEAR 3MM;                              !- Layer 3
+
+Construction,
+  Dbl Clr 3mm/13mm Arg,                   !- Name
+  CLEAR 3MM,                              !- Layer 1
+  ARGON 13MM,                             !- Layer 2
+  CLEAR 3MM;                              !- Layer 3
+
+Construction,
+  Dbl Clr 6mm/6mm Air,                    !- Name
+  CLEAR 6MM,                              !- Layer 1
+  AIR 6MM,                                !- Layer 2
+  CLEAR 6MM;                              !- Layer 3
+
+Construction,
+  Dbl LoE (e2=.1) Clr 6mm/6mm Air,        !- Name
+  LoE CLEAR 6MM,                          !- Layer 1
+  AIR 6MM,                                !- Layer 2
+  CLEAR 6MM;                              !- Layer 3
+
+Construction,
+  FLOOR-1,                                !- Name
+  MAT-FLOOR-1;                            !- Layer 1
+
+Construction,
+  FLOOR-SLAB-1,                           !- Name
+  CC03,                                   !- Layer 1
+  CP01;                                   !- Layer 2
+
+Construction,
+  ROOF-1,                                 !- Name
+  RG01,                                   !- Layer 1
+  BR01,                                   !- Layer 2
+  IN46,                                   !- Layer 3
+  WD01;                                   !- Layer 4
+
+Construction,
+  SB-U,                                   !- Name
+  MAT-SB-U;                               !- Layer 1
+
+Construction,
+  Sgl Grey 3mm,                           !- Name
+  GREY 3MM;                               !- Layer 1
+
+Construction,
+  WALL-1,                                 !- Name
+  WD01,                                   !- Layer 1
+  PW03,                                   !- Layer 2
+  IN02,                                   !- Layer 3
+  GP01;                                   !- Layer 4
+
+ScheduleTypeLimits,
+  ActivityLevel,                          !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  ,                                       !- Upper Limit Value {BasedOnField A3}
+  Continuous,                             !- Numeric Type
+  activitylevel;                          !- Unit Type
+
+ScheduleTypeLimits,
+  Control Type,                           !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  4,                                      !- Upper Limit Value {BasedOnField A3}
+  DISCRETE,                               !- Numeric Type
+  controlmode;                            !- Unit Type
+
+ScheduleTypeLimits,
+  FlowRate,                               !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  10,                                     !- Upper Limit Value {BasedOnField A3}
+  CONTINUOUS;                             !- Numeric Type
+
+ScheduleTypeLimits,
+  On/Off,                                 !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  DISCRETE,                               !- Numeric Type
+  availability;                           !- Unit Type
+
+ScheduleTypeLimits,
+  Temperature,                            !- Name
+  -60,                                    !- Lower Limit Value {BasedOnField A3}
+  200,                                    !- Upper Limit Value {BasedOnField A3}
+  CONTINUOUS,                             !- Numeric Type
+  temperature;                            !- Unit Type
+
+ScheduleTypeLimits,
+  Velocity,                               !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  ,                                       !- Upper Limit Value {BasedOnField A3}
+  Continuous,                             !- Numeric Type
+  velocity;                               !- Unit Type
+
+ScheduleTypeLimits,
+  {0f58a852-18ae-4e45-8e6c-4d6e2f1ac431}; !- Name
+
+ScheduleTypeLimits,
+  {1ad15915-adae-465b-a858-5fc532a144e8}; !- Name
+
+ScheduleTypeLimits,
+  {2eb9c743-ed87-4dd0-bab6-3f9125c10248}; !- Name
+
+ScheduleTypeLimits,
+  {39d7752e-9dbc-4dc0-891b-6c055dd6c28d}; !- Name
+
+ScheduleTypeLimits,
+  {504d0c68-7eed-4468-be16-643de34d5ade}; !- Name
+
+ScheduleTypeLimits,
+  {5b9335be-d7b6-40f5-9268-7222de549702}; !- Name
+
+ScheduleTypeLimits,
+  {6a3ebc9a-5dac-4866-a94d-3203f66c04ec}; !- Name
+
+ScheduleTypeLimits,
+  {7126bbe4-e852-49c0-bc7a-adbcbd14c87e}; !- Name
+
+ScheduleTypeLimits,
+  {7a7399ba-e8db-4648-93d1-ae7b0a534a1a}; !- Name
+
+ScheduleTypeLimits,
+  {7c1420ef-b1c6-40cb-945d-109a40653c28}; !- Name
+
+ScheduleTypeLimits,
+  {a7ad3d9b-2c96-4c60-9d3a-17e977411b96}; !- Name
+
+ScheduleTypeLimits,
+  {a90272c7-888c-4979-af85-01dc2ad460eb}; !- Name
+
+ScheduleTypeLimits,
+  {b3d28cf9-2492-43f1-8125-bcba5659fa19}; !- Name
+
+ScheduleTypeLimits,
+  {c039faff-50b8-421a-8018-13277f885f64}; !- Name
+
+ScheduleTypeLimits,
+  {c6c99abf-a858-4a26-a7d8-3139d5c30142}; !- Name
+
+ScheduleTypeLimits,
+  {cfbb1500-996b-46b7-92ac-df13340c0e9f}; !- Name
+
+ScheduleTypeLimits,
+  {d374fa7f-97d7-4630-be3c-a0a8a7a4ea37}; !- Name
+
+ScheduleTypeLimits,
+  {ea96dfe3-05a5-48ea-9fd7-0ff770ac783a}; !- Name
+
+Schedule:Compact,
+  ActivitySch,                            !- Name
+  ,                                       !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  117;                                    !- Field 4
+
+Schedule:Compact,
+  ActSchd,                                !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  117.239997864;                          !- Field 4
+
+Schedule:Compact,
+  AirVelocitySch,                         !- Name
+  Velocity,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  .137;                                   !- Field 4
+
+Schedule:Compact,
+  BasinHeaterSched,                       !- Name
+  On/Off,                                 !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1.0;                                    !- Field 4
+
+Schedule:Compact,
+  Clg-SetP-Sch,                           !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: SummerDesignDay,                   !- Field 2
+  Until: 24:00,                           !- Field 3
+  23.9,                                   !- Field 4
+  For: WinterDesignDay,                   !- Field 5
+  Until: 24:00,                           !- Field 6
+  40.0,                                   !- Field 7
+  For: AllOtherDays,                      !- Field 8
+  Until: 7:00,                            !- Field 9
+  40.0,                                   !- Field 10
+  Until: 18:00,                           !- Field 11
+  23.9,                                   !- Field 12
+  Until: 24:00,                           !- Field 13
+  40.0;                                   !- Field 14
+
+Schedule:Compact,
+  ClothingSch,                            !- Name
+  ,                                       !- Schedule Type Limits Name
+  Through: 4/1,                           !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1,                                      !- Field 4
+  Through: 9/30,                          !- Field 5
+  For: AllDays,                           !- Field 6
+  Until: 24:00,                           !- Field 7
+  .5,                                     !- Field 8
+  Through: 12/31,                         !- Field 9
+  For: AllDays,                           !- Field 10
+  Until: 24:00,                           !- Field 11
+  1;                                      !- Field 12
+
+Schedule:Compact,
+  CoolingCoilAvailSched,                  !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  0.0;                                    !- Field 4
+
+Schedule:Compact,
+  EQUIP-1,                                !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For:AllDays,                            !- Field 2
+  Until: 8:00,                            !- Field 3
+  0.02,                                   !- Field 4
+  Until: 18:00,                           !- Field 5
+  0.5,                                    !- Field 6
+  Until: 24:00,                           !- Field 7
+  0.02;                                   !- Field 8
+
+Schedule:Compact,
+  FanAvailSched,                          !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1.0;                                    !- Field 4
+
+Schedule:Compact,
+  HeatingCoilAvailSched,                  !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1.0;                                    !- Field 4
+
+Schedule:Compact,
+  Htg-SetP-Sch,                           !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: SummerDesignDay,                   !- Field 2
+  Until: 24:00,                           !- Field 3
+  12.8,                                   !- Field 4
+  For: WinterDesignDay,                   !- Field 5
+  Until: 24:00,                           !- Field 6
+  21.1,                                   !- Field 7
+  For: AllOtherDays,                      !- Field 8
+  Until: 7:00,                            !- Field 9
+  12.8,                                   !- Field 10
+  Until: 18:00,                           !- Field 11
+  21.1,                                   !- Field 12
+  Until: 24:00,                           !- Field 13
+  12.8;                                   !- Field 14
+
+Schedule:Compact,
+  INFIL-SCH,                              !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 3/31,                          !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1.0,                                    !- Field 4
+  Through: 10/31,                         !- Field 5
+  For: AllDays,                           !- Field 6
+  Until: 24:00,                           !- Field 7
+  0.0,                                    !- Field 8
+  Through: 12/31,                         !- Field 9
+  For: AllDays,                           !- Field 10
+  Until: 24:00,                           !- Field 11
+  1.0;                                    !- Field 12
+
+Schedule:Compact,
+  Min OA Sched,                           !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1.0;                                    !- Field 4
+
+Schedule:Compact,
+  Min OARequirements Sched,               !- Name
+  ,                                       !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1.0;                                    !- Field 4
+
+Schedule:Compact,
+  OCCUPY-1,                               !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 8:00,                            !- Field 3
+  0.0,                                    !- Field 4
+  Until: 18:00,                           !- Field 5
+  1.00,                                   !- Field 6
+  Until: 24:00,                           !- Field 7
+  0.0;                                    !- Field 8
+
+Schedule:Compact,
+  PlenumClg-SetP-Sch,                     !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  40.0;                                   !- Field 4
+
+Schedule:Compact,
+  PlenumHtg-SetP-Sch,                     !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  12.8;                                   !- Field 4
+
+Schedule:Compact,
+  ReheatCoilAvailSched,                   !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  0.0;                                    !- Field 4
+
+Schedule:Compact,
+  Seasonal Reset Supply Air Temp Sch,     !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  Through: 3/31,                          !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  17.0,                                   !- Field 4
+  Through: 9/30,                          !- Field 5
+  For: AllDays,                           !- Field 6
+  Until: 24:00,                           !- Field 7
+  15.0,                                   !- Field 8
+  Through: 12/31,                         !- Field 9
+  For: AllDays,                           !- Field 10
+  Until: 24:00,                           !- Field 11
+  17.0;                                   !- Field 12
+
+Schedule:Compact,
+  ShadeTransSch,                          !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  0.0;                                    !- Field 4
+
+Schedule:Compact,
+  TerminalUnitAvailSched,                 !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  1.0;                                    !- Field 4
+
+Schedule:Compact,
+  WorkEffSch,                             !- Name
+  Fraction,                               !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  0.0;                                    !- Field 4
+
+Schedule:Compact,
+  Zone Control Type Sched,                !- Name
+  Control Type,                           !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: SummerDesignDay,                   !- Field 2
+  Until: 24:00,                           !- Field 3
+  2,                                      !- Field 4
+  For: WinterDesignDay,                   !- Field 5
+  Until: 24:00,                           !- Field 6
+  1,                                      !- Field 7
+  For: AllOtherDays,                      !- Field 8
+  Until: 24:00,                           !- Field 9
+  4;                                      !- Field 10
+
+Schedule:Constant,
+  Always On Discrete,                     !- Name
+  ,                                       !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
+Schedule:Constant,
+  Always Off Discrete,                    !- Name
+  ,                                       !- Schedule Type Limits Name
+  0;                                      !- Hourly Value
+
+Schedule:Constant,
+  Always On Continuous,                   !- Name
+  ,                                       !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
+Site:Location,
+  Pittsburgh Allegheny Co Ap_PA_USA Design_Conditions, !- Name
+  40.35,                                  !- Latitude {deg}
+  -79.92,                                 !- Longitude {deg}
+  -5,                                     !- Time Zone {hr}
+  380;                                    !- Elevation {m}
+
+SizingPeriod:DesignDay,
+  Pittsburgh Allegheny Co Ap Ann Clg .4% Condns DB=>MWB, !- Name
+  7,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  32.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  9.9,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  22.5,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  96842,                                  !- Barometric Pressure {Pa}
+  4.4,                                    !- Wind Speed {m/s}
+  240,                                    !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.484,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  1.916;                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+
+SizingPeriod:DesignDay,
+  Pittsburgh Allegheny Co Ap Ann Htg 99.6% Condns DB, !- Name
+  1,                                      !- Month
+  21,                                     !- Day of Month
+  WinterDesignDay,                        !- Day Type
+  -15.4,                                  !- Maximum Dry-Bulb Temperature {C}
+  0,                                      !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  -15.4,                                  !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  96842,                                  !- Barometric Pressure {Pa}
+  4.7,                                    !- Wind Speed {m/s}
+  240,                                    !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAEClearSky,                         !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  0;                                      !- Sky Clearness
+
+Curve:Biquadratic,
+  VarSpeedCoolCapFT,                      !- Name
+  0.476428,                               !- Coefficient1 Constant
+  0.0401147,                              !- Coefficient2 x
+  0.000226411,                            !- Coefficient3 x**2
+  -0.000827136,                           !- Coefficient4 y
+  -7.3224e-006,                           !- Coefficient5 y**2
+  -0.000446278,                           !- Coefficient6 x*y
+  12.77778,                               !- Minimum Value of x {BasedOnField A2}
+  23.88889,                               !- Maximum Value of x {BasedOnField A2}
+  23.88889,                               !- Minimum Value of y {BasedOnField A3}
+  46.11111,                               !- Maximum Value of y {BasedOnField A3}
+  ,                                       !- Minimum Curve Output {BasedOnField A4}
+  ,                                       !- Maximum Curve Output {BasedOnField A4}
+  Temperature,                            !- Input Unit Type for X
+  Temperature,                            !- Input Unit Type for Y
+  Dimensionless;                          !- Output Unit Type
+
+Curve:Biquadratic,
+  VarSpeedCoolCapLSFT,                    !- Name
+  0.476428,                               !- Coefficient1 Constant
+  0.0401147,                              !- Coefficient2 x
+  0.000226411,                            !- Coefficient3 x**2
+  -0.000827136,                           !- Coefficient4 y
+  -7.3224e-006,                           !- Coefficient5 y**2
+  -0.000446278,                           !- Coefficient6 x*y
+  12.77778,                               !- Minimum Value of x {BasedOnField A2}
+  23.88889,                               !- Maximum Value of x {BasedOnField A2}
+  23.88889,                               !- Minimum Value of y {BasedOnField A3}
+  46.11111,                               !- Maximum Value of y {BasedOnField A3}
+  ,                                       !- Minimum Curve Output {BasedOnField A4}
+  ,                                       !- Maximum Curve Output {BasedOnField A4}
+  Temperature,                            !- Input Unit Type for X
+  Temperature,                            !- Input Unit Type for Y
+  Dimensionless;                          !- Output Unit Type
+
+Curve:Biquadratic,
+  VarSpeedCoolEIRFT,                      !- Name
+  0.632475,                               !- Coefficient1 Constant
+  -0.0121321,                             !- Coefficient2 x
+  0.000507773,                            !- Coefficient3 x**2
+  0.0155377,                              !- Coefficient4 y
+  0.00027284,                             !- Coefficient5 y**2
+  -0.000679201,                           !- Coefficient6 x*y
+  12.77778,                               !- Minimum Value of x {BasedOnField A2}
+  23.88889,                               !- Maximum Value of x {BasedOnField A2}
+  23.88889,                               !- Minimum Value of y {BasedOnField A3}
+  46.11111,                               !- Maximum Value of y {BasedOnField A3}
+  ,                                       !- Minimum Curve Output {BasedOnField A4}
+  ,                                       !- Maximum Curve Output {BasedOnField A4}
+  Temperature,                            !- Input Unit Type for X
+  Temperature,                            !- Input Unit Type for Y
+  Dimensionless;                          !- Output Unit Type
+
+Curve:Biquadratic,
+  VarSpeedCoolEIRLSFT,                    !- Name
+  0.774645,                               !- Coefficient1 Constant
+  -0.0343731,                             !- Coefficient2 x
+  0.000783173,                            !- Coefficient3 x**2
+  0.0146596,                              !- Coefficient4 y
+  0.000488851,                            !- Coefficient5 y**2
+  -0.000752036,                           !- Coefficient6 x*y
+  12.77778,                               !- Minimum Value of x {BasedOnField A2}
+  23.88889,                               !- Maximum Value of x {BasedOnField A2}
+  23.88889,                               !- Minimum Value of y {BasedOnField A3}
+  46.11111,                               !- Maximum Value of y {BasedOnField A3}
+  ,                                       !- Minimum Curve Output {BasedOnField A4}
+  ,                                       !- Maximum Curve Output {BasedOnField A4}
+  Temperature,                            !- Input Unit Type for X
+  Temperature,                            !- Input Unit Type for Y
+  Dimensionless;                          !- Output Unit Type
+
+Curve:Cubic,
+  PackagedRatedCoolCapFFlow,              !- Name
+  0.47278589,                             !- Coefficient1 Constant
+  1.2433415,                              !- Coefficient2 x
+  -1.0387055,                             !- Coefficient3 x**2
+  0.32257813,                             !- Coefficient4 x**3
+  0.5,                                    !- Minimum Value of x {BasedOnField A2}
+  1.5,                                    !- Maximum Value of x {BasedOnField A2}
+  ,                                       !- Minimum Curve Output {BasedOnField A3}
+  ,                                       !- Maximum Curve Output {BasedOnField A3}
+  Dimensionless,                          !- Input Unit Type for X
+  Dimensionless;                          !- Output Unit Type
+
+Curve:Cubic,
+  PackagedRatedCoolEIRFFlow,              !- Name
+  1.0079484,                              !- Coefficient1 Constant
+  0.34544129,                             !- Coefficient2 x
+  -0.6922891,                             !- Coefficient3 x**2
+  0.33889943,                             !- Coefficient4 x**3
+  0.5,                                    !- Minimum Value of x {BasedOnField A2}
+  1.5,                                    !- Maximum Value of x {BasedOnField A2}
+  ,                                       !- Minimum Curve Output {BasedOnField A3}
+  ,                                       !- Maximum Curve Output {BasedOnField A3}
+  Dimensionless,                          !- Input Unit Type for X
+  Dimensionless;                          !- Output Unit Type
+
+Curve:Quadratic,
+  VarSpeedCyclingPLFFPLR,                 !- Name
+  0.85,                                   !- Coefficient1 Constant
+  0.15,                                   !- Coefficient2 x
+  0,                                      !- Coefficient3 x**2
+  0,                                      !- Minimum Value of x {BasedOnField A2}
+  1;                                      !- Maximum Value of x {BasedOnField A2}
+
+Output:Variable,
+  *,                                      !- Key Value
+  Building Mean PPD,                      !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  Mixed Air Node 1,                       !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE1-1,                               !- Key Value
+  Zone Thermostat Heating Setpoint Temperature, !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Site Outdoor Air Drybulb Temperature,   !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  Mixed Air Node 1,                       !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE2-1 IN NODE,                       !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE4-1 IN NODE,                       !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE2-1 IN NODE,                       !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Building Total Occupants,               !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Site Wind Direction,                    !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE1-1,                               !- Key Value
+  Zone Thermostat Cooling Setpoint Temperature, !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Site Wind Speed,                        !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE4-1 IN NODE,                       !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Facility Total HVAC Electric Demand Power, !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  VAV SYS 1 OUTLET NODE,                  !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE1-1 IN NODE,                       !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  Outside Air Inlet Node 1,               !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  VAV SYS 1 Inlet NODE,                   !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  VAV SYS 1 Inlet NODE,                   !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  Main Heating Coil 1,                    !- Key Value
+  Heating Coil Electric Power,            !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE3-1 IN NODE,                       !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE5-1 IN NODE,                       !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  VAV SYS 1 OUTLET NODE,                  !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Site Diffuse Solar Radiation Rate per Area, !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Building Mean Temperature,              !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Site Outdoor Air Relative Humidity,     !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE3-1 IN NODE,                       !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  Outside Air Inlet Node 1,               !- Key Value
+  System Node Temperature,                !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Site Direct Solar Radiation Rate per Area, !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE1-1 IN NODE,                       !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  SPACE5-1 IN NODE,                       !- Key Value
+  System Node Mass Flow Rate,             !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+EnergyManagementSystem:GlobalVariable,
+  IAT_SP;                                 !- Erl Variable Name 1
+
+EnergyManagementSystem:GlobalVariable,
+  MeanPPD;                                !- Erl Variable Name 1
+
+EnergyManagementSystem:GlobalVariable,
+  MeanTemp;                               !- Erl Variable Name 1
+
+EnergyManagementSystem:GlobalVariable,
+  NumOfOccupant;                          !- Erl Variable Name 1
+
+EnergyManagementSystem:GlobalVariable,
+  OccupiedMode;                           !- Erl Variable Name 1
+
+EnergyManagementSystem:Sensor,
+  Count_1,                                !- Name
+  SPACE1-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone People Occupant Count;             !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Count_2,                                !- Name
+  SPACE2-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone People Occupant Count;             !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Count_3,                                !- Name
+  SPACE3-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone People Occupant Count;             !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Count_4,                                !- Name
+  SPACE4-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone People Occupant Count;             !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Count_5,                                !- Name
+  SPACE5-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone People Occupant Count;             !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  PPD_1,                                  !- Name
+  SPACE1-1 People 1,                      !- Output:Variable or Output:Meter Index Key Name
+  Zone Thermal Comfort Fanger Model PPD;  !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  PPD_2,                                  !- Name
+  SPACE2-1 People 1,                      !- Output:Variable or Output:Meter Index Key Name
+  Zone Thermal Comfort Fanger Model PPD;  !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  PPD_3,                                  !- Name
+  SPACE3-1 People 1,                      !- Output:Variable or Output:Meter Index Key Name
+  Zone Thermal Comfort Fanger Model PPD;  !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  PPD_4,                                  !- Name
+  SPACE4-1 People 1,                      !- Output:Variable or Output:Meter Index Key Name
+  Zone Thermal Comfort Fanger Model PPD;  !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  PPD_5,                                  !- Name
+  SPACE5-1 People 1,                      !- Output:Variable or Output:Meter Index Key Name
+  Zone Thermal Comfort Fanger Model PPD;  !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Temp_1,                                 !- Name
+  SPACE1-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone Air Temperature;                   !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Temp_2,                                 !- Name
+  SPACE2-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone Air Temperature;                   !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Temp_3,                                 !- Name
+  SPACE1-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone Air Temperature;                   !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Temp_4,                                 !- Name
+  SPACE1-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone Air Temperature;                   !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+  Temp_5,                                 !- Name
+  SPACE1-1,                               !- Output:Variable or Output:Meter Index Key Name
+  Zone Air Temperature;                   !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Program,
+  CalcIATSetpoint,                        !- Name
+  IF Hour >= 8 && Hour < 18,              !- Program Line 1
+  SET IAT_SP = 22.5,                      !- Program Line 2
+  ELSE,                                   !- Program Line 3
+  SET IAT_SP = 12.8,                      !- Program Line 4
+  ENDIF;                                  !- Program Line 5
+
+EnergyManagementSystem:Program,
+  CalcMeanPPD,                            !- Name
+  SET AggPPD = PPD_1 + PPD_2 + PPD_3 + PPD_4 + PPD_5, !- Program Line 1
+  SET NumOfZone = 5,                      !- Program Line 2
+  SET MeanPPD = AggPPD / NumOfZone;       !- Program Line 3
+
+EnergyManagementSystem:Program,
+  CalcMeanTemp,                           !- Name
+  SET AggTemp = Temp_1 + Temp_2 + Temp_3 + Temp_4 + Temp_5, !- Program Line 1
+  SET NumOfZone = 5,                      !- Program Line 2
+  SET MeanTemp = AggTemp / NumOfZone;     !- Program Line 3
+
+EnergyManagementSystem:Program,
+  CalcNumOccupant,                        !- Name
+  SET NumOfOccupant = Count_1 + Count_2 + Count_3 + Count_4 + Count_5; !- Program Line 1
+
+EnergyManagementSystem:Program,
+  CalcOccupiedMode,                       !- Name
+  IF Hour >= 8 && Hour < 18,              !- Program Line 1
+  SET OccupiedMode = 1,                   !- Program Line 2
+  ELSE,                                   !- Program Line 3
+  SET OccupiedMode = 0,                   !- Program Line 4
+  ENDIF;                                  !- Program Line 5
+
+EnergyManagementSystem:ProgramCallingManager,
+  sensor_info_calls,                      !- Name
+  EndOfZoneTimestepAfterZoneReporting,    !- EnergyPlus Model Calling Point
+  CalcMeanTemp,                           !- Program Name 1
+  CalcMeanPPD;                            !- Program Name 2
+
+EnergyManagementSystem:ProgramCallingManager,
+  test_calls,                             !- Name
+  BeginTimestepBeforePredictor,           !- EnergyPlus Model Calling Point
+  CalcOccupiedMode,                       !- Program Name 1
+  CalcIATSetpoint;                        !- Program Name 2
+
+EnergyManagementSystem:OutputVariable,
+  Building Mean PPD,                      !- Name
+  ,                                       !- EMS Variable Name
+  Averaged,                               !- Type of Data in Variable
+  ZoneTimeStep,                           !- Update Frequency
+  ,                                       !- EMS Program or Subroutine Name
+  %;                                      !- Units
+
+EnergyManagementSystem:OutputVariable,
+  Building Mean Temperature,              !- Name
+  ,                                       !- EMS Variable Name
+  Averaged,                               !- Type of Data in Variable
+  ZoneTimeStep,                           !- Update Frequency
+  ,                                       !- EMS Program or Subroutine Name
+  C;                                      !- Units
+
+EnergyManagementSystem:OutputVariable,
+  Building Total Occupants,               !- Name
+  ,                                       !- EMS Variable Name
+  Averaged,                               !- Type of Data in Variable
+  ZoneTimeStep,                           !- Update Frequency
+  ,                                       !- EMS Program or Subroutine Name
+  %;                                      !- Units
+
+EnergyManagementSystem:OutputVariable,
+  Indoor Air Temperature Setpoint,        !- Name
+  ,                                       !- EMS Variable Name
+  Averaged,                               !- Type of Data in Variable
+  ZoneTimeStep,                           !- Update Frequency
+  ,                                       !- EMS Program or Subroutine Name
+  ;                                       !- Units
+
+EnergyManagementSystem:OutputVariable,
+  Occupancy Flag,                         !- Name
+  ,                                       !- EMS Variable Name
+  Averaged,                               !- Type of Data in Variable
+  ZoneTimeStep,                           !- Update Frequency
+  ,                                       !- EMS Program or Subroutine Name
+  ;                                       !- Units
+
+OutputControl:Table:Style,
+  HTML;                                   !- Column Separator
+
+Output:Table:SummaryReports,
+  AllSummary;                             !- Report Name 1
+
+Output:VariableDictionary,
+  IDF,                                    !- Key Field
+  Unsorted;                               !- Sort Option
+
+Output:SQLite,
+  SimpleAndTabular;                       !- Option Type
+
+LifeCycleCost:NonrecurringCost,
+  Default Cost,                           !- Name
+  Construction,                           !- Category
+  0,                                      !- Cost
+  ServicePeriod;                          !- Start of Costs
+
