@@ -8918,3 +8918,135 @@ OS:Output:Variable,
   Zone Air Relative Humidity,             !- Variable Name
   Hourly;                                 !- Reporting Frequency
 
+OS:ScheduleTypeLimits,
+  {61a287e3-7907-40a7-9bfd-52e1a331f785}, !- Handle
+  Dimensionless,                          !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {c86bd6f0-ec1e-4ae9-895f-2f829a643b92}, !- Handle
+  Dimensionless 1,                        !- Name
+  -1,                                     !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {33ae0244-43c1-44da-83be-a70671495799}, !- Handle
+  Dimensionless 2,                        !- Name
+  0.1,                                    !- Lower Limit Value
+  1000,                                   !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:ScheduleTypeLimits,
+  {8f861de6-39dc-453b-9acf-a3fa4cfa6666}, !- Handle
+  Capacity,                               !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Capacity;                               !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {2c65c8da-c3f9-4456-8fb6-52e502d7233e}, !- Handle
+  ClothingInsulation,                     !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  ClothingInsulation;                     !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {b492bf21-d7fd-4b8b-9a6c-e90beaf0e7ff}, !- Handle
+  ControlMode,                            !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Discrete,                               !- Numeric Type
+  ControlMode;                            !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {15d36939-545d-4475-b69f-0c7dbbbf8f36}, !- Handle
+  DeltaTemperature,                       !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  DeltaTemperature;                       !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {31cdf578-b86f-447d-82c2-1569e23a61c0}, !- Handle
+  Dimensionless 3,                        !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Dimensionless;                          !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {20c410a2-5cfe-4413-baec-70702e5b50c5}, !- Handle
+  LinearPowerDensity,                     !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  LinearPowerDensity;                     !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {cf80fbfe-60e1-4c4b-915b-e70affcc3aa8}, !- Handle
+  MassFlowRate,                           !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  MassFlowRate;                           !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {00994b48-ccbf-4355-a7a8-b06498c371f8}, !- Handle
+  Percent,                                !- Name
+  0,                                      !- Lower Limit Value
+  100,                                    !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Percent;                                !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {38b48d71-68dc-46dc-96e1-a29079db068e}, !- Handle
+  Pressure,                               !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Pressure;                               !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {3f880498-fb41-4174-8712-d75b068561a1}, !- Handle
+  RotationsPerMinute,                     !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  RotationsPerMinute;                     !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {3b6dda1e-16da-4824-922a-6df19398dcaf}, !- Handle
+  Velocity,                               !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Velocity;                               !- Unit Type
+
+OS:ScheduleTypeLimits,
+  {560e6818-89e9-4dba-8209-529265b83a50}, !- Handle
+  VolumetricFlowRate,                     !- Name
+  0,                                      !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  VolumetricFlowRate;                     !- Unit Type
+
+OS:Schedule:Ruleset,
+  {49daaad1-264c-4c89-b29f-2e928c7e97ec}, !- Handle
+  fan,                                    !- Name
+  {f81864f6-fe5a-4307-a77f-1804bab35b82}, !- Schedule Type Limits Name
+  {68822505-e7aa-43a5-8b72-8ccc325e9199}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {68822505-e7aa-43a5-8b72-8ccc325e9199}, !- Handle
+  Schedule Day 1,                         !- Name
+  {f81864f6-fe5a-4307-a77f-1804bab35b82}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  1;                                      !- Value Until Time 1
+
