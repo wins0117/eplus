@@ -3,7 +3,11 @@ Version,
   8.6;                                    !- Version Identifier
 
 LifeCycleCost:Parameters,
+<<<<<<< Updated upstream
+  {f8bd77f7-41f6-44ba-885a-9f987317060f}, !- Name
+=======
   {efa2db35-1156-4250-a925-18ae96c8b2e6}, !- Name
+>>>>>>> Stashed changes
   EndOfYear,                              !- Discounting Convention
   ConstantDollar,                         !- Inflation Approach
   0.03,                                   !- Real Discount Rate
@@ -434,7 +438,11 @@ Schedule:Day:Interval,
   26.7;                                   !- Value Until Time 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4f43e9bb-1f4a-45a0-a6eb-2429aa7c0b40}, !- Name
+=======
   Schedule:Week:Daily {6ef7e0f2-1d2c-4ee6-9084-5d8caa1945de}, !- Name
+>>>>>>> Stashed changes
   Large Office ClgSetp Default Schedule 2, !- Sunday Schedule:Day Name
   Large Office ClgSetp Default Schedule 2, !- Monday Schedule:Day Name
   Large Office ClgSetp Default Schedule 2, !- Tuesday Schedule:Day Name
@@ -449,7 +457,11 @@ Schedule:Week:Daily,
   Large Office ClgSetp Default Schedule 2; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3681e909-db24-45b4-9ff5-f041c3ebeb5d}, !- Name
+=======
   Schedule:Week:Daily {0b049e0d-5a83-403c-a8c2-a09ccd730c04}, !- Name
+>>>>>>> Stashed changes
   Large Office ClgSetp Rule 1 Day Schedule 2, !- Sunday Schedule:Day Name
   Large Office ClgSetp Default Schedule 2, !- Monday Schedule:Day Name
   Large Office ClgSetp Default Schedule 2, !- Tuesday Schedule:Day Name
@@ -466,12 +478,20 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office ClgSetp 2,                 !- Name
   Temperature 5,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4f43e9bb-1f4a-45a0-a6eb-2429aa7c0b40}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {6ef7e0f2-1d2c-4ee6-9084-5d8caa1945de}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3681e909-db24-45b4-9ff5-f041c3ebeb5d}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {0b049e0d-5a83-403c-a8c2-a09ccd730c04}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
@@ -525,7 +545,11 @@ Schedule:Day:Interval,
   26.7;                                   !- Value Until Time 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {56d8e2e0-0421-40b3-9ffd-fce8b2ad7034}, !- Name
+=======
   Schedule:Week:Daily {f72a5e32-a962-41fe-9767-2112c01924d9}, !- Name
+>>>>>>> Stashed changes
   Large Office ClgSetp Default Schedule 1, !- Sunday Schedule:Day Name
   Large Office ClgSetp Default Schedule 1, !- Monday Schedule:Day Name
   Large Office ClgSetp Default Schedule 1, !- Tuesday Schedule:Day Name
@@ -540,7 +564,11 @@ Schedule:Week:Daily,
   Large Office ClgSetp Default Schedule 1; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b8b7b172-f3d3-4919-ac9f-a7cf202fc96b}, !- Name
+=======
   Schedule:Week:Daily {e2dcb726-272e-4455-8af8-0886205c68fc}, !- Name
+>>>>>>> Stashed changes
   Large Office ClgSetp Rule 1 Day Schedule 1, !- Sunday Schedule:Day Name
   Large Office ClgSetp Default Schedule 1, !- Monday Schedule:Day Name
   Large Office ClgSetp Default Schedule 1, !- Tuesday Schedule:Day Name
@@ -557,12 +585,20 @@ Schedule:Week:Daily,
 Schedule:Year,
   Large Office ClgSetp 1,                 !- Name
   Temperature 5,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {56d8e2e0-0421-40b3-9ffd-fce8b2ad7034}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {f72a5e32-a962-41fe-9767-2112c01924d9}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b8b7b172-f3d3-4919-ac9f-a7cf202fc96b}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {e2dcb726-272e-4455-8af8-0886205c68fc}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
@@ -8515,7 +8551,11 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4b894be7-bf40-4be9-9acf-85bf8636bea2}, !- Name
+=======
   Schedule:Week:Daily {18e9369e-8be1-43c9-9ee1-396112f92624}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 1,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 1,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 1,     !- Tuesday Schedule:Day Name
@@ -8532,14 +8572,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 1,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4b894be7-bf40-4be9-9acf-85bf8636bea2}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {18e9369e-8be1-43c9-9ee1-396112f92624}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {08caaddf-f559-4434-9411-140b36d17e4e}, !- Name
+=======
   Schedule:Week:Daily {53eef9a8-e131-44de-8cc5-285ea5957a4f}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 10,    !- Sunday Schedule:Day Name
   Office Activity Default Schedule 10,    !- Monday Schedule:Day Name
   Office Activity Default Schedule 10,    !- Tuesday Schedule:Day Name
@@ -8556,14 +8604,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 10,                     !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {08caaddf-f559-4434-9411-140b36d17e4e}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {53eef9a8-e131-44de-8cc5-285ea5957a4f}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {af9ec3bc-b412-4919-bf0b-7357e583d968}, !- Name
+=======
   Schedule:Week:Daily {d7d63dd1-a786-43de-9630-6ae0a2e84033}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 11,    !- Sunday Schedule:Day Name
   Office Activity Default Schedule 11,    !- Monday Schedule:Day Name
   Office Activity Default Schedule 11,    !- Tuesday Schedule:Day Name
@@ -8580,14 +8636,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 11,                     !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {af9ec3bc-b412-4919-bf0b-7357e583d968}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {d7d63dd1-a786-43de-9630-6ae0a2e84033}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f3958f39-e1e4-4a05-842a-c1b6a0e4fe7d}, !- Name
+=======
   Schedule:Week:Daily {d7b37139-f71e-4e60-a901-13f68f803c87}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 12,    !- Sunday Schedule:Day Name
   Office Activity Default Schedule 12,    !- Monday Schedule:Day Name
   Office Activity Default Schedule 12,    !- Tuesday Schedule:Day Name
@@ -8604,14 +8668,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 12,                     !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f3958f39-e1e4-4a05-842a-c1b6a0e4fe7d}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {d7b37139-f71e-4e60-a901-13f68f803c87}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f275286f-7a3c-454d-bb3c-8c8f5c245d10}, !- Name
+=======
   Schedule:Week:Daily {63c49423-458e-47a2-924e-62e226bda042}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 13,    !- Sunday Schedule:Day Name
   Office Activity Default Schedule 13,    !- Monday Schedule:Day Name
   Office Activity Default Schedule 13,    !- Tuesday Schedule:Day Name
@@ -8628,14 +8700,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 13,                     !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f275286f-7a3c-454d-bb3c-8c8f5c245d10}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {63c49423-458e-47a2-924e-62e226bda042}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8a111abb-54e8-4faf-9f3b-cb3e56a521cf}, !- Name
+=======
   Schedule:Week:Daily {d2818cd8-271a-4706-90b4-e30a014edf91}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 2,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 2,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 2,     !- Tuesday Schedule:Day Name
@@ -8652,14 +8732,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 2,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8a111abb-54e8-4faf-9f3b-cb3e56a521cf}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {d2818cd8-271a-4706-90b4-e30a014edf91}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f79b3c27-09c6-46bb-a105-a14e328a059c}, !- Name
+=======
   Schedule:Week:Daily {7ffc1120-9d71-49c5-9786-6f2db57bcb2a}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 3,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 3,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 3,     !- Tuesday Schedule:Day Name
@@ -8676,14 +8764,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 3,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f79b3c27-09c6-46bb-a105-a14e328a059c}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {7ffc1120-9d71-49c5-9786-6f2db57bcb2a}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {d276174a-407c-475e-879a-218adbce37e1}, !- Name
+=======
   Schedule:Week:Daily {7cfd65d7-812c-45da-be7c-4e85f168933a}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 4,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 4,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 4,     !- Tuesday Schedule:Day Name
@@ -8700,14 +8796,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 4,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {d276174a-407c-475e-879a-218adbce37e1}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {7cfd65d7-812c-45da-be7c-4e85f168933a}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8607cf4a-33ae-4acd-819c-b5a6307b3845}, !- Name
+=======
   Schedule:Week:Daily {77162ac7-49d1-482e-86a0-12d7ca28b09a}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 5,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 5,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 5,     !- Tuesday Schedule:Day Name
@@ -8724,14 +8828,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 5,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8607cf4a-33ae-4acd-819c-b5a6307b3845}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {77162ac7-49d1-482e-86a0-12d7ca28b09a}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {97508e50-3e7a-4e05-9b89-c96f75608155}, !- Name
+=======
   Schedule:Week:Daily {784dd54d-14b5-4c59-b681-320f5cde6246}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 6,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 6,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 6,     !- Tuesday Schedule:Day Name
@@ -8748,14 +8860,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 6,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {97508e50-3e7a-4e05-9b89-c96f75608155}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {784dd54d-14b5-4c59-b681-320f5cde6246}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c0f0a492-5d22-4ad8-ac52-4433e95b6cf2}, !- Name
+=======
   Schedule:Week:Daily {6e8ba9fe-55ed-43af-8940-67b81b6f686d}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 7,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 7,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 7,     !- Tuesday Schedule:Day Name
@@ -8772,14 +8892,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 7,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c0f0a492-5d22-4ad8-ac52-4433e95b6cf2}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {6e8ba9fe-55ed-43af-8940-67b81b6f686d}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {933cf545-8f56-4295-98b9-cd12145eddfa}, !- Name
+=======
   Schedule:Week:Daily {69618ad5-cf67-4bb4-af45-9dc3c44b97e9}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 8,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 8,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 8,     !- Tuesday Schedule:Day Name
@@ -8796,14 +8924,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 8,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {933cf545-8f56-4295-98b9-cd12145eddfa}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {69618ad5-cf67-4bb4-af45-9dc3c44b97e9}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cefbe7cb-48fc-4b42-9ef6-35294503ee48}, !- Name
+=======
   Schedule:Week:Daily {f124de92-3536-4c96-9ec0-3a6078ff35de}, !- Name
+>>>>>>> Stashed changes
   Office Activity Default Schedule 9,     !- Sunday Schedule:Day Name
   Office Activity Default Schedule 9,     !- Monday Schedule:Day Name
   Office Activity Default Schedule 9,     !- Tuesday Schedule:Day Name
@@ -8820,14 +8956,22 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Activity 9,                      !- Name
   ActivityLevel,                          !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cefbe7cb-48fc-4b42-9ef6-35294503ee48}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {f124de92-3536-4c96-9ec0-3a6078ff35de}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c669d92f-b9fc-4a2a-8f49-a3466f1d92cf}, !- Name
+=======
   Schedule:Week:Daily {410b640f-5f0c-4abc-957d-75f6fb662588}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 1,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 1,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 1,   !- Tuesday Schedule:Day Name
@@ -8842,7 +8986,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 1;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {acf3fb23-d5bf-463d-ae9c-80c9fdd0cebe}, !- Name
+=======
   Schedule:Week:Daily {d4b27c14-46f0-4c38-afc4-6f9a029d332b}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 1, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 1,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 1,   !- Tuesday Schedule:Day Name
@@ -8859,19 +9007,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 1,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c669d92f-b9fc-4a2a-8f49-a3466f1d92cf}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {410b640f-5f0c-4abc-957d-75f6fb662588}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {acf3fb23-d5bf-463d-ae9c-80c9fdd0cebe}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {d4b27c14-46f0-4c38-afc4-6f9a029d332b}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {87da7f93-df34-4b6b-aaf9-bb14769aeb7e}, !- Name
+=======
   Schedule:Week:Daily {a38237f2-a35f-4df0-a136-3f585c1f9730}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 10,  !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 10,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 10,  !- Tuesday Schedule:Day Name
@@ -8886,7 +9046,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 10;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c1efb4ef-0d8c-48d0-873b-d572124a0ed4}, !- Name
+=======
   Schedule:Week:Daily {9e8c7c4e-d8ea-44ac-93af-7ebe3ac07bf4}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 10, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 10,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 10,  !- Tuesday Schedule:Day Name
@@ -8903,19 +9067,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 10,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {87da7f93-df34-4b6b-aaf9-bb14769aeb7e}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {a38237f2-a35f-4df0-a136-3f585c1f9730}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c1efb4ef-0d8c-48d0-873b-d572124a0ed4}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {9e8c7c4e-d8ea-44ac-93af-7ebe3ac07bf4}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ec82ded2-8950-452a-95e2-4b2c481705a6}, !- Name
+=======
   Schedule:Week:Daily {b4df4b40-409b-428b-ab25-83a6777d3ddf}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 11,  !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 11,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 11,  !- Tuesday Schedule:Day Name
@@ -8930,7 +9106,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 11;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8a0b0791-5414-4136-9b3a-1a848baa22f7}, !- Name
+=======
   Schedule:Week:Daily {a0889e1b-22a8-4697-836d-3d6e4daaeba1}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 11, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 11,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 11,  !- Tuesday Schedule:Day Name
@@ -8947,19 +9127,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 11,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ec82ded2-8950-452a-95e2-4b2c481705a6}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {b4df4b40-409b-428b-ab25-83a6777d3ddf}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8a0b0791-5414-4136-9b3a-1a848baa22f7}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {a0889e1b-22a8-4697-836d-3d6e4daaeba1}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2742ef48-f62e-40fc-9e08-1679997fb97a}, !- Name
+=======
   Schedule:Week:Daily {5930a6c7-0a09-4232-b5c6-55703261fadd}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 12,  !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 12,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 12,  !- Tuesday Schedule:Day Name
@@ -8974,7 +9166,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 12;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {90afece7-d85d-4b51-92a6-3c15136059ed}, !- Name
+=======
   Schedule:Week:Daily {fca481be-9a35-479a-a17e-95b5707a4d3f}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 12, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 12,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 12,  !- Tuesday Schedule:Day Name
@@ -8991,19 +9187,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 12,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2742ef48-f62e-40fc-9e08-1679997fb97a}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {5930a6c7-0a09-4232-b5c6-55703261fadd}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {90afece7-d85d-4b51-92a6-3c15136059ed}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {fca481be-9a35-479a-a17e-95b5707a4d3f}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e4885051-bb45-4223-944d-042d0936e4c9}, !- Name
+=======
   Schedule:Week:Daily {1a63987a-9044-4b9e-814c-25ffb24de603}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 13,  !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 13,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 13,  !- Tuesday Schedule:Day Name
@@ -9018,7 +9226,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 13;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3be2410e-d1f5-426a-80df-c2e3d40507a8}, !- Name
+=======
   Schedule:Week:Daily {4aea74d4-4512-48d8-8238-d99680c4b60a}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 13, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 13,  !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 13,  !- Tuesday Schedule:Day Name
@@ -9035,19 +9247,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 13,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e4885051-bb45-4223-944d-042d0936e4c9}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {1a63987a-9044-4b9e-814c-25ffb24de603}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3be2410e-d1f5-426a-80df-c2e3d40507a8}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {4aea74d4-4512-48d8-8238-d99680c4b60a}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {1cfe4dba-48fa-4aec-b966-6757b90edbfc}, !- Name
+=======
   Schedule:Week:Daily {c007296b-7f87-44c2-8b71-e04af73eda8a}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 2,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 2,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 2,   !- Tuesday Schedule:Day Name
@@ -9062,7 +9286,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 2;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a0eb6d0d-18be-450c-ac72-af6378a32ef8}, !- Name
+=======
   Schedule:Week:Daily {0885222c-4564-4cbd-aa68-b713c100b2c2}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 2, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 2,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 2,   !- Tuesday Schedule:Day Name
@@ -9079,19 +9307,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 2,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {1cfe4dba-48fa-4aec-b966-6757b90edbfc}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {c007296b-7f87-44c2-8b71-e04af73eda8a}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a0eb6d0d-18be-450c-ac72-af6378a32ef8}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {0885222c-4564-4cbd-aa68-b713c100b2c2}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {9cc38f23-6b64-44c9-abc0-d3f42f79f0cb}, !- Name
+=======
   Schedule:Week:Daily {1244594c-db92-4bec-b288-5c0e83309eeb}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 3,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 3,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 3,   !- Tuesday Schedule:Day Name
@@ -9106,7 +9346,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 3;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {79f06c1f-f42b-490c-8fd3-78f0203b5ca3}, !- Name
+=======
   Schedule:Week:Daily {287027ee-7a83-4dfc-865a-0f0d7ebdabc4}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 3, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 3,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 3,   !- Tuesday Schedule:Day Name
@@ -9123,19 +9367,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 3,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {9cc38f23-6b64-44c9-abc0-d3f42f79f0cb}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {1244594c-db92-4bec-b288-5c0e83309eeb}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {79f06c1f-f42b-490c-8fd3-78f0203b5ca3}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {287027ee-7a83-4dfc-865a-0f0d7ebdabc4}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {88269527-0d3b-40dd-8c31-97b2da6a5770}, !- Name
+=======
   Schedule:Week:Daily {565a0373-21cc-4821-92c7-898a9e498da5}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 4,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 4,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 4,   !- Tuesday Schedule:Day Name
@@ -9150,7 +9406,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 4;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ddc17856-c716-40ee-96d8-91c6c9b4fdc5}, !- Name
+=======
   Schedule:Week:Daily {8091de88-183d-43f2-8b15-fe93f4f6b044}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 4, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 4,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 4,   !- Tuesday Schedule:Day Name
@@ -9167,19 +9427,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 4,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {88269527-0d3b-40dd-8c31-97b2da6a5770}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {565a0373-21cc-4821-92c7-898a9e498da5}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ddc17856-c716-40ee-96d8-91c6c9b4fdc5}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {8091de88-183d-43f2-8b15-fe93f4f6b044}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a4764cfa-5dbb-4933-97f9-ee2c771bb2f4}, !- Name
+=======
   Schedule:Week:Daily {ec7467d6-def9-4eb6-b961-c99ea32e7795}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 5,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 5,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 5,   !- Tuesday Schedule:Day Name
@@ -9194,7 +9466,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 5;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {1d3eb470-851b-462a-a611-7d4e2b5babf0}, !- Name
+=======
   Schedule:Week:Daily {db3a2002-9ccb-4b6c-9243-ec19c8778d26}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 5, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 5,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 5,   !- Tuesday Schedule:Day Name
@@ -9211,19 +9487,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 5,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a4764cfa-5dbb-4933-97f9-ee2c771bb2f4}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {ec7467d6-def9-4eb6-b961-c99ea32e7795}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {1d3eb470-851b-462a-a611-7d4e2b5babf0}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {db3a2002-9ccb-4b6c-9243-ec19c8778d26}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {eebb36ce-907e-46b5-bf29-a677e4bfef67}, !- Name
+=======
   Schedule:Week:Daily {63a3b625-9894-430d-b593-d0785f5d37cb}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 6,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 6,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 6,   !- Tuesday Schedule:Day Name
@@ -9238,7 +9526,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 6;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cb2b7ede-2586-4b8a-a59a-c074b5fcfc73}, !- Name
+=======
   Schedule:Week:Daily {7a770178-bd55-4d53-91da-02a14064c51a}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 6, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 6,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 6,   !- Tuesday Schedule:Day Name
@@ -9255,19 +9547,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 6,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {eebb36ce-907e-46b5-bf29-a677e4bfef67}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {63a3b625-9894-430d-b593-d0785f5d37cb}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cb2b7ede-2586-4b8a-a59a-c074b5fcfc73}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {7a770178-bd55-4d53-91da-02a14064c51a}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a2f198d7-4e54-4c3e-a487-3096d3a897be}, !- Name
+=======
   Schedule:Week:Daily {c629e759-1fd7-40c4-8314-37a16fc90f69}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 7,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 7,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 7,   !- Tuesday Schedule:Day Name
@@ -9282,7 +9586,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 7;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b2f3ea38-3a1e-46c1-893c-a11dcef15435}, !- Name
+=======
   Schedule:Week:Daily {e9f8560d-2aaa-4a56-ba90-8b1e1e323936}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 7, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 7,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 7,   !- Tuesday Schedule:Day Name
@@ -9299,19 +9607,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 7,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a2f198d7-4e54-4c3e-a487-3096d3a897be}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {c629e759-1fd7-40c4-8314-37a16fc90f69}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b2f3ea38-3a1e-46c1-893c-a11dcef15435}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {e9f8560d-2aaa-4a56-ba90-8b1e1e323936}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {27a491b2-7010-48b2-8fe4-b0032ac15438}, !- Name
+=======
   Schedule:Week:Daily {ad40d8b0-3a40-423e-8b33-9781fd9894cc}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 8,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 8,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 8,   !- Tuesday Schedule:Day Name
@@ -9326,7 +9646,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 8;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ceecb7f2-9882-435a-a90b-798703207d14}, !- Name
+=======
   Schedule:Week:Daily {f4facf76-ce88-470e-bf4d-02bcd6ee6baa}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 8, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 8,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 8,   !- Tuesday Schedule:Day Name
@@ -9343,19 +9667,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 8,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {27a491b2-7010-48b2-8fe4-b0032ac15438}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {ad40d8b0-3a40-423e-8b33-9781fd9894cc}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ceecb7f2-9882-435a-a90b-798703207d14}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {f4facf76-ce88-470e-bf4d-02bcd6ee6baa}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {15a16b7d-f916-4546-8c4b-cbd2e74f1385}, !- Name
+=======
   Schedule:Week:Daily {b7bb5767-29b1-42b7-84ce-b7aca1b28f55}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Default Schedule 9,   !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 9,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 9,   !- Tuesday Schedule:Day Name
@@ -9370,7 +9706,11 @@ Schedule:Week:Daily,
   Office Bldg Equip Default Schedule 9;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {14803e7a-4e2b-4b8f-9042-ec5fb2026051}, !- Name
+=======
   Schedule:Week:Daily {53d42d50-64e0-45c7-9689-f757268b7dd6}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Equip Rule 1 Day Schedule 9, !- Sunday Schedule:Day Name
   Office Bldg Equip Default Schedule 9,   !- Monday Schedule:Day Name
   Office Bldg Equip Default Schedule 9,   !- Tuesday Schedule:Day Name
@@ -9387,19 +9727,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Equip 9,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {15a16b7d-f916-4546-8c4b-cbd2e74f1385}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {b7bb5767-29b1-42b7-84ce-b7aca1b28f55}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {14803e7a-4e2b-4b8f-9042-ec5fb2026051}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {53d42d50-64e0-45c7-9689-f757268b7dd6}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a0127590-fb87-4211-9597-bcafcb18e65f}, !- Name
+=======
   Schedule:Week:Daily {9189d4f0-a2e0-4602-a733-da7911057970}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 1,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 1,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 1,   !- Tuesday Schedule:Day Name
@@ -9414,7 +9766,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 1;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ccbbb4ac-aa2e-48e6-928d-6d3ce275b96b}, !- Name
+=======
   Schedule:Week:Daily {d1e34ddc-1b47-41f9-b916-1b01b4610123}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 1, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 1,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 1,   !- Tuesday Schedule:Day Name
@@ -9431,19 +9787,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 1,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a0127590-fb87-4211-9597-bcafcb18e65f}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {9189d4f0-a2e0-4602-a733-da7911057970}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ccbbb4ac-aa2e-48e6-928d-6d3ce275b96b}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {d1e34ddc-1b47-41f9-b916-1b01b4610123}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c948d525-96d8-4259-8475-b5c9aadd2458}, !- Name
+=======
   Schedule:Week:Daily {73aec6c1-2bc7-44d2-94cb-4e0d9703a027}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 10,  !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 10,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 10,  !- Tuesday Schedule:Day Name
@@ -9458,7 +9826,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 10;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8dee0f4a-a5b3-452e-be80-f2953127d737}, !- Name
+=======
   Schedule:Week:Daily {60379eec-1f56-4d68-beb8-aa68701d126c}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 10, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 10,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 10,  !- Tuesday Schedule:Day Name
@@ -9475,19 +9847,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 10,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c948d525-96d8-4259-8475-b5c9aadd2458}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {73aec6c1-2bc7-44d2-94cb-4e0d9703a027}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8dee0f4a-a5b3-452e-be80-f2953127d737}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {60379eec-1f56-4d68-beb8-aa68701d126c}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5897ab88-63fe-491b-9d0f-1279b8e93ff9}, !- Name
+=======
   Schedule:Week:Daily {9367692c-48ac-4659-825d-83481ea9c594}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 11,  !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 11,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 11,  !- Tuesday Schedule:Day Name
@@ -9502,7 +9886,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 11;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0721d314-eb83-411f-9dad-e026484965cf}, !- Name
+=======
   Schedule:Week:Daily {93093a28-196b-4879-b9a2-114dcda5bbc8}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 11, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 11,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 11,  !- Tuesday Schedule:Day Name
@@ -9519,19 +9907,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 11,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5897ab88-63fe-491b-9d0f-1279b8e93ff9}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {9367692c-48ac-4659-825d-83481ea9c594}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0721d314-eb83-411f-9dad-e026484965cf}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {93093a28-196b-4879-b9a2-114dcda5bbc8}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b08d874a-6316-4b0b-b8d5-81828a36c058}, !- Name
+=======
   Schedule:Week:Daily {d05726e5-94b3-4815-adbc-75baa3dd023e}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 12,  !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 12,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 12,  !- Tuesday Schedule:Day Name
@@ -9546,7 +9946,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 12;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {abe3f144-8055-4299-9dc4-b80c02b8b03d}, !- Name
+=======
   Schedule:Week:Daily {7593357f-bb1c-4063-8a60-0fe73e02c866}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 12, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 12,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 12,  !- Tuesday Schedule:Day Name
@@ -9563,19 +9967,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 12,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b08d874a-6316-4b0b-b8d5-81828a36c058}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {d05726e5-94b3-4815-adbc-75baa3dd023e}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {abe3f144-8055-4299-9dc4-b80c02b8b03d}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {7593357f-bb1c-4063-8a60-0fe73e02c866}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c23fce58-86b5-4b31-87e5-4ae51ec21db1}, !- Name
+=======
   Schedule:Week:Daily {67ca1f19-f80e-4d77-baa3-63f7d0716851}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 13,  !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 13,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 13,  !- Tuesday Schedule:Day Name
@@ -9590,7 +10006,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 13;  !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {086a43bc-3614-4062-bf39-dc270069b950}, !- Name
+=======
   Schedule:Week:Daily {4a647ccd-aed6-4551-a74c-767a9d173020}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 13, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 13,  !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 13,  !- Tuesday Schedule:Day Name
@@ -9607,19 +10027,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 13,                   !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c23fce58-86b5-4b31-87e5-4ae51ec21db1}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {67ca1f19-f80e-4d77-baa3-63f7d0716851}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {086a43bc-3614-4062-bf39-dc270069b950}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {4a647ccd-aed6-4551-a74c-767a9d173020}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a827cd85-1b08-4636-8ada-256fe560eff9}, !- Name
+=======
   Schedule:Week:Daily {090aaa0b-1dbd-4aa3-9917-f2be765e73ed}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 2,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 2,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 2,   !- Tuesday Schedule:Day Name
@@ -9634,7 +10066,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 2;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8c6ee019-2190-466e-98c6-ccf3ae404ef8}, !- Name
+=======
   Schedule:Week:Daily {1a00551f-7ca5-4197-80be-245f3cceae8f}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 2, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 2,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 2,   !- Tuesday Schedule:Day Name
@@ -9651,19 +10087,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 2,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a827cd85-1b08-4636-8ada-256fe560eff9}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {090aaa0b-1dbd-4aa3-9917-f2be765e73ed}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8c6ee019-2190-466e-98c6-ccf3ae404ef8}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {1a00551f-7ca5-4197-80be-245f3cceae8f}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {159b6561-d0ae-48c5-a554-408e9b7aab6e}, !- Name
+=======
   Schedule:Week:Daily {e4b15353-075b-4438-895a-db6bfed62d5a}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 3,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 3,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 3,   !- Tuesday Schedule:Day Name
@@ -9678,7 +10126,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 3;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5537ac17-f57b-4ce6-9161-96f358b9341c}, !- Name
+=======
   Schedule:Week:Daily {9eb6ca9f-c2d6-4a34-a439-035c2f84f361}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 3, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 3,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 3,   !- Tuesday Schedule:Day Name
@@ -9695,19 +10147,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 3,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {159b6561-d0ae-48c5-a554-408e9b7aab6e}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {e4b15353-075b-4438-895a-db6bfed62d5a}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5537ac17-f57b-4ce6-9161-96f358b9341c}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {9eb6ca9f-c2d6-4a34-a439-035c2f84f361}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {078a4f5d-f684-4a24-ad07-f02d10733707}, !- Name
+=======
   Schedule:Week:Daily {0ce4283e-a47e-4048-8d3a-f59630d3695b}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 4,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 4,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 4,   !- Tuesday Schedule:Day Name
@@ -9722,7 +10186,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 4;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5eaa0ec8-a6d5-4ed4-b939-8b7a2c2810fc}, !- Name
+=======
   Schedule:Week:Daily {54898f0d-7b2f-4fa9-ac74-f730c692507c}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 4, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 4,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 4,   !- Tuesday Schedule:Day Name
@@ -9739,19 +10207,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 4,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {078a4f5d-f684-4a24-ad07-f02d10733707}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {0ce4283e-a47e-4048-8d3a-f59630d3695b}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5eaa0ec8-a6d5-4ed4-b939-8b7a2c2810fc}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {54898f0d-7b2f-4fa9-ac74-f730c692507c}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3e3ef849-e9be-4cfe-a309-4162bb24ebed}, !- Name
+=======
   Schedule:Week:Daily {0a6f0c21-7e60-4dc9-bdb5-65d40b9d8a2c}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 5,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 5,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 5,   !- Tuesday Schedule:Day Name
@@ -9766,7 +10246,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 5;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {354c8eab-4d59-46dd-a7e8-8800ca0c5193}, !- Name
+=======
   Schedule:Week:Daily {5fdad9f3-ea90-4386-b9eb-24b63e693ccc}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 5, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 5,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 5,   !- Tuesday Schedule:Day Name
@@ -9783,19 +10267,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 5,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3e3ef849-e9be-4cfe-a309-4162bb24ebed}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {0a6f0c21-7e60-4dc9-bdb5-65d40b9d8a2c}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {354c8eab-4d59-46dd-a7e8-8800ca0c5193}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {5fdad9f3-ea90-4386-b9eb-24b63e693ccc}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f38b4e71-8377-4af5-8a3c-ae84448f4aaa}, !- Name
+=======
   Schedule:Week:Daily {5411a3ef-e6aa-44d7-ab31-793959db9225}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 6,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 6,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 6,   !- Tuesday Schedule:Day Name
@@ -9810,7 +10306,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 6;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b7580496-af1d-473b-9b4f-4d646147d2e2}, !- Name
+=======
   Schedule:Week:Daily {dd8a7074-db2f-43c6-8dc2-40b7f69aac14}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 6, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 6,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 6,   !- Tuesday Schedule:Day Name
@@ -9827,19 +10327,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 6,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f38b4e71-8377-4af5-8a3c-ae84448f4aaa}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {5411a3ef-e6aa-44d7-ab31-793959db9225}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b7580496-af1d-473b-9b4f-4d646147d2e2}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {dd8a7074-db2f-43c6-8dc2-40b7f69aac14}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ea82b957-8eb1-4f54-a224-ba457bdf2140}, !- Name
+=======
   Schedule:Week:Daily {b02b28b7-226c-47b2-922d-a369093ad09e}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 7,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 7,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 7,   !- Tuesday Schedule:Day Name
@@ -9854,7 +10366,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 7;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0a8a6aa1-965d-42af-805d-de532f7fdcd0}, !- Name
+=======
   Schedule:Week:Daily {b7d0b890-0a43-4dbb-bd27-ef2562e48a9b}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 7, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 7,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 7,   !- Tuesday Schedule:Day Name
@@ -9871,19 +10387,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 7,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ea82b957-8eb1-4f54-a224-ba457bdf2140}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {b02b28b7-226c-47b2-922d-a369093ad09e}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0a8a6aa1-965d-42af-805d-de532f7fdcd0}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {b7d0b890-0a43-4dbb-bd27-ef2562e48a9b}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {da5832ab-8ca5-450a-8d30-c3c2168195e5}, !- Name
+=======
   Schedule:Week:Daily {2061917d-fffc-411c-a56f-78c2e7ed668e}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 8,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 8,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 8,   !- Tuesday Schedule:Day Name
@@ -9898,7 +10426,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 8;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {02aa6388-703c-478a-8218-36e16764e15a}, !- Name
+=======
   Schedule:Week:Daily {39b13949-c7a1-4331-802b-ed2e59c1d833}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 8, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 8,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 8,   !- Tuesday Schedule:Day Name
@@ -9915,19 +10447,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 8,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {da5832ab-8ca5-450a-8d30-c3c2168195e5}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {2061917d-fffc-411c-a56f-78c2e7ed668e}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {02aa6388-703c-478a-8218-36e16764e15a}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {39b13949-c7a1-4331-802b-ed2e59c1d833}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {775be27f-cb7e-4968-b480-df6c12617cd7}, !- Name
+=======
   Schedule:Week:Daily {ac061d9a-4f9f-4e2c-ac4a-f168e7890f13}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Default Schedule 9,   !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 9,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 9,   !- Tuesday Schedule:Day Name
@@ -9942,7 +10486,11 @@ Schedule:Week:Daily,
   Office Bldg Light Default Schedule 9;   !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5085ca07-16ba-47bb-8944-89a1d833cb52}, !- Name
+=======
   Schedule:Week:Daily {252e58d5-51eb-499a-98b8-d2affbb668c2}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Light Rule 1 Day Schedule 9, !- Sunday Schedule:Day Name
   Office Bldg Light Default Schedule 9,   !- Monday Schedule:Day Name
   Office Bldg Light Default Schedule 9,   !- Tuesday Schedule:Day Name
@@ -9959,19 +10507,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Bldg Light 9,                    !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {775be27f-cb7e-4968-b480-df6c12617cd7}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {ac061d9a-4f9f-4e2c-ac4a-f168e7890f13}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5085ca07-16ba-47bb-8944-89a1d833cb52}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {252e58d5-51eb-499a-98b8-d2affbb668c2}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {28b89d76-a0f9-4b0d-aa0c-ec5bdb69f4e2}, !- Name
+=======
   Schedule:Week:Daily {55361fe6-a8b4-4e6b-b484-12dc37aa93b5}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 1, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 1, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 1, !- Tuesday Schedule:Day Name
@@ -9986,7 +10546,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 1; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {7e7f03af-3671-41db-aac0-6db17fa240a7}, !- Name
+=======
   Schedule:Week:Daily {677c46a8-2e9d-4284-ab03-fd9ea298dbad}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 1, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 1, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 1, !- Tuesday Schedule:Day Name
@@ -10003,19 +10567,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 1,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {28b89d76-a0f9-4b0d-aa0c-ec5bdb69f4e2}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {55361fe6-a8b4-4e6b-b484-12dc37aa93b5}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {7e7f03af-3671-41db-aac0-6db17fa240a7}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {677c46a8-2e9d-4284-ab03-fd9ea298dbad}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {bfcdb4e4-59a1-4d60-8fae-2e75114785f9}, !- Name
+=======
   Schedule:Week:Daily {b88a9e47-9b81-4a83-be18-c4d58e3cd7ed}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 10, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 10, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 10, !- Tuesday Schedule:Day Name
@@ -10030,7 +10606,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 10; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0284257e-b6f1-49ac-a26f-3e540cb61d76}, !- Name
+=======
   Schedule:Week:Daily {87e93c74-c9b1-4d7b-9c2f-4b4a7e6dbadc}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 10, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 10, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 10, !- Tuesday Schedule:Day Name
@@ -10047,19 +10627,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 10,             !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {bfcdb4e4-59a1-4d60-8fae-2e75114785f9}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {b88a9e47-9b81-4a83-be18-c4d58e3cd7ed}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0284257e-b6f1-49ac-a26f-3e540cb61d76}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {87e93c74-c9b1-4d7b-9c2f-4b4a7e6dbadc}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {6eefae86-58df-4b65-9d9f-aa0cd179a73d}, !- Name
+=======
   Schedule:Week:Daily {95f5efa3-963e-4baa-aabd-3cbf4f827698}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 11, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 11, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 11, !- Tuesday Schedule:Day Name
@@ -10074,7 +10666,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 11; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e75af987-3e38-4500-88dd-5ee9e92132e4}, !- Name
+=======
   Schedule:Week:Daily {11e24ac4-6e1e-4488-b1a2-1bed43680454}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 11, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 11, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 11, !- Tuesday Schedule:Day Name
@@ -10091,19 +10687,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 11,             !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {6eefae86-58df-4b65-9d9f-aa0cd179a73d}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {95f5efa3-963e-4baa-aabd-3cbf4f827698}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e75af987-3e38-4500-88dd-5ee9e92132e4}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {11e24ac4-6e1e-4488-b1a2-1bed43680454}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {9cbdcf05-87a1-4a34-ae41-716d6b216d97}, !- Name
+=======
   Schedule:Week:Daily {c82f0d31-3439-4373-a418-8c0cc2f18738}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 12, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 12, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 12, !- Tuesday Schedule:Day Name
@@ -10118,7 +10726,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 12; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c10ec2c2-7117-4747-a8f3-1a5d076bc4dd}, !- Name
+=======
   Schedule:Week:Daily {527f2736-b8a0-47ac-bb78-c75fe8a82b52}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 12, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 12, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 12, !- Tuesday Schedule:Day Name
@@ -10135,19 +10747,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 12,             !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {9cbdcf05-87a1-4a34-ae41-716d6b216d97}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {c82f0d31-3439-4373-a418-8c0cc2f18738}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c10ec2c2-7117-4747-a8f3-1a5d076bc4dd}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {527f2736-b8a0-47ac-bb78-c75fe8a82b52}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {64c3f0fd-3173-4dc1-b91c-23fc3ab65c9c}, !- Name
+=======
   Schedule:Week:Daily {a2eaf783-fd8c-4fd5-aa32-2eb3845bf41f}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 13, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 13, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 13, !- Tuesday Schedule:Day Name
@@ -10162,7 +10786,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 13; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {750f34a5-a5a2-42cc-9b7e-5118c4080fa7}, !- Name
+=======
   Schedule:Week:Daily {aff041e4-90ee-4081-9164-f79383e3ad20}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 13, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 13, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 13, !- Tuesday Schedule:Day Name
@@ -10179,19 +10807,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 13,             !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {64c3f0fd-3173-4dc1-b91c-23fc3ab65c9c}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {a2eaf783-fd8c-4fd5-aa32-2eb3845bf41f}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {750f34a5-a5a2-42cc-9b7e-5118c4080fa7}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {aff041e4-90ee-4081-9164-f79383e3ad20}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c0d75e9b-5b8a-4a6f-8d30-777b722ee40f}, !- Name
+=======
   Schedule:Week:Daily {72dd51e5-b12f-4a03-882e-f9bdb446bfef}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 2, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 2, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 2, !- Tuesday Schedule:Day Name
@@ -10206,7 +10846,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 2; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b4c39100-469c-47c2-b8a7-db713d143b9c}, !- Name
+=======
   Schedule:Week:Daily {434be3cd-50aa-4044-9649-7f0188a1e649}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 2, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 2, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 2, !- Tuesday Schedule:Day Name
@@ -10223,19 +10867,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 2,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c0d75e9b-5b8a-4a6f-8d30-777b722ee40f}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {72dd51e5-b12f-4a03-882e-f9bdb446bfef}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {b4c39100-469c-47c2-b8a7-db713d143b9c}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {434be3cd-50aa-4044-9649-7f0188a1e649}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8570f0e2-a210-4829-84e2-714203cf1319}, !- Name
+=======
   Schedule:Week:Daily {a29d3fd9-0762-494d-9e3a-dee1dc92b25a}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 3, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 3, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 3, !- Tuesday Schedule:Day Name
@@ -10250,7 +10906,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 3; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {6f902fe1-2af3-441d-83e4-2354218f58cf}, !- Name
+=======
   Schedule:Week:Daily {8b5dc68a-d2ed-439f-a3ce-ffef44ac44c5}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 3, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 3, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 3, !- Tuesday Schedule:Day Name
@@ -10267,19 +10927,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 3,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8570f0e2-a210-4829-84e2-714203cf1319}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {a29d3fd9-0762-494d-9e3a-dee1dc92b25a}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {6f902fe1-2af3-441d-83e4-2354218f58cf}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {8b5dc68a-d2ed-439f-a3ce-ffef44ac44c5}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {095a78d7-8d7a-4573-b55a-a35ff0d60678}, !- Name
+=======
   Schedule:Week:Daily {89774a43-85c3-4622-ad57-ea11c833dfc2}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 4, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 4, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 4, !- Tuesday Schedule:Day Name
@@ -10294,7 +10966,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 4; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e8435362-81e7-4d12-9a7a-5c6b7331eca6}, !- Name
+=======
   Schedule:Week:Daily {45d15f66-d8c3-4fc8-bd8c-40eb623d3b4d}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 4, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 4, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 4, !- Tuesday Schedule:Day Name
@@ -10311,19 +10987,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 4,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {095a78d7-8d7a-4573-b55a-a35ff0d60678}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {89774a43-85c3-4622-ad57-ea11c833dfc2}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e8435362-81e7-4d12-9a7a-5c6b7331eca6}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {45d15f66-d8c3-4fc8-bd8c-40eb623d3b4d}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e8394a58-90aa-4ffb-a7ae-74bc22539773}, !- Name
+=======
   Schedule:Week:Daily {87aa7228-0761-43ea-89e1-47db651b50c9}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 5, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 5, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 5, !- Tuesday Schedule:Day Name
@@ -10338,7 +11026,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 5; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {284a0977-39f7-4964-89af-d5d9964b35b5}, !- Name
+=======
   Schedule:Week:Daily {f9e6b9cb-ffd6-4e29-84c9-f643748d905b}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 5, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 5, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 5, !- Tuesday Schedule:Day Name
@@ -10355,19 +11047,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 5,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {e8394a58-90aa-4ffb-a7ae-74bc22539773}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {87aa7228-0761-43ea-89e1-47db651b50c9}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {284a0977-39f7-4964-89af-d5d9964b35b5}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {f9e6b9cb-ffd6-4e29-84c9-f643748d905b}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {d87f4c66-6317-4776-8512-d225845a60ea}, !- Name
+=======
   Schedule:Week:Daily {51462762-f04f-4698-88a9-c2a171d84fd6}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 6, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 6, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 6, !- Tuesday Schedule:Day Name
@@ -10382,7 +11086,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 6; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {7ee5ca42-c4a6-4ea1-9e2a-4439844b14b8}, !- Name
+=======
   Schedule:Week:Daily {63b8666a-b4f8-4e10-a13c-591c6c798756}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 6, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 6, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 6, !- Tuesday Schedule:Day Name
@@ -10399,19 +11107,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 6,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {d87f4c66-6317-4776-8512-d225845a60ea}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {51462762-f04f-4698-88a9-c2a171d84fd6}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {7ee5ca42-c4a6-4ea1-9e2a-4439844b14b8}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {63b8666a-b4f8-4e10-a13c-591c6c798756}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {88a22690-0f51-4553-832e-194dd48a62a1}, !- Name
+=======
   Schedule:Week:Daily {1390f190-1897-49a8-92d9-3f536b6f9d38}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 7, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 7, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 7, !- Tuesday Schedule:Day Name
@@ -10426,7 +11146,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 7; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c6e71c86-6e8a-46e7-af27-d5c6c66b1015}, !- Name
+=======
   Schedule:Week:Daily {85580871-bf99-45ff-8b01-35b558e396a7}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 7, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 7, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 7, !- Tuesday Schedule:Day Name
@@ -10443,19 +11167,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 7,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {88a22690-0f51-4553-832e-194dd48a62a1}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {1390f190-1897-49a8-92d9-3f536b6f9d38}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {c6e71c86-6e8a-46e7-af27-d5c6c66b1015}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {85580871-bf99-45ff-8b01-35b558e396a7}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4f082c91-4e34-4f5e-a1a3-b38b9533fae7}, !- Name
+=======
   Schedule:Week:Daily {1c449105-1e3d-4f7b-865e-946d9476bbed}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 8, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 8, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 8, !- Tuesday Schedule:Day Name
@@ -10470,7 +11206,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 8; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5188caa8-aa95-47b3-8a92-f9cb79080204}, !- Name
+=======
   Schedule:Week:Daily {5249680c-1e1f-4fec-b163-544f958d5dd3}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 8, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 8, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 8, !- Tuesday Schedule:Day Name
@@ -10487,19 +11227,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 8,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4f082c91-4e34-4f5e-a1a3-b38b9533fae7}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {1c449105-1e3d-4f7b-865e-946d9476bbed}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {5188caa8-aa95-47b3-8a92-f9cb79080204}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {5249680c-1e1f-4fec-b163-544f958d5dd3}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {1880c5b6-d48e-4d1b-a13d-85e5c0043e19}, !- Name
+=======
   Schedule:Week:Daily {29b94a1a-44db-44ce-814f-ea6edfc99ecb}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Default Schedule 9, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 9, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 9, !- Tuesday Schedule:Day Name
@@ -10514,7 +11266,11 @@ Schedule:Week:Daily,
   Office Infil Quarter On Default Schedule 9; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {9827309c-273d-478a-9a17-0c5e626632d4}, !- Name
+=======
   Schedule:Week:Daily {beb422b7-3622-4f69-8da9-6557956f497e}, !- Name
+>>>>>>> Stashed changes
   Office Infil Quarter On Rule 1 Day Schedule 9, !- Sunday Schedule:Day Name
   Office Infil Quarter On Default Schedule 9, !- Monday Schedule:Day Name
   Office Infil Quarter On Default Schedule 9, !- Tuesday Schedule:Day Name
@@ -10531,19 +11287,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Infil Quarter On 9,              !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {1880c5b6-d48e-4d1b-a13d-85e5c0043e19}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {29b94a1a-44db-44ce-814f-ea6edfc99ecb}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {9827309c-273d-478a-9a17-0c5e626632d4}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {beb422b7-3622-4f69-8da9-6557956f497e}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2e6f8059-53e8-4e30-b757-9004b4a52d52}, !- Name
+=======
   Schedule:Week:Daily {b8344a17-f6f9-4417-b44e-21a2ce976adf}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 2,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 2,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 2,     !- Tuesday Schedule:Day Name
@@ -10558,7 +11326,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 2;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {167744f6-0b26-4e98-8648-38c556469c47}, !- Name
+=======
   Schedule:Week:Daily {d6b1c467-6277-4857-9805-3022949fc438}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 2,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 2,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 2,     !- Tuesday Schedule:Day Name
@@ -10575,19 +11347,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 1,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2e6f8059-53e8-4e30-b757-9004b4a52d52}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {b8344a17-f6f9-4417-b44e-21a2ce976adf}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {167744f6-0b26-4e98-8648-38c556469c47}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {d6b1c467-6277-4857-9805-3022949fc438}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f038aab0-b715-413c-b1e7-987cc11ed8bd}, !- Name
+=======
   Schedule:Week:Daily {c368e881-6e75-4c83-aa4a-ddd9309afe80}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 11,    !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 11,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 11,    !- Tuesday Schedule:Day Name
@@ -10602,7 +11386,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 11;    !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {fa9f65cc-4f40-4aaf-8d04-a6593b5f0d75}, !- Name
+=======
   Schedule:Week:Daily {5aed4bc0-7245-404c-8597-eca0fff400e9}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 11, !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 11,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 11,    !- Tuesday Schedule:Day Name
@@ -10619,19 +11407,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 10,                     !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {f038aab0-b715-413c-b1e7-987cc11ed8bd}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {c368e881-6e75-4c83-aa4a-ddd9309afe80}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {fa9f65cc-4f40-4aaf-8d04-a6593b5f0d75}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {5aed4bc0-7245-404c-8597-eca0fff400e9}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a92b3274-dce4-401d-b3d3-bdc04e7756e6}, !- Name
+=======
   Schedule:Week:Daily {8ff5ccd0-1122-44c1-8ef7-3f347e5f81b8}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 12,    !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 12,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 12,    !- Tuesday Schedule:Day Name
@@ -10646,7 +11446,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 12;    !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2565e431-61c7-4434-96db-68b798f2b171}, !- Name
+=======
   Schedule:Week:Daily {e87f4aac-eeae-4d53-8cab-a93f80416e75}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 12, !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 12,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 12,    !- Tuesday Schedule:Day Name
@@ -10663,19 +11467,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 11,                     !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {a92b3274-dce4-401d-b3d3-bdc04e7756e6}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {8ff5ccd0-1122-44c1-8ef7-3f347e5f81b8}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2565e431-61c7-4434-96db-68b798f2b171}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {e87f4aac-eeae-4d53-8cab-a93f80416e75}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {21621463-17c8-48c5-8851-aa1272e669c2}, !- Name
+=======
   Schedule:Week:Daily {1812213e-66cd-41e3-b7e0-bb2b5d25dc57}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 13,    !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 13,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 13,    !- Tuesday Schedule:Day Name
@@ -10690,7 +11506,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 13;    !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {25b64f44-fa71-4496-ad5f-affba2cec033}, !- Name
+=======
   Schedule:Week:Daily {9060fde1-4571-487f-b014-460d318dedb9}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 13, !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 13,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 13,    !- Tuesday Schedule:Day Name
@@ -10707,19 +11527,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 12,                     !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {21621463-17c8-48c5-8851-aa1272e669c2}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {1812213e-66cd-41e3-b7e0-bb2b5d25dc57}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {25b64f44-fa71-4496-ad5f-affba2cec033}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {9060fde1-4571-487f-b014-460d318dedb9}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4c3d1bc2-73c4-42cd-acf6-2108d2e8f46b}, !- Name
+=======
   Schedule:Week:Daily {cdc90139-01a8-4608-b2fa-f00a6cbb8145}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 14,    !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 14,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 14,    !- Tuesday Schedule:Day Name
@@ -10734,7 +11566,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 14;    !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {d09f830f-8938-4337-974e-2d662acc3cbd}, !- Name
+=======
   Schedule:Week:Daily {99f2052c-7996-4e6f-a593-7d24a0c32605}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 14, !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 14,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 14,    !- Tuesday Schedule:Day Name
@@ -10751,19 +11587,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 13,                     !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4c3d1bc2-73c4-42cd-acf6-2108d2e8f46b}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {cdc90139-01a8-4608-b2fa-f00a6cbb8145}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {d09f830f-8938-4337-974e-2d662acc3cbd}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {99f2052c-7996-4e6f-a593-7d24a0c32605}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cbdd7b97-8fd3-42e9-9666-a215882bf5a6}, !- Name
+=======
   Schedule:Week:Daily {eee467ac-d046-4b78-a542-8056724671c0}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 3,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 3,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 3,     !- Tuesday Schedule:Day Name
@@ -10778,7 +11626,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 3;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {93594c42-7595-423d-aede-6d0528578b44}, !- Name
+=======
   Schedule:Week:Daily {50de4756-c53a-4839-baad-d5aec8e80300}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 3,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 3,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 3,     !- Tuesday Schedule:Day Name
@@ -10795,19 +11647,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 2,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cbdd7b97-8fd3-42e9-9666-a215882bf5a6}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {eee467ac-d046-4b78-a542-8056724671c0}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {93594c42-7595-423d-aede-6d0528578b44}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {50de4756-c53a-4839-baad-d5aec8e80300}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {021e61b2-ab20-4485-92b4-5c63eec20405}, !- Name
+=======
   Schedule:Week:Daily {ab174759-1e3d-4338-b02d-739a124dffb7}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 4,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 4,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 4,     !- Tuesday Schedule:Day Name
@@ -10822,7 +11686,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 4;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cdeeb635-7135-4c4a-be94-0deb3dc11144}, !- Name
+=======
   Schedule:Week:Daily {c1453b7d-7763-4ee3-ad7b-15f52d53ee3a}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 4,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 4,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 4,     !- Tuesday Schedule:Day Name
@@ -10839,19 +11707,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 3,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {021e61b2-ab20-4485-92b4-5c63eec20405}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {ab174759-1e3d-4338-b02d-739a124dffb7}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {cdeeb635-7135-4c4a-be94-0deb3dc11144}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {c1453b7d-7763-4ee3-ad7b-15f52d53ee3a}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {11e4a1ad-caf2-416a-8694-480b1786d64d}, !- Name
+=======
   Schedule:Week:Daily {e74672a7-e9c2-4142-b080-54aa9a5faaf4}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 5,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 5,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 5,     !- Tuesday Schedule:Day Name
@@ -10866,7 +11746,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 5;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8cce72c1-00c9-44e7-a7c9-e15b4bf50db2}, !- Name
+=======
   Schedule:Week:Daily {f33f999d-322b-4e36-86ea-53fc8febba3a}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 5,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 5,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 5,     !- Tuesday Schedule:Day Name
@@ -10883,19 +11767,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 4,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {11e4a1ad-caf2-416a-8694-480b1786d64d}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {e74672a7-e9c2-4142-b080-54aa9a5faaf4}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8cce72c1-00c9-44e7-a7c9-e15b4bf50db2}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {f33f999d-322b-4e36-86ea-53fc8febba3a}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ada5229c-2ebe-4f41-b0dd-428c7376a75a}, !- Name
+=======
   Schedule:Week:Daily {586aa00b-13d9-4be7-a111-d35c01d6cc29}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 6,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 6,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 6,     !- Tuesday Schedule:Day Name
@@ -10910,7 +11806,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 6;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {49714c26-32b8-4ca7-8d2f-f5a6305ff515}, !- Name
+=======
   Schedule:Week:Daily {ed58cd1c-2b83-43dd-9591-b95fddab8d2d}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 6,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 6,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 6,     !- Tuesday Schedule:Day Name
@@ -10927,19 +11827,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 5,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {ada5229c-2ebe-4f41-b0dd-428c7376a75a}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {586aa00b-13d9-4be7-a111-d35c01d6cc29}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {49714c26-32b8-4ca7-8d2f-f5a6305ff515}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {ed58cd1c-2b83-43dd-9591-b95fddab8d2d}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0748cbce-92b7-4fc8-89ec-61d892998a46}, !- Name
+=======
   Schedule:Week:Daily {cc2bdf47-8eef-4945-8f39-8300d6ddace5}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 7,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 7,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 7,     !- Tuesday Schedule:Day Name
@@ -10954,7 +11866,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 7;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2d33fde6-ed87-48ab-ad73-142ecd18197d}, !- Name
+=======
   Schedule:Week:Daily {fbea7c4f-d44d-4a31-bbb1-6fe6e94b3b53}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 7,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 7,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 7,     !- Tuesday Schedule:Day Name
@@ -10971,19 +11887,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 6,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {0748cbce-92b7-4fc8-89ec-61d892998a46}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {cc2bdf47-8eef-4945-8f39-8300d6ddace5}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {2d33fde6-ed87-48ab-ad73-142ecd18197d}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {fbea7c4f-d44d-4a31-bbb1-6fe6e94b3b53}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8a7b5473-04fc-4809-9ad1-d87c8c2c80a7}, !- Name
+=======
   Schedule:Week:Daily {b2f6c6b8-55d5-4af3-b3cb-f0287ef45c94}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 8,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 8,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 8,     !- Tuesday Schedule:Day Name
@@ -10998,7 +11926,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 8;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {779cf0f7-60a8-4ab9-896f-c4170ea720e9}, !- Name
+=======
   Schedule:Week:Daily {98199c5d-19c1-4ca8-9898-6cc808e33336}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 8,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 8,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 8,     !- Tuesday Schedule:Day Name
@@ -11015,19 +11947,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 7,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {8a7b5473-04fc-4809-9ad1-d87c8c2c80a7}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {b2f6c6b8-55d5-4af3-b3cb-f0287ef45c94}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {779cf0f7-60a8-4ab9-896f-c4170ea720e9}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {98199c5d-19c1-4ca8-9898-6cc808e33336}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4a1a38a7-4e26-4ae7-a509-33df39f55fec}, !- Name
+=======
   Schedule:Week:Daily {18dfda4c-9e26-4eab-a0da-45248adef4b8}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 9,     !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 9,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 9,     !- Tuesday Schedule:Day Name
@@ -11042,7 +11986,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 9;     !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3f34d7ec-6c20-4edc-b7f9-30236ca4699d}, !- Name
+=======
   Schedule:Week:Daily {c45a1e09-65e9-4695-bcbb-304eafa088d5}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 9,  !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 9,     !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 9,     !- Tuesday Schedule:Day Name
@@ -11059,19 +12007,31 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 8,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {4a1a38a7-4e26-4ae7-a509-33df39f55fec}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {18dfda4c-9e26-4eab-a0da-45248adef4b8}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {3f34d7ec-6c20-4edc-b7f9-30236ca4699d}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {c45a1e09-65e9-4695-bcbb-304eafa088d5}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {bb1a9f25-017f-4ec2-8e1a-2d58c31262b5}, !- Name
+=======
   Schedule:Week:Daily {0f8aac3b-41b3-4ba3-9a88-5f9fb0ef644a}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Default Schedule 10,    !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 10,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 10,    !- Tuesday Schedule:Day Name
@@ -11086,7 +12046,11 @@ Schedule:Week:Daily,
   Office Bldg Occ Default Schedule 10;    !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {54414113-a613-42a7-a0c1-bf63fbe38edf}, !- Name
+=======
   Schedule:Week:Daily {1ad89c7a-e144-430c-a24a-d49277baf9bf}, !- Name
+>>>>>>> Stashed changes
   Office Bldg Occ Rule 1 Day Schedule 10, !- Sunday Schedule:Day Name
   Office Bldg Occ Default Schedule 10,    !- Monday Schedule:Day Name
   Office Bldg Occ Default Schedule 10,    !- Tuesday Schedule:Day Name
@@ -11103,12 +12067,20 @@ Schedule:Week:Daily,
 Schedule:Year,
   Office Misc Occ 9,                      !- Name
   Fraction,                               !- Schedule Type Limits Name
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {bb1a9f25-017f-4ec2-8e1a-2d58c31262b5}, !- Schedule:Week Name 1
+=======
   Schedule:Week:Daily {0f8aac3b-41b3-4ba3-9a88-5f9fb0ef644a}, !- Schedule:Week Name 1
+>>>>>>> Stashed changes
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
   3,                                      !- End Day 1
+<<<<<<< Updated upstream
+  Schedule:Week:Daily {54414113-a613-42a7-a0c1-bf63fbe38edf}, !- Schedule:Week Name 2
+=======
   Schedule:Week:Daily {1ad89c7a-e144-430c-a24a-d49277baf9bf}, !- Schedule:Week Name 2
+>>>>>>> Stashed changes
   1,                                      !- Start Month 2
   4,                                      !- Start Day 2
   12,                                     !- End Month 2

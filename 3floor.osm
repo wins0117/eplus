@@ -15853,7 +15853,7 @@ OS:Schedule:Day,
 OS:ThermostatSetpoint:DualSetpoint,
   {6e344e46-5637-44ab-88d1-71e4e6742589}, !- Handle
   Thermostat Setpoint Dual Setpoint 1,    !- Name
-  {aeed8b43-cd12-472c-a007-cd88ab5fa6f5}, !- Heating Setpoint Temperature Schedule Name
+  ,                                       !- Heating Setpoint Temperature Schedule Name
   {a36c5a7a-377b-4874-95a7-e25de7db1b7d}; !- Cooling Setpoint Temperature Schedule Name
 
 OS:Schedule:Ruleset,
